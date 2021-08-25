@@ -1,0 +1,5424 @@
+{
+    "schemaVersion": "NY-1",
+    "name": "sn_itsm_nlu_ITSM_NLU_for_VA",
+    "language": "en",
+    "version": "3.1.2-HYB",
+    "intents": [
+        {
+            "name": "CheckITTicketStatus",
+            "samples": [
+                {
+                    "utterance": "a follow-up on my ticket"
+                },
+                {
+                    "utterance": "Can I check my incident status"
+                },
+                {
+                    "utterance": "Can I check the situation of my monitor"
+                },
+                {
+                    "utterance": "Can I get my IT ticket status"
+                },
+                {
+                    "utterance": "Can I get my IT ticket's status"
+                },
+                {
+                    "utterance": "Can I get my ticket status"
+                },
+                {
+                    "utterance": "Can I get the status of my IT ticket"
+                },
+                {
+                    "utterance": "can I know the status of my ticket"
+                },
+                {
+                    "utterance": "can I request the ticket status"
+                },
+                {
+                    "utterance": "can I request the ticket update"
+                },
+                {
+                    "utterance": "Can I see INC1234567"
+                },
+                {
+                    "utterance": "Can I see my incident status"
+                },
+                {
+                    "utterance": "Can I see my ticket status"
+                },
+                {
+                    "utterance": "Can you check my ticket status"
+                },
+                {
+                    "utterance": "Can you check the status of my incident"
+                },
+                {
+                    "utterance": "Check my IT ticket's status"
+                },
+                {
+                    "utterance": "Check my ticket status"
+                },
+                {
+                    "utterance": "Check IT ticket"
+                },
+                {
+                    "utterance": "Check the status of my IT ticket"
+                },
+                {
+                    "utterance": "Do you know where my monitor is?"
+                },
+                {
+                    "utterance": "find my ticket"
+                },
+                {
+                    "utterance": "follow up on my ticket"
+                },
+                {
+                    "utterance": "give me an update on the ticket status"
+                },
+                {
+                    "utterance": "give me the status of INC1234567"
+                },
+                {
+                    "utterance": "give me the update on INC1234567"
+                },
+                {
+                    "utterance": "has my ticket been approved"
+                },
+                {
+                    "utterance": "has REQ1234567 been processed"
+                },
+                {
+                    "utterance": "help me find INC1234567"
+                },
+                {
+                    "utterance": "how is INC1234567"
+                },
+                {
+                    "utterance": "how is INC1234567 coming along"
+                },
+                {
+                    "utterance": "how is INC1234567 doing ?"
+                },
+                {
+                    "utterance": "how is my incident going ?"
+                },
+                {
+                    "utterance": "how is my ticket"
+                },
+                {
+                    "utterance": "how to check tickets"
+                },
+                {
+                    "utterance": "I want to check my IT ticket"
+                },
+                {
+                    "utterance": "I want to see my IT ticket's status"
+                },
+                {
+                    "utterance": "I want to see my ticket status"
+                },
+                {
+                    "utterance": "I want to see the status of my IT ticket"
+                },
+                {
+                    "utterance": "I would like an update on ticket number INC1234567"
+                },
+                {
+                    "utterance": "I would like to check on the status of my ticket"
+                },
+                {
+                    "utterance": "INC1234567 follow-up"
+                },
+                {
+                    "utterance": "INC1234567 status"
+                },
+                {
+                    "utterance": "incident update"
+                },
+                {
+                    "utterance": "is my incident resolved yet"
+                },
+                {
+                    "utterance": "is my issue fixed yet"
+                },
+                {
+                    "utterance": "Is my IT ticket's status available?"
+                },
+                {
+                    "utterance": "Is my ticket approved?"
+                },
+                {
+                    "utterance": "is my ticket fixed yet"
+                },
+                {
+                    "utterance": "Is my ticket status available?"
+                },
+                {
+                    "utterance": "is REQ1234567 scheduled for delivery"
+                },
+                {
+                    "utterance": "Is the status of my IT ticket available?"
+                },
+                {
+                    "utterance": "is there an update to INC1234567"
+                },
+                {
+                    "utterance": "is there an update to my ticket"
+                },
+                {
+                    "utterance": "is there an update to REQ1234567"
+                },
+                {
+                    "utterance": "My IT ticket's status"
+                },
+                {
+                    "utterance": "My monitor has not arrived yet."
+                },
+                {
+                    "utterance": "My open tickets"
+                },
+                {
+                    "utterance": "My ticket status"
+                },
+                {
+                    "utterance": "request ticket status"
+                },
+                {
+                    "utterance": "request ticket update"
+                },
+                {
+                    "utterance": "Show me INC0010009"
+                },
+                {
+                    "utterance": "show me my request status"
+                },
+                {
+                    "utterance": "show me my ticket status"
+                },
+                {
+                    "utterance": "show me my tickets"
+                },
+                {
+                    "utterance": "show me the status of INC1234567"
+                },
+                {
+                    "utterance": "show me ticket status"
+                },
+                {
+                    "utterance": "status of INC1234567"
+                },
+                {
+                    "utterance": "status on my ticket"
+                },
+                {
+                    "utterance": "status on the incident"
+                },
+                {
+                    "utterance": "tell me the ticket status"
+                },
+                {
+                    "utterance": "the status of my IT ticket"
+                },
+                {
+                    "utterance": "the ticket update"
+                },
+                {
+                    "utterance": "ticket update"
+                },
+                {
+                    "utterance": "update on INC1234567"
+                },
+                {
+                    "utterance": "update on my ticket"
+                },
+                {
+                    "utterance": "update on the request"
+                },
+                {
+                    "utterance": "What are my open tickets ?"
+                },
+                {
+                    "utterance": "what happened to my INC1234567"
+                },
+                {
+                    "utterance": "what happened to my ticket"
+                },
+                {
+                    "utterance": "What is my IT ticket's status"
+                },
+                {
+                    "utterance": "What is my ticket status"
+                },
+                {
+                    "utterance": "what is the status for INC0010009"
+                },
+                {
+                    "utterance": "What is the status of my IT ticket"
+                },
+                {
+                    "utterance": "what is the status of my request"
+                },
+                {
+                    "utterance": "what is the status of my tickets"
+                },
+                {
+                    "utterance": "what is up with my ticket"
+                },
+                {
+                    "utterance": "what's the status of my incident"
+                },
+                {
+                    "utterance": "what's the status of my order"
+                },
+                {
+                    "utterance": "When will INC1234567 be resolved"
+                },
+                {
+                    "utterance": "When will my ticket be fixed"
+                },
+                {
+                    "utterance": "When will my ticket be ready"
+                },
+                {
+                    "utterance": "When will REQ1234567 be fulfilled"
+                },
+                {
+                    "utterance": "Where is INC1234567"
+                },
+                {
+                    "utterance": "where is my delivery"
+                },
+                {
+                    "utterance": "Where is my monitor"
+                }
+            ],
+            "entities": [
+                {
+                    "name": "tasktype",
+                    "categories": [
+                        {
+                            "category": "incident",
+                            "samples": [
+                                {
+                                    "entityAnnotation": "My {{phrase=\"ticket\"}} status"
+                                },
+                                {
+                                    "entityAnnotation": "Can you check my {{phrase=\"ticket\"}} status ?"
+                                },
+                                {
+                                    "entityAnnotation": "what happened to my {{phrase=\"ticket\"}}"
+                                },
+                                {
+                                    "entityAnnotation": "Check the status of my IT {{phrase=\"ticket\"}}"
+                                },
+                                {
+                                    "entityAnnotation": "show me my {{phrase=\"tickets\"}}"
+                                },
+                                {
+                                    "entityAnnotation": "can I request the {{phrase=\"ticket\"}} status"
+                                },
+                                {
+                                    "entityAnnotation": "is my {{phrase=\"incident\"}} resolved yet"
+                                },
+                                {
+                                    "entityAnnotation": "Can you check the status of my {{phrase=\"incident\"}}"
+                                },
+                                {
+                                    "entityAnnotation": "is my {{phrase=\"issue\"}} fixed yet"
+                                },
+                                {
+                                    "entityAnnotation": "request {{phrase=\"ticket\"}} update"
+                                },
+                                {
+                                    "entityAnnotation": "{{phrase=\"incident\"}} update"
+                                },
+                                {
+                                    "entityAnnotation": "{{phrase=\"ticket\"}} update"
+                                },
+                                {
+                                    "entityAnnotation": "show me my {{phrase=\"ticket\"}} status"
+                                },
+                                {
+                                    "entityAnnotation": "is there an update to my {{phrase=\"ticket\"}}"
+                                },
+                                {
+                                    "entityAnnotation": "Can I check my {{phrase=\"incident\"}} status"
+                                },
+                                {
+                                    "entityAnnotation": "check my {{phrase=\"ticket\"}} status"
+                                },
+                                {
+                                    "entityAnnotation": "a follow-up on my {{phrase=\"ticket\"}}"
+                                },
+                                {
+                                    "entityAnnotation": "follow up on my {{phrase=\"ticket\"}}"
+                                },
+                                {
+                                    "entityAnnotation": "what is the status of my {{phrase=\"tickets\"}}"
+                                },
+                                {
+                                    "entityAnnotation": "Can I get my {{phrase=\"ticket\"}} status"
+                                },
+                                {
+                                    "entityAnnotation": "{{phrase=\"incident\"}} status"
+                                },
+                                {
+                                    "entityAnnotation": "status on my {{phrase=\"ticket\"}}"
+                                },
+                                {
+                                    "entityAnnotation": "update on my {{phrase=\"ticket\"}}"
+                                },
+                                {
+                                    "entityAnnotation": "Can I see my {{phrase=\"incident\"}} status"
+                                },
+                                {
+                                    "entityAnnotation": "Can I see my {{phrase=\"ticket\"}} status"
+                                },
+                                {
+                                    "entityAnnotation": "what's the status of my {{phrase=\"incident\"}}"
+                                },
+                                {
+                                    "entityAnnotation": "how is my {{phrase=\"incident\"}} going ?"
+                                },
+                                {
+                                    "entityAnnotation": "When will my {{phrase=\"ticket\"}} be fixed"
+                                },
+                                {
+                                    "entityAnnotation": "status on the {{phrase=\"incident\"}}"
+                                },
+                                {
+                                    "entityAnnotation": "is my {{phrase=\"ticket\"}} fixed yet"
+                                }
+                            ]
+                        },
+                        {
+                            "category": "request",
+                            "samples": [
+                                {
+                                    "entityAnnotation": "what is the status of my {{phrase=\"request\"}}"
+                                },
+                                {
+                                    "entityAnnotation": "is {{phrase=\"REQ1234567\"}} scheduled for delivery"
+                                },
+                                {
+                                    "entityAnnotation": "has {{phrase=\"REQ1234567\"}} been processed"
+                                },
+                                {
+                                    "entityAnnotation": "where is my {{phrase=\"delivery\"}}"
+                                },
+                                {
+                                    "entityAnnotation": "update on the {{phrase=\"request\"}}"
+                                },
+                                {
+                                    "entityAnnotation": "what's the status of my {{phrase=\"order\"}}"
+                                },
+                                {
+                                    "entityAnnotation": "When will {{phrase=\"REQ1234567\"}} be fulfilled"
+                                },
+                                {
+                                    "entityAnnotation": "{{phrase=\"REQ1234567\"}} status"
+                                },
+                                {
+                                    "entityAnnotation": "is there an update to {{phrase=\"REQ1234567\"}}"
+                                },
+                                {
+                                    "entityAnnotation": "show me my {{phrase=\"request\"}} status"
+                                },
+                                {
+                                    "entityAnnotation": "status on the {{phrase=\"request\"}}"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "CreateChangeRequest",
+            "samples": [
+                {
+                    "utterance": "a new change is requested"
+                },
+                {
+                    "utterance": "a new change request is crucial"
+                },
+                {
+                    "utterance": "A new change request is needed"
+                },
+                {
+                    "utterance": "a new normal change"
+                },
+                {
+                    "utterance": "a normal change request"
+                },
+                {
+                    "utterance": "A normal CR needs to be created"
+                },
+                {
+                    "utterance": "a standard change request"
+                },
+                {
+                    "utterance": "add a change request"
+                },
+                {
+                    "utterance": "an emergency change request"
+                },
+                {
+                    "utterance": "can I create a emergency change"
+                },
+                {
+                    "utterance": "Can I get a new change request"
+                },
+                {
+                    "utterance": "can I request a new change"
+                },
+                {
+                    "utterance": "Can you open a change request for me"
+                },
+                {
+                    "utterance": "Can you create a change request"
+                },
+                {
+                    "utterance": "Can you raise a CHG for me ?"
+                },
+                {
+                    "utterance": "Can you submit a change request?"
+                },
+                {
+                    "utterance": "create a emergency change"
+                },
+                {
+                    "utterance": "create a normal change request"
+                },
+                {
+                    "utterance": "create a standard change"
+                },
+                {
+                    "utterance": "help me create a change request"
+                },
+                {
+                    "utterance": "help me with the change request"
+                },
+                {
+                    "utterance": "How do I make a change request"
+                },
+                {
+                    "utterance": "I am applying for a change request"
+                },
+                {
+                    "utterance": "I am requesting a change"
+                },
+                {
+                    "utterance": "I am requesting for a change"
+                },
+                {
+                    "utterance": "I have a CR to raise"
+                },
+                {
+                    "utterance": "I need a critical CR to be opened"
+                },
+                {
+                    "utterance": "I want to apply for a change request"
+                },
+                {
+                    "utterance": "I want to submit a change request"
+                },
+                {
+                    "utterance": "I would like to open an emergency change"
+                },
+                {
+                    "utterance": "new change request"
+                },
+                {
+                    "utterance": "new standard change"
+                },
+                {
+                    "utterance": "open a change request"
+                },
+                {
+                    "utterance": "open a change request for an emergency"
+                },
+                {
+                    "utterance": "open a regular change request"
+                },
+                {
+                    "utterance": "open an ordinary change request"
+                },
+                {
+                    "utterance": "Open change"
+                },
+                {
+                    "utterance": "open change request that is urgent"
+                },
+                {
+                    "utterance": "raise a change request"
+                },
+                {
+                    "utterance": "start a change request"
+                },
+                {
+                    "utterance": "Submit a change request"
+                },
+                {
+                    "utterance": "there is a change request that needs to be created"
+                },
+                {
+                    "utterance": "there is an immediate need for a change request"
+                },
+                {
+                    "utterance": "This is a change request"
+                },
+                {
+                    "utterance": "Where can I raise a crucial change request ?"
+                }
+            ],
+            "entities": [
+                {
+                    "name": "changetype",
+                    "categories": [
+                        {
+                            "category": "Standard",
+                            "samples": [
+                                {
+                                    "entityAnnotation": "a {{phrase=\"standard\"}} change request"
+                                },
+                                {
+                                    "entityAnnotation": "open a {{phrase=\"regular\"}} change request"
+                                },
+                                {
+                                    "entityAnnotation": "create a {{phrase=\"standard\"}} change"
+                                },
+                                {
+                                    "entityAnnotation": "new {{phrase=\"standard\"}} change"
+                                }
+                            ]
+                        },
+                        {
+                            "category": "Normal",
+                            "samples": [
+                                {
+                                    "entityAnnotation": "open an {{phrase=\"ordinary\"}} change request"
+                                },
+                                {
+                                    "entityAnnotation": "create a {{phrase=\"normal\"}} change request"
+                                },
+                                {
+                                    "entityAnnotation": "a {{phrase=\"normal\"}} change request"
+                                },
+                                {
+                                    "entityAnnotation": "a new {{phrase=\"normal\"}} change"
+                                },
+                                {
+                                    "entityAnnotation": "A {{phrase=\"normal\"}} CR needs to be created"
+                                }
+                            ]
+                        },
+                        {
+                            "category": "Emergency",
+                            "samples": [
+                                {
+                                    "entityAnnotation": "an {{phrase=\"emergency\"}} change request"
+                                },
+                                {
+                                    "entityAnnotation": "a new change request is {{phrase=\"crucial\"}}"
+                                },
+                                {
+                                    "entityAnnotation": "open change request that is {{phrase=\"urgent\"}}"
+                                },
+                                {
+                                    "entityAnnotation": "I would like to open an {{phrase=\"emergency\"}} change"
+                                },
+                                {
+                                    "entityAnnotation": "Where can I raise a {{phrase=\"crucial\"}} change request ?"
+                                },
+                                {
+                                    "entityAnnotation": "open a change request for an {{phrase=\"emergency\"}}"
+                                },
+                                {
+                                    "entityAnnotation": "new {{phrase=\"emergency\"}} change"
+                                },
+                                {
+                                    "entityAnnotation": "I need a {{phrase=\"critical\"}} CR to be opened"
+                                },
+                                {
+                                    "entityAnnotation": "create a {{phrase=\"emergency\"}} change"
+                                },
+                                {
+                                    "entityAnnotation": "there is an {{phrase=\"immediate\"}} need for a change request"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "CreateProblem",
+            "samples": [
+                {
+                    "utterance": "A new PRB is needed"
+                },
+                {
+                    "utterance": "A new PRB needs to be created"
+                },
+                {
+                    "utterance": "A new PRB that is critical need to be create"
+                },
+                {
+                    "utterance": "A PRB needs to be submitted"
+                },
+                {
+                    "utterance": "add a new PRB"
+                },
+                {
+                    "utterance": "Adding a PRB"
+                },
+                {
+                    "utterance": "An urgent problem needs to be reported"
+                },
+                {
+                    "utterance": "can I get a new PRB opened ?"
+                },
+                {
+                    "utterance": "can I get a new problem created"
+                },
+                {
+                    "utterance": "can I raise a problem that's affecting just me"
+                },
+                {
+                    "utterance": "can I report an urgent problem"
+                },
+                {
+                    "utterance": "Can I submit a PRB"
+                },
+                {
+                    "utterance": "Can you create a ticket for a problem."
+                },
+                {
+                    "utterance": "Can you raise a PRB for me today ?"
+                },
+                {
+                    "utterance": "Can you report a problem for me ?"
+                },
+                {
+                    "utterance": "create a new prb"
+                },
+                {
+                    "utterance": "Create a new problem"
+                },
+                {
+                    "utterance": "Create a new problem record"
+                },
+                {
+                    "utterance": "Create a new problem ticket"
+                },
+                {
+                    "utterance": "create a problem ticket immediately"
+                },
+                {
+                    "utterance": "Create a ticket for a problem."
+                },
+                {
+                    "utterance": "How can I add a new PRB"
+                },
+                {
+                    "utterance": "How do I create a ticket for a problem."
+                },
+                {
+                    "utterance": "How to report a problem"
+                },
+                {
+                    "utterance": "I have a problem to report"
+                },
+                {
+                    "utterance": "I need a PRB to be created soon"
+                },
+                {
+                    "utterance": "I see a problem."
+                },
+                {
+                    "utterance": "I want to add a new PRB"
+                },
+                {
+                    "utterance": "I want to create a new problem"
+                },
+                {
+                    "utterance": "I want to create a new problem record"
+                },
+                {
+                    "utterance": "I want to create a new problem ticket"
+                },
+                {
+                    "utterance": "I want to create a ticket for a problem."
+                },
+                {
+                    "utterance": "I want to start a new problem"
+                },
+                {
+                    "utterance": "I want to start a new problem record"
+                },
+                {
+                    "utterance": "I want to start a new problem ticket"
+                },
+                {
+                    "utterance": "new problem"
+                },
+                {
+                    "utterance": "new problem record"
+                },
+                {
+                    "utterance": "new problem ticket"
+                },
+                {
+                    "utterance": "new regular problem ticket"
+                },
+                {
+                    "utterance": "new significant problem"
+                },
+                {
+                    "utterance": "open a prb"
+                },
+                {
+                    "utterance": "open a problem by tomorrow"
+                },
+                {
+                    "utterance": "open a problem right now"
+                },
+                {
+                    "utterance": "open a problem ticket"
+                },
+                {
+                    "utterance": "open a problem that's affecting everyone"
+                },
+                {
+                    "utterance": "raise a problem"
+                },
+                {
+                    "utterance": "report an urgent problem"
+                },
+                {
+                    "utterance": "Start a new problem"
+                },
+                {
+                    "utterance": "Start a new problem record"
+                },
+                {
+                    "utterance": "Start a new problem ticket"
+                },
+                {
+                    "utterance": "Submit PRB"
+                },
+                {
+                    "utterance": "there is a new problem"
+                },
+                {
+                    "utterance": "Where can I raise a problem ticket ?"
+                }
+            ],
+            "entities": []
+        },
+        {
+            "name": "EmailIssues",
+            "samples": [
+                {
+                    "utterance": "are there any reported email issues"
+                },
+                {
+                    "utterance": "assistance with my email"
+                },
+                {
+                    "utterance": "can I open an email ticket"
+                },
+                {
+                    "utterance": "email is not synching"
+                },
+                {
+                    "utterance": "email isn't synching"
+                },
+                {
+                    "utterance": "email issues"
+                },
+                {
+                    "utterance": "Email login issues"
+                },
+                {
+                    "utterance": "email problems"
+                },
+                {
+                    "utterance": "email trouble"
+                },
+                {
+                    "utterance": "Having issues with my email"
+                },
+                {
+                    "utterance": "how do I fix my email issue ?"
+                },
+                {
+                    "utterance": "How do I know my email username?"
+                },
+                {
+                    "utterance": "how do I troubleshoot my email"
+                },
+                {
+                    "utterance": "I am having email problems"
+                },
+                {
+                    "utterance": "I am having email trouble"
+                },
+                {
+                    "utterance": "I am having issues with my email "
+                },
+                {
+                    "utterance": "I am having problems with my email"
+                },
+                {
+                    "utterance": "I am having trouble with my email"
+                },
+                {
+                    "utterance": "I am missing email"
+                },
+                {
+                    "utterance": "I can't access email"
+                },
+                {
+                    "utterance": "I can't connect to my email"
+                },
+                {
+                    "utterance": "I can't log in to my email"
+                },
+                {
+                    "utterance": "I can't login to email"
+                },
+                {
+                    "utterance": "I can't open email"
+                },
+                {
+                    "utterance": "I can't send an email attachment"
+                },
+                {
+                    "utterance": "I cannot log in to the email."
+                },
+                {
+                    "utterance": "I cannot log into my email"
+                },
+                {
+                    "utterance": "I cannot send emails any longer"
+                },
+                {
+                    "utterance": "I do not receive emails"
+                },
+                {
+                    "utterance": "I have email issues"
+                },
+                {
+                    "utterance": "I need email help"
+                },
+                {
+                    "utterance": "I need help with my email"
+                },
+                {
+                    "utterance": "I want to report email issues"
+                },
+                {
+                    "utterance": "I would like to check my email status"
+                },
+                {
+                    "utterance": "is email working"
+                },
+                {
+                    "utterance": "Is there an issue with email"
+                },
+                {
+                    "utterance": "issues with email"
+                },
+                {
+                    "utterance": "my email is broken"
+                },
+                {
+                    "utterance": "My email is having problems"
+                },
+                {
+                    "utterance": "my email is not working"
+                },
+                {
+                    "utterance": "my email won't send"
+                },
+                {
+                    "utterance": "my emails keep timing out"
+                },
+                {
+                    "utterance": "my mailbox isn't syncing"
+                },
+                {
+                    "utterance": "name@email.com is not working"
+                },
+                {
+                    "utterance": "not getting emails"
+                },
+                {
+                    "utterance": "Outlook has stopped working"
+                },
+                {
+                    "utterance": "problem with Outlook"
+                },
+                {
+                    "utterance": "Solve my email issues?"
+                },
+                {
+                    "utterance": "Some email issues are detected."
+                },
+                {
+                    "utterance": "there is email trouble"
+                },
+                {
+                    "utterance": "There's a problem with my email"
+                },
+                {
+                    "utterance": "there's something wrong with my email"
+                },
+                {
+                    "utterance": "this email client is slow"
+                },
+                {
+                    "utterance": "trouble with email attachments"
+                },
+                {
+                    "utterance": "what is wrong with my email ?"
+                },
+                {
+                    "utterance": "Who can fix my email ?"
+                }
+            ],
+            "entities": []
+        },
+        {
+            "name": "EmailSetup",
+            "samples": [
+                {
+                    "utterance": "are there instructions for setting up email"
+                },
+                {
+                    "utterance": "assistance with email setup"
+                },
+                {
+                    "utterance": "can I configure my email"
+                },
+                {
+                    "utterance": "configure my email"
+                },
+                {
+                    "utterance": "email configuration"
+                },
+                {
+                    "utterance": "email settings"
+                },
+                {
+                    "utterance": "email setup "
+                },
+                {
+                    "utterance": "email setup needed"
+                },
+                {
+                    "utterance": "email setup on android"
+                },
+                {
+                    "utterance": "Help me configure my email"
+                },
+                {
+                    "utterance": "help me set up my email"
+                },
+                {
+                    "utterance": "help me setup email on my mobile phone"
+                },
+                {
+                    "utterance": "help me setup my email"
+                },
+                {
+                    "utterance": "help me with the email configuration"
+                },
+                {
+                    "utterance": "help me with the setup for email"
+                },
+                {
+                    "utterance": "How can I configure my email?"
+                },
+                {
+                    "utterance": "How can I get email set up "
+                },
+                {
+                    "utterance": "how can I view emails on my phone"
+                },
+                {
+                    "utterance": "how do I set up email on my android phone"
+                },
+                {
+                    "utterance": "How do I set up email on my iPhone ?"
+                },
+                {
+                    "utterance": "how do I set up email on my mac"
+                },
+                {
+                    "utterance": "how do I set up email on my pc"
+                },
+                {
+                    "utterance": "How do I set up email on my phone"
+                },
+                {
+                    "utterance": "How do I set up my email"
+                },
+                {
+                    "utterance": "How do I set up my email?"
+                },
+                {
+                    "utterance": "how do I set up outlook on my iphone"
+                },
+                {
+                    "utterance": "I need assistance configuring my email."
+                },
+                {
+                    "utterance": "I need help setting up my email"
+                },
+                {
+                    "utterance": "I want to configure my email"
+                },
+                {
+                    "utterance": "iphone email"
+                },
+                {
+                    "utterance": "iphone email setup"
+                },
+                {
+                    "utterance": "mac email"
+                },
+                {
+                    "utterance": "My email is not configured"
+                },
+                {
+                    "utterance": "pc email setup"
+                },
+                {
+                    "utterance": "set up email"
+                },
+                {
+                    "utterance": "set up email on my iphone"
+                },
+                {
+                    "utterance": "set up iPhone email"
+                },
+                {
+                    "utterance": "Set up mail"
+                },
+                {
+                    "utterance": "settings for email"
+                },
+                {
+                    "utterance": "setup for email"
+                },
+                {
+                    "utterance": "What are the configuration settings for email ?"
+                },
+                {
+                    "utterance": "where do I configure outlook"
+                }
+            ],
+            "entities": []
+        },
+        {
+            "name": "EscalateITTicket",
+            "samples": [
+                {
+                    "utterance": "can I escalate INC0010009"
+                },
+                {
+                    "utterance": "can I escalate my incident"
+                },
+                {
+                    "utterance": "can I escalate my issue"
+                },
+                {
+                    "utterance": "can I escalate ticket INC0010009"
+                },
+                {
+                    "utterance": "can I increase my incident's urgency"
+                },
+                {
+                    "utterance": "can I increase the priority of my incident"
+                },
+                {
+                    "utterance": "Can you escalate my issue"
+                },
+                {
+                    "utterance": "Can you expedite the process for this ticket?"
+                },
+                {
+                    "utterance": "Can you increase the priority of my issue"
+                },
+                {
+                    "utterance": "Change the priority on my issue"
+                },
+                {
+                    "utterance": "change the urgency of my ticket"
+                },
+                {
+                    "utterance": "escalate my issue"
+                },
+                {
+                    "utterance": "escalation of INC1234567"
+                },
+                {
+                    "utterance": "help me with the escalation"
+                },
+                {
+                    "utterance": "How can I change the priority of my ticket"
+                },
+                {
+                    "utterance": "How can I get INC1234567 escalated"
+                },
+                {
+                    "utterance": "How do I get my ticket escalated"
+                },
+                {
+                    "utterance": "how to escalate my issue"
+                },
+                {
+                    "utterance": "I need help in escalating a ticket"
+                },
+                {
+                    "utterance": "I need to escalate a ticket"
+                },
+                {
+                    "utterance": "I need to escalate my IT request"
+                },
+                {
+                    "utterance": "I want this ticket to be urgent."
+                },
+                {
+                    "utterance": "I want to ask for an increase in the priority of my issue"
+                },
+                {
+                    "utterance": "I want to ask for the escalation of my issue"
+                },
+                {
+                    "utterance": "I want to escalate my issue"
+                },
+                {
+                    "utterance": "I want to increase the priority of my issue"
+                },
+                {
+                    "utterance": "I want to mark this ticket as urgent."
+                },
+                {
+                    "utterance": "I would like to raise the priority of my ticket."
+                },
+                {
+                    "utterance": "INC1234567 escalation"
+                },
+                {
+                    "utterance": "INC1234567 has gotten worse"
+                },
+                {
+                    "utterance": "INC1234567 has high priority"
+                },
+                {
+                    "utterance": "INC1234567 is an emergency"
+                },
+                {
+                    "utterance": "INC1234567 is urgent"
+                },
+                {
+                    "utterance": "INC1234567 should be escalated"
+                },
+                {
+                    "utterance": "INC1234567 should be marked as high"
+                },
+                {
+                    "utterance": "Increase the priority of my issue"
+                },
+                {
+                    "utterance": "issue escalation"
+                },
+                {
+                    "utterance": "IT ticket escalation"
+                },
+                {
+                    "utterance": "Mark this ticket as urgent."
+                },
+                {
+                    "utterance": "My issue must be escalated"
+                },
+                {
+                    "utterance": "My issue needs to be escalated"
+                },
+                {
+                    "utterance": "My issue's priority must be increased"
+                },
+                {
+                    "utterance": "Please raise the priority of my issue"
+                },
+                {
+                    "utterance": "set priority for INC1234567 to urgent"
+                },
+                {
+                    "utterance": "The priority of INC1234567 needs to be raised"
+                },
+                {
+                    "utterance": "The priority of INC1234567 should be higher"
+                },
+                {
+                    "utterance": "The priority of my issue needs to be increased"
+                },
+                {
+                    "utterance": "The urgency of my ticket needs to be escalated"
+                },
+                {
+                    "utterance": "This is an urgent ticket."
+                },
+                {
+                    "utterance": "This ticket is urgent."
+                },
+                {
+                    "utterance": "ticket escalation"
+                },
+                {
+                    "utterance": "ticket needs escalating"
+                },
+                {
+                    "utterance": "urgent ticket."
+                },
+                {
+                    "utterance": "can I have my issue looked into immediately"
+                },
+                {
+                    "utterance": "I need immediate resolution."
+                },
+                {
+                    "utterance": "where do I escalate my ticket"
+                }
+            ],
+            "entities": []
+        },
+        {
+            "name": "GetPasswordResetLink",
+            "samples": [
+                {
+                    "utterance": "A new password is required."
+                },
+                {
+                    "utterance": "A password reset is required"
+                },
+                {
+                    "utterance": "Can I get another password reset link?"
+                },
+                {
+                    "utterance": "Can my password be reset?"
+                },
+                {
+                    "utterance": "Can you reset my password"
+                },
+                {
+                    "utterance": "change password"
+                },
+                {
+                    "utterance": "create new password"
+                },
+                {
+                    "utterance": "help for logging in?"
+                },
+                {
+                    "utterance": "help me log in?"
+                },
+                {
+                    "utterance": "Help me setup a new password"
+                },
+                {
+                    "utterance": "help resetting password"
+                },
+                {
+                    "utterance": "How do I get a password reset link ?"
+                },
+                {
+                    "utterance": "How do I make a new password ?"
+                },
+                {
+                    "utterance": "how do I reset my password"
+                },
+                {
+                    "utterance": "How do I reset my password?"
+                },
+                {
+                    "utterance": "I am asking for a password reset."
+                },
+                {
+                    "utterance": "I am locked out of my account"
+                },
+                {
+                    "utterance": "I am resetting my password"
+                },
+                {
+                    "utterance": "I am unable to login."
+                },
+                {
+                    "utterance": "I can't find my password"
+                },
+                {
+                    "utterance": "I can't login"
+                },
+                {
+                    "utterance": "I can't remember my account details"
+                },
+                {
+                    "utterance": "I cannot log in."
+                },
+                {
+                    "utterance": "I cannot login."
+                },
+                {
+                    "utterance": "I forgot my login information"
+                },
+                {
+                    "utterance": "I forgot my password"
+                },
+                {
+                    "utterance": "I forgot my password for person@example.com"
+                },
+                {
+                    "utterance": "I forgot my username"
+                },
+                {
+                    "utterance": "I have login problems."
+                },
+                {
+                    "utterance": "I have trouble logging in."
+                },
+                {
+                    "utterance": "I misplaced my password"
+                },
+                {
+                    "utterance": "I need help to log in."
+                },
+                {
+                    "utterance": "I need login help."
+                },
+                {
+                    "utterance": "I need to reset my password"
+                },
+                {
+                    "utterance": "I want a password reset link"
+                },
+                {
+                    "utterance": "I want to create a new password"
+                },
+                {
+                    "utterance": "I'm locked out of person@example.com"
+                },
+                {
+                    "utterance": "my password is not working"
+                },
+                {
+                    "utterance": "new account credentials"
+                },
+                {
+                    "utterance": "new account password"
+                },
+                {
+                    "utterance": "new password for my account"
+                },
+                {
+                    "utterance": "password change"
+                },
+                {
+                    "utterance": "password isn't working"
+                },
+                {
+                    "utterance": "password reset"
+                },
+                {
+                    "utterance": "password reset for my account"
+                },
+                {
+                    "utterance": "password reset for sample@email.com"
+                },
+                {
+                    "utterance": "password reset link"
+                },
+                {
+                    "utterance": "replace password"
+                },
+                {
+                    "utterance": "reset for my password"
+                },
+                {
+                    "utterance": "reset my credentials for my account"
+                },
+                {
+                    "utterance": "reset my password"
+                },
+                {
+                    "utterance": "reset password for person@example.com"
+                },
+                {
+                    "utterance": "Send me a password reset link"
+                },
+                {
+                    "utterance": "set up a new password"
+                },
+                {
+                    "utterance": "update my password"
+                },
+                {
+                    "utterance": "Where can I get a new password link"
+                },
+                {
+                    "utterance": "Where is my new password link"
+                }
+            ],
+            "entities": [
+                {
+                    "name": "email",
+                    "samples": [
+                        {
+                            "pattern": "\\\\b[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\\\.[a-zA-Z0-9-.]+\\\\b"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "GuestWifiAccess",
+            "samples": [
+                {
+                    "utterance": "access to the wifi"
+                },
+                {
+                    "utterance": "connect me to the guest wifi"
+                },
+                {
+                    "utterance": "credentials for wifi"
+                },
+                {
+                    "utterance": "guest wifi"
+                },
+                {
+                    "utterance": "guest wifi access"
+                },
+                {
+                    "utterance": "guest wifi help"
+                },
+                {
+                    "utterance": "how do I access the guest wifi"
+                },
+                {
+                    "utterance": "how do I connect to get wifi"
+                },
+                {
+                    "utterance": "how do I get guest wifi access"
+                },
+                {
+                    "utterance": "how do I get on guest wifi"
+                },
+                {
+                    "utterance": "how do I login to the guest wifi"
+                },
+                {
+                    "utterance": "how to log in to guest wifi"
+                },
+                {
+                    "utterance": "I need access to the wifi"
+                },
+                {
+                    "utterance": "I need credentials for the wifi"
+                },
+                {
+                    "utterance": "I need guest wifi"
+                },
+                {
+                    "utterance": "I need help connecting to guest wifi"
+                },
+                {
+                    "utterance": "I need the password for the guest wifi"
+                },
+                {
+                    "utterance": "I want to connect to the guest wifi"
+                },
+                {
+                    "utterance": "I want wifi access"
+                },
+                {
+                    "utterance": "is there free wifi in the office"
+                },
+                {
+                    "utterance": "login for guest wifi"
+                },
+                {
+                    "utterance": "provide me guest wifi credentials ?"
+                },
+                {
+                    "utterance": "the guest internet"
+                },
+                {
+                    "utterance": "What are the credentials for guest wifi ?"
+                },
+                {
+                    "utterance": "what is the login for the wifi"
+                },
+                {
+                    "utterance": "what is the name of the guest wifi ?"
+                },
+                {
+                    "utterance": "What is the Wifi for guests"
+                },
+                {
+                    "utterance": "what is the wifi password"
+                },
+                {
+                    "utterance": "what's the guest wifi"
+                },
+                {
+                    "utterance": "what's the wifi information for guests"
+                },
+                {
+                    "utterance": "Wi-Fi"
+                },
+                {
+                    "utterance": "wifi"
+                },
+                {
+                    "utterance": "wifi access"
+                },
+                {
+                    "utterance": "wifi credentials"
+                },
+                {
+                    "utterance": "wifi password"
+                }
+            ],
+            "entities": []
+        },
+        {
+            "name": "IdentifyAvailableChangeWindows",
+            "samples": [
+                {
+                    "utterance": "an available change window"
+                },
+                {
+                    "utterance": "Are any change windows available?"
+                },
+                {
+                    "utterance": "are there any available change windows between now and next week"
+                },
+                {
+                    "utterance": "available change windows"
+                },
+                {
+                    "utterance": "calendar for change windows"
+                },
+                {
+                    "utterance": "can I see an available change window"
+                },
+                {
+                    "utterance": "change window availability"
+                },
+                {
+                    "utterance": "display the upcoming change windows"
+                },
+                {
+                    "utterance": "find a update window"
+                },
+                {
+                    "utterance": "free change windows"
+                },
+                {
+                    "utterance": "help me find an available update window"
+                },
+                {
+                    "utterance": "help me with the available change windows"
+                },
+                {
+                    "utterance": "How to identify available change windows"
+                },
+                {
+                    "utterance": "how many change windows are open"
+                },
+                {
+                    "utterance": "I am asking regarding available change windows"
+                },
+                {
+                    "utterance": "I am asking regarding the availability of change windows."
+                },
+                {
+                    "utterance": "I need an available change window"
+                },
+                {
+                    "utterance": "I need to see available change windows"
+                },
+                {
+                    "utterance": "I want to know what change windows are available"
+                },
+                {
+                    "utterance": "I wish to know the available change windows"
+                },
+                {
+                    "utterance": "IT change calendar"
+                },
+                {
+                    "utterance": "looking for available change windows"
+                },
+                {
+                    "utterance": "open change windows"
+                },
+                {
+                    "utterance": "searching for available change windows"
+                },
+                {
+                    "utterance": "Share available change windows"
+                },
+                {
+                    "utterance": "show me available window"
+                },
+                {
+                    "utterance": "show me change windows"
+                },
+                {
+                    "utterance": "show me the availability of change windows"
+                },
+                {
+                    "utterance": "tell me the available change windows"
+                },
+                {
+                    "utterance": "What are the available change windows"
+                },
+                {
+                    "utterance": "What are the times for submitting changes?"
+                },
+                {
+                    "utterance": "What are the upcoming change windows"
+                },
+                {
+                    "utterance": "what change windows are available"
+                },
+                {
+                    "utterance": "What change windows are available?"
+                },
+                {
+                    "utterance": "What is a good time to submit a change?"
+                },
+                {
+                    "utterance": "what is in the next change window"
+                },
+                {
+                    "utterance": "what is the next available change window"
+                },
+                {
+                    "utterance": "what times to schedule a change are available"
+                },
+                {
+                    "utterance": "when can I schedule this change"
+                },
+                {
+                    "utterance": "When can I submit changes?"
+                },
+                {
+                    "utterance": "when is the next available change window"
+                },
+                {
+                    "utterance": "where can I find the available change windows"
+                }
+            ],
+            "entities": []
+        },
+        {
+            "name": "IdentifyScheduledChanges",
+            "samples": [
+                {
+                    "utterance": "are there any changes planned?"
+                },
+                {
+                    "utterance": "are there any scheduled changes for this ci"
+                },
+                {
+                    "utterance": "can I see a list of upcoming changes"
+                },
+                {
+                    "utterance": "can I see scheduled changes"
+                },
+                {
+                    "utterance": "display the scheduled updates"
+                },
+                {
+                    "utterance": "How can I see scheduled updates ?"
+                },
+                {
+                    "utterance": "I want to know the planned changes."
+                },
+                {
+                    "utterance": "I want to know what changes are planned."
+                },
+                {
+                    "utterance": "I wish to know about changes that are planned for next week."
+                },
+                {
+                    "utterance": "I wish to know about planned changes."
+                },
+                {
+                    "utterance": "looking for scheduled changes"
+                },
+                {
+                    "utterance": "next scheduled update"
+                },
+                {
+                    "utterance": "planned changes for ci"
+                },
+                {
+                    "utterance": "Schedule updates"
+                },
+                {
+                    "utterance": "scheduled changes"
+                },
+                {
+                    "utterance": "scheduled upgrade"
+                },
+                {
+                    "utterance": "searching for scheduled changes"
+                },
+                {
+                    "utterance": "show changes that are scheduled"
+                },
+                {
+                    "utterance": "show me changes that are planned"
+                },
+                {
+                    "utterance": "show me the scheduled changes"
+                },
+                {
+                    "utterance": "tell me the planned changes?"
+                },
+                {
+                    "utterance": "Tell me the scheduled changes"
+                },
+                {
+                    "utterance": "tell me what changes are planned?"
+                },
+                {
+                    "utterance": "the IT change schedule"
+                },
+                {
+                    "utterance": "updates to scheduled changes"
+                },
+                {
+                    "utterance": "What are the new scheduled updates"
+                },
+                {
+                    "utterance": "What are the next scheduled updates?"
+                },
+                {
+                    "utterance": "what are the planned changes"
+                },
+                {
+                    "utterance": "What are the planned changes?"
+                },
+                {
+                    "utterance": "what changes are happening"
+                },
+                {
+                    "utterance": "What changes are planned?"
+                },
+                {
+                    "utterance": "what changes are scheduled"
+                },
+                {
+                    "utterance": "what changes are upcoming"
+                },
+                {
+                    "utterance": "what is the next scheduled update"
+                },
+                {
+                    "utterance": "What planned changes are ahead?"
+                },
+                {
+                    "utterance": "What will update in this configuration item ?"
+                },
+                {
+                    "utterance": "What's going on with CI"
+                },
+                {
+                    "utterance": "When are scheduled changes going to happen ?"
+                },
+                {
+                    "utterance": "When is the next scheduled update?"
+                },
+                {
+                    "utterance": "Where can I find the scheduled changes"
+                }
+            ],
+            "entities": []
+        },
+        {
+            "name": "LocalAdminAccess",
+            "samples": [
+                {
+                    "utterance": "access to admin rights"
+                },
+                {
+                    "utterance": "access to local admin"
+                },
+                {
+                    "utterance": "admin rights"
+                },
+                {
+                    "utterance": "Are there admin rights available for me?"
+                },
+                {
+                    "utterance": "Can I get admin rights?"
+                },
+                {
+                    "utterance": "can I get local admin privileges"
+                },
+                {
+                    "utterance": "can I request temporary admin access"
+                },
+                {
+                    "utterance": "can you make me admin"
+                },
+                {
+                    "utterance": "give me admin rights?"
+                },
+                {
+                    "utterance": "grant local admin rights on my computer"
+                },
+                {
+                    "utterance": "grant me admin on my laptop"
+                },
+                {
+                    "utterance": "grant me the admin access"
+                },
+                {
+                    "utterance": "how can I be local admin"
+                },
+                {
+                    "utterance": "how can I get local admin"
+                },
+                {
+                    "utterance": "how do I access local admin privileges"
+                },
+                {
+                    "utterance": "how do I become a local admin"
+                },
+                {
+                    "utterance": "How do I get to local admin access ?"
+                },
+                {
+                    "utterance": "How to get local admin access"
+                },
+                {
+                    "utterance": "I need admin access"
+                },
+                {
+                    "utterance": "I need admin rights"
+                },
+                {
+                    "utterance": "I need to be admin"
+                },
+                {
+                    "utterance": "I want admin rights"
+                },
+                {
+                    "utterance": "I want to get admin rights"
+                },
+                {
+                    "utterance": "local admin access"
+                },
+                {
+                    "utterance": "local admin privileges"
+                },
+                {
+                    "utterance": "make me local admin"
+                },
+                {
+                    "utterance": "make me the admin?"
+                },
+                {
+                    "utterance": "My admin rights are not sufficient."
+                },
+                {
+                    "utterance": "My admin rights must be increased"
+                },
+                {
+                    "utterance": "What is the local admin login information ?"
+                },
+                {
+                    "utterance": "What should I do to get admin rights?"
+                },
+                {
+                    "utterance": "Where do I get admin access"
+                },
+                {
+                    "utterance": "Where do I get admin privileges"
+                }
+            ],
+            "entities": []
+        },
+        {
+            "name": "ManageDistributionList",
+            "samples": [
+                {
+                    "utterance": "a change to the distribution list"
+                },
+                {
+                    "utterance": "Add a name to the mailing list"
+                },
+                {
+                    "utterance": "add someone to the distribution list"
+                },
+                {
+                    "utterance": "add users to distribution list"
+                },
+                {
+                    "utterance": "adjust the distribution list"
+                },
+                {
+                    "utterance": "can I be added to the distribution list"
+                },
+                {
+                    "utterance": "can I be removed from the distribution list"
+                },
+                {
+                    "utterance": "can I edit the members of the distribution list"
+                },
+                {
+                    "utterance": "Can I modify the mailing list"
+                },
+                {
+                    "utterance": "can I remove a user from the distribution list"
+                },
+                {
+                    "utterance": "change a distribution list"
+                },
+                {
+                    "utterance": "delete users from the distribution list"
+                },
+                {
+                    "utterance": "distribution list edits"
+                },
+                {
+                    "utterance": "distribution list updates"
+                },
+                {
+                    "utterance": "edit a DL"
+                },
+                {
+                    "utterance": "edit to distribution list"
+                },
+                {
+                    "utterance": "help me with modifying the mailing list"
+                },
+                {
+                    "utterance": "how can I add an email to the distribution list ?"
+                },
+                {
+                    "utterance": "How can I edit a DL"
+                },
+                {
+                    "utterance": "How can I get access to the distribution list ?"
+                },
+                {
+                    "utterance": "How do I add people on the distribution list ?"
+                },
+                {
+                    "utterance": "How should the mailing list be modified"
+                },
+                {
+                    "utterance": "I need to add members to the distribution list ."
+                },
+                {
+                    "utterance": "I need to make changes to the mailing list"
+                },
+                {
+                    "utterance": "I want to add a user to the mailing list"
+                },
+                {
+                    "utterance": "I want to change the name of the mailing list"
+                },
+                {
+                    "utterance": "I want to edit the mailing list"
+                },
+                {
+                    "utterance": "I want to modify the mailing list"
+                },
+                {
+                    "utterance": "I want to remove the user from the mailing list"
+                },
+                {
+                    "utterance": "I want to request a modification to the mailing list"
+                },
+                {
+                    "utterance": "I want to stop receiving emails from a list"
+                },
+                {
+                    "utterance": "mailing list changes"
+                },
+                {
+                    "utterance": "maintain the distribution list"
+                },
+                {
+                    "utterance": "make updates to the distribution list"
+                },
+                {
+                    "utterance": "manage the distribution list"
+                },
+                {
+                    "utterance": "Modify the mailing list"
+                },
+                {
+                    "utterance": "My DL needs to be changed"
+                },
+                {
+                    "utterance": "remove me from the distribution list"
+                },
+                {
+                    "utterance": "Show me my distribution list"
+                },
+                {
+                    "utterance": "The mailing list has to change."
+                },
+                {
+                    "utterance": "The mailing list needs to be modified"
+                },
+                {
+                    "utterance": "update a distribution list"
+                },
+                {
+                    "utterance": "update to distribution list"
+                },
+                {
+                    "utterance": "Where do I update a distribution list"
+                },
+                {
+                    "utterance": "who is a member of dl"
+                }
+            ],
+            "entities": []
+        },
+        {
+            "name": "MeetingRoomIssues",
+            "samples": [
+                {
+                    "utterance": "assistance with meeting room"
+                },
+                {
+                    "utterance": "Can you fix the meeting room?"
+                },
+                {
+                    "utterance": "Cannot share my screen"
+                },
+                {
+                    "utterance": "conference room help"
+                },
+                {
+                    "utterance": "conference room issues"
+                },
+                {
+                    "utterance": "conference room problems"
+                },
+                {
+                    "utterance": "Conference room technology is not working"
+                },
+                {
+                    "utterance": "Fix the meeting room"
+                },
+                {
+                    "utterance": "help me fix the meeting room?"
+                },
+                {
+                    "utterance": "Help me with the meeting room"
+                },
+                {
+                    "utterance": "How to report an issue in a conference room"
+                },
+                {
+                    "utterance": "I am having meeting room issues"
+                },
+                {
+                    "utterance": "I am having problems while meeting remotely"
+                },
+                {
+                    "utterance": "I am having problems with the meeting room"
+                },
+                {
+                    "utterance": "I can't connect to a display"
+                },
+                {
+                    "utterance": "I can't connect to my remote meeting"
+                },
+                {
+                    "utterance": "I can't hear anything in the meeting room"
+                },
+                {
+                    "utterance": "I have a problem with a meeting room"
+                },
+                {
+                    "utterance": "I have a telepresence meeting but I can't see the other room"
+                },
+                {
+                    "utterance": "I have issues connecting to the meeting"
+                },
+                {
+                    "utterance": "I have problems with the meeting room"
+                },
+                {
+                    "utterance": "I need assistance with meeting room"
+                },
+                {
+                    "utterance": "I need av support for my meeting"
+                },
+                {
+                    "utterance": "I need help connecting to the conference room tv for my presentation"
+                },
+                {
+                    "utterance": "I need help sharing my screen"
+                },
+                {
+                    "utterance": "I need help with the meeting room"
+                },
+                {
+                    "utterance": "I need to change my meeting room booking"
+                },
+                {
+                    "utterance": "I want to fix the meeting room."
+                },
+                {
+                    "utterance": "I want to report problems with the meeting room."
+                },
+                {
+                    "utterance": "I wish to get assistance for the meeting room"
+                },
+                {
+                    "utterance": "I'm having problems connecting to the tv in the conference room"
+                },
+                {
+                    "utterance": "I'm having problems with my meeting room"
+                },
+                {
+                    "utterance": "issues with the conference room"
+                },
+                {
+                    "utterance": "meeting room issues"
+                },
+                {
+                    "utterance": "My meeting's equipment Is not working"
+                },
+                {
+                    "utterance": "No video from the meeting room TV"
+                },
+                {
+                    "utterance": "not able to book a meeting room"
+                },
+                {
+                    "utterance": "problem with the meeting room"
+                },
+                {
+                    "utterance": "Report a meeting room issue"
+                },
+                {
+                    "utterance": "reserve a meeting room"
+                },
+                {
+                    "utterance": "share my screen in a conference room"
+                },
+                {
+                    "utterance": "solstice issue"
+                },
+                {
+                    "utterance": "something wrong with my meeting room"
+                },
+                {
+                    "utterance": "Technical difficulties in a meeting room"
+                },
+                {
+                    "utterance": "The meeting room has issues"
+                },
+                {
+                    "utterance": "The projector in meeting room is not working"
+                },
+                {
+                    "utterance": "the remote meeting does not work"
+                },
+                {
+                    "utterance": "the remote meeting issues"
+                },
+                {
+                    "utterance": "the resolution looks wrong when I present"
+                },
+                {
+                    "utterance": "the screen looks really small on the tv"
+                },
+                {
+                    "utterance": "the screen share"
+                },
+                {
+                    "utterance": "The sound is not good in our conference room"
+                },
+                {
+                    "utterance": "The speaker phone is not working in the meeting room"
+                },
+                {
+                    "utterance": "the TV isn't working in the meeting room"
+                },
+                {
+                    "utterance": "the video conference is not working"
+                },
+                {
+                    "utterance": "the volume is too low in the meeting room"
+                },
+                {
+                    "utterance": "there are issues with the room I reserved"
+                },
+                {
+                    "utterance": "there is a problem with the audio in the meeting room"
+                },
+                {
+                    "utterance": "there is a problem with the meeting room audio"
+                },
+                {
+                    "utterance": "there is an issue with my meeting room"
+                },
+                {
+                    "utterance": "there is noise during the conference call"
+                },
+                {
+                    "utterance": "there is something wrong with my meeting room"
+                },
+                {
+                    "utterance": "there's an issue with my meeting room"
+                },
+                {
+                    "utterance": "there's another group in the room I reserved"
+                },
+                {
+                    "utterance": "troubleshoot the meeting room"
+                }
+            ],
+            "entities": [
+                {
+                    "name": "meetingroomissue",
+                    "categories": [
+                        {
+                            "category": "telepresence",
+                            "samples": [
+                                {
+                                    "entityAnnotation": "the {{phrase=\"video conference\"}} is not working"
+                                },
+                                {
+                                    "entityAnnotation": "No {{phrase=\"video\"}} from the meeting room TV"
+                                },
+                                {
+                                    "entityAnnotation": "I have a {{phrase=\"telepresence\"}} meeting but I can't see the other room"
+                                }
+                            ]
+                        },
+                        {
+                            "category": "display_sharing",
+                            "samples": [
+                                {
+                                    "entityAnnotation": "The {{phrase=\"projector\"}} in meeting room is not working"
+                                },
+                                {
+                                    "entityAnnotation": "{{phrase=\"share my screen\"}} in a conference room"
+                                },
+                                {
+                                    "entityAnnotation": "the {{phrase=\"TV\"}} isn't working in the meeting room"
+                                },
+                                {
+                                    "entityAnnotation": "the {{phrase=\"screen share\"}}"
+                                },
+                                {
+                                    "entityAnnotation": "{{phrase=\"solstice\"}} issue"
+                                },
+                                {
+                                    "entityAnnotation": "I can't connect to a {{phrase=\"display\"}}"
+                                },
+                                {
+                                    "entityAnnotation": "the {{phrase=\"screen\"}} looks really small on the tv"
+                                },
+                                {
+                                    "entityAnnotation": "I need help connecting to the conference room {{phrase=\"tv\"}} for my presentation"
+                                },
+                                {
+                                    "entityAnnotation": "I'm having problems connecting to the {{phrase=\"tv\"}} in the meeting room"
+                                }
+                            ]
+                        },
+                        {
+                            "category": "audio_dialin",
+                            "samples": [
+                                {
+                                    "entityAnnotation": "The {{phrase=\"sound\"}} is not good in our conference room"
+                                },
+                                {
+                                    "entityAnnotation": "The {{phrase=\"speaker phone\"}} is not working in the meeting room"
+                                },
+                                {
+                                    "entityAnnotation": "I can't {{phrase=\"hear\"}} anything in the meeting room"
+                                },
+                                {
+                                    "entityAnnotation": "I need {{phrase=\"av support\"}} for my meeting"
+                                },
+                                {
+                                    "entityAnnotation": "there is {{phrase=\"noise\"}} during the conference call ."
+                                },
+                                {
+                                    "entityAnnotation": "there is a problem with the {{phrase=\"audio\"}} in the meeting room"
+                                },
+                                {
+                                    "entityAnnotation": "the {{phrase=\"volume\"}} is too low in the meeting room"
+                                }
+                            ]
+                        },
+                        {
+                            "category": "remote_meeting",
+                            "samples": [
+                                {
+                                    "entityAnnotation": "I am having problems while meeting {{phrase=\"remotely\"}}"
+                                },
+                                {
+                                    "entityAnnotation": "I can't connect to my {{phrase=\"remote meeting\"}}"
+                                },
+                                {
+                                    "entityAnnotation": "{{phrase=\"remote\"}} meeting issues"
+                                },
+                                {
+                                    "entityAnnotation": "I have a {{phrase=\"telepresence\"}} meeting but I can't see the other room"
+                                }
+                            ]
+                        },
+                        {
+                            "category": "resolution",
+                            "samples": [
+                                {
+                                    "entityAnnotation": "the {{phrase=\"resolution\"}} looks wrong when I present"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "MyAssignedEquipment",
+            "samples": [
+                {
+                    "utterance": "Am I assigned a laptop ?"
+                },
+                {
+                    "utterance": "can I know the list of my equipment"
+                },
+                {
+                    "utterance": "Can I see a list of assets assigned to me ?"
+                },
+                {
+                    "utterance": "can I view my assets"
+                },
+                {
+                    "utterance": "can I view my devices"
+                },
+                {
+                    "utterance": "can I view the assets assigned to me ?"
+                },
+                {
+                    "utterance": "Check my assigned assets"
+                },
+                {
+                    "utterance": "do I have a computer ?"
+                },
+                {
+                    "utterance": "Has any equipment been assigned to me"
+                },
+                {
+                    "utterance": "how do I check my technology assets"
+                },
+                {
+                    "utterance": "Is there a laptop recorded under my name ?"
+                },
+                {
+                    "utterance": "what assets are under my name ?"
+                },
+                {
+                    "utterance": "list of my assets"
+                },
+                {
+                    "utterance": "my assigned assets"
+                },
+                {
+                    "utterance": "my devices"
+                },
+                {
+                    "utterance": "my equipment"
+                },
+                {
+                    "utterance": "my equipment assignments"
+                },
+                {
+                    "utterance": "my IT assets"
+                },
+                {
+                    "utterance": "please list all my equipment"
+                },
+                {
+                    "utterance": "show all equipment assigned to me"
+                },
+                {
+                    "utterance": "show all the devices assigned to me"
+                },
+                {
+                    "utterance": "show me items that have been assigned to me"
+                },
+                {
+                    "utterance": "show me my assigned assets"
+                },
+                {
+                    "utterance": "show me my assigned equipment"
+                },
+                {
+                    "utterance": "show me my devices"
+                },
+                {
+                    "utterance": "show my devices"
+                },
+                {
+                    "utterance": "tell me about my assigned equipment"
+                },
+                {
+                    "utterance": "tell me what assets are assigned to me ?"
+                },
+                {
+                    "utterance": "the equipment that is assigned to me"
+                },
+                {
+                    "utterance": "What are my assets ?"
+                },
+                {
+                    "utterance": "What are the assets that are assigned to me ?"
+                },
+                {
+                    "utterance": "What assets are assigned to me ?"
+                },
+                {
+                    "utterance": "what assets do I have"
+                },
+                {
+                    "utterance": "what assets do I have assigned"
+                },
+                {
+                    "utterance": "what company equipment do I have"
+                },
+                {
+                    "utterance": "what company property do I have"
+                },
+                {
+                    "utterance": "what devices are assigned to me ?"
+                },
+                {
+                    "utterance": "what do I own"
+                },
+                {
+                    "utterance": "what equipment do I currently own"
+                },
+                {
+                    "utterance": "What equipment do I get ?"
+                },
+                {
+                    "utterance": "what equipment do I have"
+                },
+                {
+                    "utterance": "What equipment do I have access to ?"
+                },
+                {
+                    "utterance": "what equipment is assigned to me"
+                },
+                {
+                    "utterance": "what hardware do I have"
+                },
+                {
+                    "utterance": "what hardware is assigned to me"
+                },
+                {
+                    "utterance": "What is the status of my assigned assets"
+                },
+                {
+                    "utterance": "What is my assigned equipment"
+                },
+                {
+                    "utterance": "what items are assigned to me"
+                },
+                {
+                    "utterance": "What kit have I got"
+                },
+                {
+                    "utterance": "what technology do I have"
+                },
+                {
+                    "utterance": "Where can I find my assigned devices"
+                },
+                {
+                    "utterance": "Where can I see my assigned equipment"
+                }
+            ],
+            "entities": []
+        },
+        {
+            "name": "OpenITTicket",
+            "samples": [
+                {
+                    "utterance": "A new normal INC needs to be created"
+                },
+                {
+                    "utterance": "An IT ticket needs to be reported"
+                },
+                {
+                    "utterance": "Can an IT technician help me?"
+                },
+                {
+                    "utterance": "can I get immediate help from IT"
+                },
+                {
+                    "utterance": "can I open a high priority incident"
+                },
+                {
+                    "utterance": "can I open a new IT ticket"
+                },
+                {
+                    "utterance": "can I Submit a ticket"
+                },
+                {
+                    "utterance": "can IT help me ASAP"
+                },
+                {
+                    "utterance": "Can you create an INC for me ?"
+                },
+                {
+                    "utterance": "Can you create an incident for me?"
+                },
+                {
+                    "utterance": "Can you open a ticket for me ?"
+                },
+                {
+                    "utterance": "create an standard incident"
+                },
+                {
+                    "utterance": "create IT ticket"
+                },
+                {
+                    "utterance": "create new ticket"
+                },
+                {
+                    "utterance": "file ticket"
+                },
+                {
+                    "utterance": "file IT ticket"
+                },
+                {
+                    "utterance": "help me open an IT ticket"
+                },
+                {
+                    "utterance": "how do I contact IT"
+                },
+                {
+                    "utterance": "how do I open a ticket"
+                },
+                {
+                    "utterance": "How can I create an incident"
+                },
+                {
+                    "utterance": "I am reporting a new incident"
+                },
+                {
+                    "utterance": "I have a really urgent IT issue"
+                },
+                {
+                    "utterance": "I have an issue for IT"
+                },
+                {
+                    "utterance": "I have an urgent issue for IT"
+                },
+                {
+                    "utterance": "I have an issue with my laptop."
+                },
+                {
+                    "utterance": "I have an IT issue"
+                },
+                {
+                    "utterance": "I need an INC to be created"
+                },
+                {
+                    "utterance": "I need help from IT"
+                },
+                {
+                    "utterance": "I need IT help"
+                },
+                {
+                    "utterance": "I need someone from IT to help me right now"
+                },
+                {
+                    "utterance": "I need technical assistance"
+                },
+                {
+                    "utterance": "I need to create an IT ticket "
+                },
+                {
+                    "utterance": "I think my device is broken"
+                },
+                {
+                    "utterance": "I think something is wrong with my laptop ."
+                },
+                {
+                    "utterance": "I want help with my laptop."
+                },
+                {
+                    "utterance": "I want to create an incident"
+                },
+                {
+                    "utterance": "I want to open an incident"
+                },
+                {
+                    "utterance": "I want to report an IT issue ."
+                },
+                {
+                    "utterance": "I want to submit a IT request"
+                },
+                {
+                    "utterance": "I'm having issues with my device"
+                },
+                {
+                    "utterance": "My laptop has an issue."
+                },
+                {
+                    "utterance": "my technology isn't working"
+                },
+                {
+                    "utterance": "new crucial incident"
+                },
+                {
+                    "utterance": "new IT ticket"
+                },
+                {
+                    "utterance": "open a ticket for me"
+                },
+                {
+                    "utterance": "open an incident"
+                },
+                {
+                    "utterance": "please help me with an issue"
+                },
+                {
+                    "utterance": "raise a ticket"
+                },
+                {
+                    "utterance": "raise a ticket for me"
+                },
+                {
+                    "utterance": "raise an incident"
+                },
+                {
+                    "utterance": "report an IT issue"
+                },
+                {
+                    "utterance": "something critical is broken"
+                },
+                {
+                    "utterance": "something is wrong with my laptop"
+                },
+                {
+                    "utterance": "start a ticket"
+                },
+                {
+                    "utterance": "there are some emergency IT issues"
+                },
+                {
+                    "utterance": "there are some issues with my technology"
+                },
+                {
+                    "utterance": "there is an incident that needs to be created today"
+                },
+                {
+                    "utterance": "There is an issue with my laptop."
+                }
+            ],
+            "entities": []
+        },
+        {
+            "name": "PrinterIssues",
+            "samples": [
+                {
+                    "utterance": "can you print something for me"
+                },
+                {
+                    "utterance": "can you troubleshoot the printer"
+                },
+                {
+                    "utterance": "Does the printer have enough ink?"
+                },
+                {
+                    "utterance": "fix my printer"
+                },
+                {
+                    "utterance": "Fix my printer."
+                },
+                {
+                    "utterance": "Help me fix the printer."
+                },
+                {
+                    "utterance": "help me with printing"
+                },
+                {
+                    "utterance": "help me with the printer"
+                },
+                {
+                    "utterance": "help me with the printer?"
+                },
+                {
+                    "utterance": "how do I access the printer"
+                },
+                {
+                    "utterance": "how do I connect to the printer"
+                },
+                {
+                    "utterance": "How do I fix the printer issues ?"
+                },
+                {
+                    "utterance": "How do I troubleshoot the printer issues"
+                },
+                {
+                    "utterance": "How does the printer work?"
+                },
+                {
+                    "utterance": "I am having printer issues"
+                },
+                {
+                    "utterance": "I am not able to print"
+                },
+                {
+                    "utterance": "I can not find the printer"
+                },
+                {
+                    "utterance": "I can't connect to the printer"
+                },
+                {
+                    "utterance": "I have issues printing"
+                },
+                {
+                    "utterance": "I have problems with printer"
+                },
+                {
+                    "utterance": "I have problems with the printer"
+                },
+                {
+                    "utterance": "I need help regarding the printer"
+                },
+                {
+                    "utterance": "I need printer help"
+                },
+                {
+                    "utterance": "ink problem with printer"
+                },
+                {
+                    "utterance": "issues with printer"
+                },
+                {
+                    "utterance": "my print job is stuck"
+                },
+                {
+                    "utterance": "my printer is having problems"
+                },
+                {
+                    "utterance": "no ink for the printer"
+                },
+                {
+                    "utterance": "no paper in the printer"
+                },
+                {
+                    "utterance": "power on printer"
+                },
+                {
+                    "utterance": "printer"
+                },
+                {
+                    "utterance": "printer error message"
+                },
+                {
+                    "utterance": "printer ink is out"
+                },
+                {
+                    "utterance": "printer paper issues"
+                },
+                {
+                    "utterance": "printer problems"
+                },
+                {
+                    "utterance": "printer ran out of ink"
+                },
+                {
+                    "utterance": "printer toner is low"
+                },
+                {
+                    "utterance": "printer trouble"
+                },
+                {
+                    "utterance": "printer won't work"
+                },
+                {
+                    "utterance": "The printer cannot connect to my laptop."
+                },
+                {
+                    "utterance": "the printer is broken"
+                },
+                {
+                    "utterance": "the printer is not responding"
+                },
+                {
+                    "utterance": "The printer is not working"
+                },
+                {
+                    "utterance": "the printer is out of ink"
+                },
+                {
+                    "utterance": "the printer is out of paper"
+                },
+                {
+                    "utterance": "the printer isn't working"
+                },
+                {
+                    "utterance": "The printer says it is out of ink"
+                },
+                {
+                    "utterance": "the printer tray is jammed"
+                },
+                {
+                    "utterance": "there is no more ink left"
+                },
+                {
+                    "utterance": "trouble with printing"
+                },
+                {
+                    "utterance": "what is wrong with the printer ?"
+                },
+                {
+                    "utterance": "What kind of paper does the printer require?"
+                },
+                {
+                    "utterance": "what printer can I use"
+                },
+                {
+                    "utterance": "What printers are online ?"
+                },
+                {
+                    "utterance": "where can I get printer ink"
+                },
+                {
+                    "utterance": "where is my local printer ?"
+                },
+                {
+                    "utterance": "where is the printer"
+                }
+            ],
+            "entities": [
+                {
+                    "name": "printerissue",
+                    "categories": [
+                        {
+                            "category": "no_printer",
+                            "samples": [
+                                {
+                                    "entityAnnotation": "I can {{phrase=\"not find\"}} the printer"
+                                },
+                                {
+                                    "entityAnnotation": "how do I {{phrase=\"access the printer\"}}"
+                                },
+                                {
+                                    "entityAnnotation": "{{phrase=\"where\"}} is the printer"
+                                }
+                            ]
+                        },
+                        {
+                            "category": "no_ink",
+                            "samples": [
+                                {
+                                    "entityAnnotation": "printer {{phrase=\"toner is low\"}}"
+                                },
+                                {
+                                    "entityAnnotation": "where can I get printer {{phrase=\"ink\"}}"
+                                },
+                                {
+                                    "entityAnnotation": "there is {{phrase=\"no more ink\"}} left"
+                                },
+                                {
+                                    "entityAnnotation": "printer ran {{phrase=\"out of ink\"}}"
+                                },
+                                {
+                                    "entityAnnotation": "{{phrase=\"no ink\"}} for the printer"
+                                },
+                                {
+                                    "entityAnnotation": "printer {{phrase=\"ink is out\"}}"
+                                },
+                                {
+                                    "entityAnnotation": "the printer is {{phrase=\"out of ink\"}}"
+                                },
+                                {
+                                    "entityAnnotation": "{{phrase=\"ink\"}} problem with printer"
+                                }
+                            ]
+                        },
+                        {
+                            "category": "no_paper",
+                            "samples": [
+                                {
+                                    "entityAnnotation": "the printer is {{phrase=\"out of paper\"}}"
+                                },
+                                {
+                                    "entityAnnotation": "{{phrase=\"no paper\"}} in the printer"
+                                },
+                                {
+                                    "entityAnnotation": "printer {{phrase=\"paper\"}} issues"
+                                }
+                            ]
+                        },
+                        {
+                            "category": "not_working",
+                            "samples": [
+                                {
+                                    "entityAnnotation": "The printer {{phrase=\"is not working\"}}"
+                                },
+                                {
+                                    "entityAnnotation": "I am {{phrase=\"not able to print\"}}"
+                                },
+                                {
+                                    "entityAnnotation": "the printer {{phrase=\"is not responding\"}}"
+                                },
+                                {
+                                    "entityAnnotation": "the printer tray is {{phrase=\"jammed\"}}"
+                                },
+                                {
+                                    "entityAnnotation": "the printer is {{phrase=\"broken\"}}"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "ProcessApproval",
+            "samples": [
+                {
+                    "utterance": "an approval request is approved"
+                },
+                {
+                    "utterance": "approval center"
+                },
+                {
+                    "utterance": "approval requests assigned to me"
+                },
+                {
+                    "utterance": "approvals that are outstanding"
+                },
+                {
+                    "utterance": "approvals that are pending"
+                },
+                {
+                    "utterance": "approve this request"
+                },
+                {
+                    "utterance": "Are there any pending approvals for me"
+                },
+                {
+                    "utterance": "Are there items awaiting my approval"
+                },
+                {
+                    "utterance": "can I approve"
+                },
+                {
+                    "utterance": "can I reject"
+                },
+                {
+                    "utterance": "current approvals"
+                },
+                {
+                    "utterance": "disapprove the last request"
+                },
+                {
+                    "utterance": "How do I reject items for approval"
+                },
+                {
+                    "utterance": "I need access to process approval"
+                },
+                {
+                    "utterance": "I need approver rights"
+                },
+                {
+                    "utterance": "I need to be able to reject this approval request"
+                },
+                {
+                    "utterance": "I need to see approval records ."
+                },
+                {
+                    "utterance": "I want to approve"
+                },
+                {
+                    "utterance": "I want to approve a request"
+                },
+                {
+                    "utterance": "I want to reject"
+                },
+                {
+                    "utterance": "I want to reject a request"
+                },
+                {
+                    "utterance": "items awaiting my approval"
+                },
+                {
+                    "utterance": "items for me to approve"
+                },
+                {
+                    "utterance": "list my approvals"
+                },
+                {
+                    "utterance": "mark request as not approved"
+                },
+                {
+                    "utterance": "Mark this request as approved"
+                },
+                {
+                    "utterance": "Mark this request as pending"
+                },
+                {
+                    "utterance": "Mark this request as rejected"
+                },
+                {
+                    "utterance": "my approval assignments"
+                },
+                {
+                    "utterance": "my approvals"
+                },
+                {
+                    "utterance": "open approval request"
+                },
+                {
+                    "utterance": "open approval requests"
+                },
+                {
+                    "utterance": "pending approvals"
+                },
+                {
+                    "utterance": "process my approvals"
+                },
+                {
+                    "utterance": "reject this request"
+                },
+                {
+                    "utterance": "See approval records"
+                },
+                {
+                    "utterance": "Set this request to pending"
+                },
+                {
+                    "utterance": "show me items awaiting my approval"
+                },
+                {
+                    "utterance": "show me my open approval requests"
+                },
+                {
+                    "utterance": "show me my outstanding approvals"
+                },
+                {
+                    "utterance": "show me records to approve"
+                },
+                {
+                    "utterance": "show my current approvals"
+                },
+                {
+                    "utterance": "show open approval requests assigned to me"
+                },
+                {
+                    "utterance": "status on approvals"
+                },
+                {
+                    "utterance": "the approval records"
+                },
+                {
+                    "utterance": "what approvals do I have"
+                },
+                {
+                    "utterance": "what are my approvals"
+                },
+                {
+                    "utterance": "what are my outstanding approvals"
+                },
+                {
+                    "utterance": "what are my pending approvals"
+                },
+                {
+                    "utterance": "what do I need to approve"
+                },
+                {
+                    "utterance": "What is waiting for my approval"
+                },
+                {
+                    "utterance": "what open requests are assigned to me ?"
+                },
+                {
+                    "utterance": "Where do I approve items for approval"
+                },
+                {
+                    "utterance": "Where I can see my approvals"
+                },
+                {
+                    "utterance": "where is the pending approval"
+                }
+            ],
+            "entities": []
+        },
+        {
+            "name": "RepositoryAccess",
+            "samples": [
+                {
+                    "utterance": "access to dropbox"
+                },
+                {
+                    "utterance": "cannot access shared drive"
+                },
+                {
+                    "utterance": "access to shared drive"
+                },
+                {
+                    "utterance": "access to the repository"
+                },
+                {
+                    "utterance": "add me to the drive"
+                },
+                {
+                    "utterance": "Box access"
+                },
+                {
+                    "utterance": "can I get access to the files"
+                },
+                {
+                    "utterance": "Can I get access to the repository"
+                },
+                {
+                    "utterance": "can I get directory access"
+                },
+                {
+                    "utterance": "Can I get repository access ?"
+                },
+                {
+                    "utterance": "can I request access to the project documents"
+                },
+                {
+                    "utterance": "can I request access to the repository"
+                },
+                {
+                    "utterance": "Can the repository be accessed?"
+                },
+                {
+                    "utterance": "change to repository"
+                },
+                {
+                    "utterance": "directory access"
+                },
+                {
+                    "utterance": "file access"
+                },
+                {
+                    "utterance": "folder access"
+                },
+                {
+                    "utterance": "give me access to the repository"
+                },
+                {
+                    "utterance": "grant me access to the repository"
+                },
+                {
+                    "utterance": "grant me folder access"
+                },
+                {
+                    "utterance": "Help me in getting access to a shared drive"
+                },
+                {
+                    "utterance": "how can I check on a file ?"
+                },
+                {
+                    "utterance": "how can I store something online"
+                },
+                {
+                    "utterance": "How do I access the drive"
+                },
+                {
+                    "utterance": "How do I get to the repository"
+                },
+                {
+                    "utterance": "How to get access to a repository ?"
+                },
+                {
+                    "utterance": "How to get repository access"
+                },
+                {
+                    "utterance": "I need access to a directory"
+                },
+                {
+                    "utterance": "I need access to a file"
+                },
+                {
+                    "utterance": "I need access to a file repository"
+                },
+                {
+                    "utterance": "I need access to a share drive"
+                },
+                {
+                    "utterance": "I need access to box"
+                },
+                {
+                    "utterance": "I need access to DropBox"
+                },
+                {
+                    "utterance": "I need access to the drive"
+                },
+                {
+                    "utterance": "I need repository access"
+                },
+                {
+                    "utterance": "I need to access DropBox"
+                },
+                {
+                    "utterance": "I want access to the repository"
+                },
+                {
+                    "utterance": "I want to access the repository"
+                },
+                {
+                    "utterance": "I want to have access to the repository"
+                },
+                {
+                    "utterance": "I'd like access to a repository "
+                },
+                {
+                    "utterance": "repository access"
+                },
+                {
+                    "utterance": "repository security"
+                },
+                {
+                    "utterance": "shared drive access"
+                },
+                {
+                    "utterance": "what repositories are available"
+                },
+                {
+                    "utterance": "where is repository access ?"
+                }
+            ],
+            "entities": []
+        },
+        {
+            "name": "ResolveIncident",
+            "samples": [
+                {
+                    "utterance": "can I close an incident"
+                },
+                {
+                    "utterance": "can I resolve INC0010009"
+                },
+                {
+                    "utterance": "can you close INC0010009 for me"
+                },
+                {
+                    "utterance": "Can you close the ticket for me"
+                },
+                {
+                    "utterance": "Close the ticket"
+                },
+                {
+                    "utterance": "finished working on the incident"
+                },
+                {
+                    "utterance": "How can I close this ticket"
+                },
+                {
+                    "utterance": "How do I close an incident"
+                },
+                {
+                    "utterance": "How do I mark INC1234567 as resolved"
+                },
+                {
+                    "utterance": "How do I resolve a ticket"
+                },
+                {
+                    "utterance": "I am closing this ticket"
+                },
+                {
+                    "utterance": "I fixed an incident"
+                },
+                {
+                    "utterance": "I have completed work on INC1234567"
+                },
+                {
+                    "utterance": "I resolved the incident"
+                },
+                {
+                    "utterance": "I resolved the issue"
+                },
+                {
+                    "utterance": "I solved the incident"
+                },
+                {
+                    "utterance": "I want to close the ticket"
+                },
+                {
+                    "utterance": "I want to resolve an incident"
+                },
+                {
+                    "utterance": "INC1234567 has been completed"
+                },
+                {
+                    "utterance": "INC1234567 needs to be closed"
+                },
+                {
+                    "utterance": "mark an incident as resolved"
+                },
+                {
+                    "utterance": "mark the incident as closed"
+                },
+                {
+                    "utterance": "mark this ticket as closed."
+                },
+                {
+                    "utterance": "mark this ticket as complete."
+                },
+                {
+                    "utterance": "mark this ticket as completed."
+                },
+                {
+                    "utterance": "mark this ticket as resolved."
+                },
+                {
+                    "utterance": "The issue I am working on is resolved"
+                },
+                {
+                    "utterance": "The ticket must be closed."
+                },
+                {
+                    "utterance": "The ticket needs to be closed"
+                },
+                {
+                    "utterance": "This ticket is complete"
+                },
+                {
+                    "utterance": "This ticket is resolved"
+                },
+                {
+                    "utterance": "Where to I resolve an incident"
+                }
+            ],
+            "entities": []
+        },
+        {
+            "name": "RSAToken",
+            "samples": [
+                {
+                    "utterance": "A new RSA token is required."
+                },
+                {
+                    "utterance": "A RSA token reset is required"
+                },
+                {
+                    "utterance": "an issue with my RSA token"
+                },
+                {
+                    "utterance": "can I get a new rsa token"
+                },
+                {
+                    "utterance": "can I reset a RSA token"
+                },
+                {
+                    "utterance": "Can my RSA token be reset?"
+                },
+                {
+                    "utterance": "Can you reset my RSA token"
+                },
+                {
+                    "utterance": "can you reset my token "
+                },
+                {
+                    "utterance": "help me with the authentication token reset"
+                },
+                {
+                    "utterance": "How do I get a rsa token"
+                },
+                {
+                    "utterance": "How do I reset my RSA token?"
+                },
+                {
+                    "utterance": "how do I set up the rsa token"
+                },
+                {
+                    "utterance": "How to reset a token ?"
+                },
+                {
+                    "utterance": "I am asking for a RSA token reset."
+                },
+                {
+                    "utterance": "I am resetting my RSA token"
+                },
+                {
+                    "utterance": "I can't connect using the rsa token"
+                },
+                {
+                    "utterance": "I can't find the rsa token"
+                },
+                {
+                    "utterance": "I forgot the pin for my rsa token"
+                },
+                {
+                    "utterance": "I forgot the rsa token"
+                },
+                {
+                    "utterance": "I lost the  RSA token"
+                },
+                {
+                    "utterance": "I need a new authentification token"
+                },
+                {
+                    "utterance": "I need to set up my rsa token"
+                },
+                {
+                    "utterance": "I want to create a new RSA token"
+                },
+                {
+                    "utterance": "I want to reset my RSA token"
+                },
+                {
+                    "utterance": "My RSA pin isn't working"
+                },
+                {
+                    "utterance": "my rsa token is invalid"
+                },
+                {
+                    "utterance": "My token doesn't work"
+                },
+                {
+                    "utterance": "new authentication code"
+                },
+                {
+                    "utterance": "new pin for rsa token"
+                },
+                {
+                    "utterance": "New RSA token"
+                },
+                {
+                    "utterance": "RSA reset request"
+                },
+                {
+                    "utterance": "rsa token"
+                },
+                {
+                    "utterance": "RSA token reset"
+                },
+                {
+                    "utterance": "what's wrong with my token ?"
+                },
+                {
+                    "utterance": "Where can I get a new token"
+                }
+            ],
+            "entities": []
+        },
+        {
+            "name": "SearchKnowledgeBase",
+            "samples": [
+                {
+                    "utterance": "are there any info sources "
+                },
+                {
+                    "utterance": "Are there instructions?"
+                },
+                {
+                    "utterance": "can I get information"
+                },
+                {
+                    "utterance": "do you have any info"
+                },
+                {
+                    "utterance": "do you have any information about upgrades"
+                },
+                {
+                    "utterance": "do you have any information on upgrading the operating system"
+                },
+                {
+                    "utterance": "do you have information on the policy"
+                },
+                {
+                    "utterance": "do you know where to find information"
+                },
+                {
+                    "utterance": "find articles"
+                },
+                {
+                    "utterance": "find information"
+                },
+                {
+                    "utterance": "guidelines"
+                },
+                {
+                    "utterance": "How can I access the info sources?"
+                },
+                {
+                    "utterance": "how do I look things up in the knowledge base ?"
+                },
+                {
+                    "utterance": "I have questions regarding the knowledge base."
+                },
+                {
+                    "utterance": "I need to see the info sources."
+                },
+                {
+                    "utterance": "I want to access the info sources."
+                },
+                {
+                    "utterance": "I'm looking for a guide?"
+                },
+                {
+                    "utterance": "I'm looking for instructions?"
+                },
+                {
+                    "utterance": "I'm looking for knowledge base?"
+                },
+                {
+                    "utterance": "information"
+                },
+                {
+                    "utterance": "Is there a guide?"
+                },
+                {
+                    "utterance": "Is there a knowledge base?"
+                },
+                {
+                    "utterance": "is there an article on"
+                },
+                {
+                    "utterance": "is there any information"
+                },
+                {
+                    "utterance": "kb search"
+                },
+                {
+                    "utterance": "kbs"
+                },
+                {
+                    "utterance": "knowledge"
+                },
+                {
+                    "utterance": "knowledge article"
+                },
+                {
+                    "utterance": "knowledgebase"
+                },
+                {
+                    "utterance": "look for articles"
+                },
+                {
+                    "utterance": "look for information"
+                },
+                {
+                    "utterance": "look for kb articles about time off"
+                },
+                {
+                    "utterance": "policies"
+                },
+                {
+                    "utterance": "procedures"
+                },
+                {
+                    "utterance": "pull up knowledge information"
+                },
+                {
+                    "utterance": "search knowledge"
+                },
+                {
+                    "utterance": "search knowledge base"
+                },
+                {
+                    "utterance": "search the articles for information"
+                },
+                {
+                    "utterance": "search the articles for spam information"
+                },
+                {
+                    "utterance": "search the kb"
+                },
+                {
+                    "utterance": "show me articles"
+                },
+                {
+                    "utterance": "show me information"
+                },
+                {
+                    "utterance": "Show me instructions?"
+                },
+                {
+                    "utterance": "Show me the guide?"
+                },
+                {
+                    "utterance": "Show me the knowledge base?"
+                },
+                {
+                    "utterance": "what are KB"
+                },
+                {
+                    "utterance": "What are our info sources?"
+                },
+                {
+                    "utterance": "where can I find articles"
+                },
+                {
+                    "utterance": "where can I find information"
+                },
+                {
+                    "utterance": "where can I find knowledge"
+                },
+                {
+                    "utterance": "where can I find resolution settings"
+                },
+                {
+                    "utterance": "where can I see information"
+                }
+            ],
+            "entities": []
+        },
+        {
+            "name": "ServiceDisruptions",
+            "samples": [
+                {
+                    "utterance": "active disruptions"
+                },
+                {
+                    "utterance": "are there active outages"
+                },
+                {
+                    "utterance": "are there any known system issues"
+                },
+                {
+                    "utterance": "are there any outages"
+                },
+                {
+                    "utterance": "are there any outages happening"
+                },
+                {
+                    "utterance": "check service outages"
+                },
+                {
+                    "utterance": "current outages"
+                },
+                {
+                    "utterance": "How can I see the outages ?"
+                },
+                {
+                    "utterance": "How do I check outages ?"
+                },
+                {
+                    "utterance": "how to see all outages"
+                },
+                {
+                    "utterance": "I wanted to ask about service disruptions."
+                },
+                {
+                    "utterance": "I wanted to see if there is any outage."
+                },
+                {
+                    "utterance": "is the email service down right now"
+                },
+                {
+                    "utterance": "Is the server down?"
+                },
+                {
+                    "utterance": "is the service not working for everyone"
+                },
+                {
+                    "utterance": "is the service up right now"
+                },
+                {
+                    "utterance": "is the system down"
+                },
+                {
+                    "utterance": "Is the system down?"
+                },
+                {
+                    "utterance": "Is the system up?"
+                },
+                {
+                    "utterance": "is the system working right now"
+                },
+                {
+                    "utterance": "is there a problem with the email service"
+                },
+                {
+                    "utterance": "is there a service degradation"
+                },
+                {
+                    "utterance": "Is there a service disruption going on?"
+                },
+                {
+                    "utterance": "Is there a system outage?"
+                },
+                {
+                    "utterance": "Is there an outage?"
+                },
+                {
+                    "utterance": "issue with system"
+                },
+                {
+                    "utterance": "known system issues"
+                },
+                {
+                    "utterance": "notify me of service disruptions"
+                },
+                {
+                    "utterance": "outage status"
+                },
+                {
+                    "utterance": "problem with service"
+                },
+                {
+                    "utterance": "send outage status"
+                },
+                {
+                    "utterance": "service degradation"
+                },
+                {
+                    "utterance": "service problem"
+                },
+                {
+                    "utterance": "show me current outages"
+                },
+                {
+                    "utterance": "status of email service"
+                },
+                {
+                    "utterance": "tell me whether there is an outage?"
+                },
+                {
+                    "utterance": "the email service is not working"
+                },
+                {
+                    "utterance": "The system is having outages"
+                },
+                {
+                    "utterance": "There seems to be an outage, right?"
+                },
+                {
+                    "utterance": "view service outage status"
+                },
+                {
+                    "utterance": "what are the current outages"
+                }
+            ],
+            "entities": []
+        },
+        {
+            "name": "SubmitARequest",
+            "samples": [
+                {
+                    "utterance": "Can I get a laptop?"
+                },
+                {
+                    "utterance": "Can I get a monitor?"
+                },
+                {
+                    "utterance": "Can I get a phone?"
+                },
+                {
+                    "utterance": "can I get a replacement monitor"
+                },
+                {
+                    "utterance": "can I request the equipment"
+                },
+                {
+                    "utterance": "can I see the catalog"
+                },
+                {
+                    "utterance": "can I submit a order"
+                },
+                {
+                    "utterance": "can I submit a request"
+                },
+                {
+                    "utterance": "can I submit an IT request"
+                },
+                {
+                    "utterance": "Can you create a request for me?"
+                },
+                {
+                    "utterance": "computer broken."
+                },
+                {
+                    "utterance": "Downloading Apache"
+                },
+                {
+                    "utterance": "equipment requisition"
+                },
+                {
+                    "utterance": "find a phone in the catalog"
+                },
+                {
+                    "utterance": "headphone broken."
+                },
+                {
+                    "utterance": "Help me buy a laptop."
+                },
+                {
+                    "utterance": "Help me buy a monitor."
+                },
+                {
+                    "utterance": "help me submit a request"
+                },
+                {
+                    "utterance": "help submitting request"
+                },
+                {
+                    "utterance": "How can I create a request"
+                },
+                {
+                    "utterance": "How can I download Apache"
+                },
+                {
+                    "utterance": "How can I install Apache"
+                },
+                {
+                    "utterance": "How can I make a request"
+                },
+                {
+                    "utterance": "How do I get a new charger"
+                },
+                {
+                    "utterance": "How to request an item from catalog"
+                },
+                {
+                    "utterance": "I am buying a laptop."
+                },
+                {
+                    "utterance": "I am buying a monitor."
+                },
+                {
+                    "utterance": "I am buying a phone."
+                },
+                {
+                    "utterance": "I am creating a request"
+                },
+                {
+                    "utterance": "I am creating an incident"
+                },
+                {
+                    "utterance": "I am installing Apache"
+                },
+                {
+                    "utterance": "I am requesting a new computer"
+                },
+                {
+                    "utterance": "I am requesting a new monitor"
+                },
+                {
+                    "utterance": "I am requesting a standing desk"
+                },
+                {
+                    "utterance": "I am submitting a request for a laptop."
+                },
+                {
+                    "utterance": "I am submitting a request for a monitor."
+                },
+                {
+                    "utterance": "I am submitting a request for a phone."
+                },
+                {
+                    "utterance": "I have a new request"
+                },
+                {
+                    "utterance": "I have trouble downloading Apache"
+                },
+                {
+                    "utterance": "I have trouble installing Apache"
+                },
+                {
+                    "utterance": "I need a new charger"
+                },
+                {
+                    "utterance": "I need a new computer"
+                },
+                {
+                    "utterance": "I need a new monitor"
+                },
+                {
+                    "utterance": "I need a new item"
+                },
+                {
+                    "utterance": "I need a new phone"
+                },
+                {
+                    "utterance": "I need a replacement laptop"
+                },
+                {
+                    "utterance": "I need a tablet"
+                },
+                {
+                    "utterance": "I need to download Apache"
+                },
+                {
+                    "utterance": "I need to install Apache"
+                },
+                {
+                    "utterance": "I need to order a new laptop"
+                },
+                {
+                    "utterance": "I need to request a laptop"
+                },
+                {
+                    "utterance": "I need to request a new phone"
+                },
+                {
+                    "utterance": "I need to request a replacement charger"
+                },
+                {
+                    "utterance": "I want a phone"
+                },
+                {
+                    "utterance": "I want to buy a laptop."
+                },
+                {
+                    "utterance": "I want to buy a monitor."
+                },
+                {
+                    "utterance": "I want to buy a phone."
+                },
+                {
+                    "utterance": "I want to create a request"
+                },
+                {
+                    "utterance": "I want to order a new phone"
+                },
+                {
+                    "utterance": "I want to order an item"
+                },
+                {
+                    "utterance": "I want to order something"
+                },
+                {
+                    "utterance": "I want to submit a request for a laptop."
+                },
+                {
+                    "utterance": "I want to submit a request for a monitor."
+                },
+                {
+                    "utterance": "I want to submit a request for a phone."
+                },
+                {
+                    "utterance": "I would like to order a laptop"
+                },
+                {
+                    "utterance": "I'd like to submit a service catalogue request"
+                },
+                {
+                    "utterance": "laptop broken."
+                },
+                {
+                    "utterance": "Macbook broken."
+                },
+                {
+                    "utterance": "monitor broken."
+                },
+                {
+                    "utterance": "My computer is broken."
+                },
+                {
+                    "utterance": "My headphone is broken."
+                },
+                {
+                    "utterance": "My laptop is broken."
+                },
+                {
+                    "utterance": "My Macbook is broken."
+                },
+                {
+                    "utterance": "My monitor is broken."
+                },
+                {
+                    "utterance": "My phone is broken."
+                },
+                {
+                    "utterance": "new charger"
+                },
+                {
+                    "utterance": "new headphones"
+                },
+                {
+                    "utterance": "new item"
+                },
+                {
+                    "utterance": "new phone"
+                },
+                {
+                    "utterance": "open a request for a charger"
+                },
+                {
+                    "utterance": "order a item"
+                },
+                {
+                    "utterance": "order a new laptop"
+                },
+                {
+                    "utterance": "order a phone"
+                },
+                {
+                    "utterance": "order a printer"
+                },
+                {
+                    "utterance": "phone broken."
+                },
+                {
+                    "utterance": "purchase a monitor"
+                },
+                {
+                    "utterance": "replacement monitor"
+                },
+                {
+                    "utterance": "replacement mouse"
+                },
+                {
+                    "utterance": "Request a laptop"
+                },
+                {
+                    "utterance": "Request a macbook"
+                },
+                {
+                    "utterance": "Request a monitor"
+                },
+                {
+                    "utterance": "Request a phone"
+                },
+                {
+                    "utterance": "Request headphones"
+                },
+                {
+                    "utterance": "service catalogue"
+                },
+                {
+                    "utterance": "What request can I open"
+                },
+                {
+                    "utterance": "Where can I get a laptop"
+                }
+            ],
+            "entities": []
+        },
+        {
+            "name": "TroubleshootSlowComputer",
+            "samples": [
+                {
+                    "utterance": "can you make my computer go faster"
+                },
+                {
+                    "utterance": "computer slowness issues"
+                },
+                {
+                    "utterance": "Help me troubleshoot my slow computer"
+                },
+                {
+                    "utterance": "How can I make my computer work better"
+                },
+                {
+                    "utterance": "How do I fix the slow computer issues ?"
+                },
+                {
+                    "utterance": "how do I improve my computer's speed"
+                },
+                {
+                    "utterance": "how do I improve the speed of my tablet"
+                },
+                {
+                    "utterance": "how do I troubleshoot a slow computer"
+                },
+                {
+                    "utterance": "I am having issues with my computer running slowly"
+                },
+                {
+                    "utterance": "I am having problems with my computer"
+                },
+                {
+                    "utterance": "I need help with computer performance issues"
+                },
+                {
+                    "utterance": "I need more memory for my computer"
+                },
+                {
+                    "utterance": "I'm running low on resources"
+                },
+                {
+                    "utterance": "my applications keep quitting"
+                },
+                {
+                    "utterance": "my computer is running really slow"
+                },
+                {
+                    "utterance": "my computer is slow"
+                },
+                {
+                    "utterance": "my computer is sluggish"
+                },
+                {
+                    "utterance": "my computer isn't working well"
+                },
+                {
+                    "utterance": "my computer keeps lagging"
+                },
+                {
+                    "utterance": "my computer takes forever to load"
+                },
+                {
+                    "utterance": "My computer's performance is bad"
+                },
+                {
+                    "utterance": "my desktop is sluggish"
+                },
+                {
+                    "utterance": "my laptop is performing slowly"
+                },
+                {
+                    "utterance": "my laptop is really slow"
+                },
+                {
+                    "utterance": "my laptop isn't working well"
+                },
+                {
+                    "utterance": "My laptop needs more memory"
+                },
+                {
+                    "utterance": "my laptop takes forever to load"
+                },
+                {
+                    "utterance": "my macbook is slow"
+                },
+                {
+                    "utterance": "my pc is running really slow"
+                },
+                {
+                    "utterance": "my tablet keeps lagging"
+                },
+                {
+                    "utterance": "what is slowing down my computer"
+                },
+                {
+                    "utterance": "what should I do with a slow computer"
+                },
+                {
+                    "utterance": "who can help with my slow mac ?"
+                },
+                {
+                    "utterance": "why is my computer so slow ?"
+                }
+            ],
+            "entities": []
+        },
+        {
+            "name": "UpdateAssignedTask",
+            "samples": [
+                {
+                    "utterance": "add a comment"
+                },
+                {
+                    "utterance": "add a comment to an incident"
+                },
+                {
+                    "utterance": "add a worknote"
+                },
+                {
+                    "utterance": "add a worknote to INC0010009"
+                },
+                {
+                    "utterance": "add comments to my tasks"
+                },
+                {
+                    "utterance": "add work notes to my tasks"
+                },
+                {
+                    "utterance": "are there any tasks assigned to me"
+                },
+                {
+                    "utterance": "augment work notes to my tasks"
+                },
+                {
+                    "utterance": "Can I add a comment"
+                },
+                {
+                    "utterance": "Can I add a comment to an incident"
+                },
+                {
+                    "utterance": "Can I add a worknote"
+                },
+                {
+                    "utterance": "Can I add a worknote to INC0010009"
+                },
+                {
+                    "utterance": "Can I add comments to my tasks"
+                },
+                {
+                    "utterance": "Can I add work notes to my tasks"
+                },
+                {
+                    "utterance": "Can I change the condition of this task"
+                },
+                {
+                    "utterance": "Can I change the owner of this task"
+                },
+                {
+                    "utterance": "can I open my tasks"
+                },
+                {
+                    "utterance": "can I update my worknotes"
+                },
+                {
+                    "utterance": "Can I update the task"
+                },
+                {
+                    "utterance": "can I view my tasks"
+                },
+                {
+                    "utterance": "change the condition of this task"
+                },
+                {
+                    "utterance": "change the owner of this task"
+                },
+                {
+                    "utterance": "comment on INC0010009"
+                },
+                {
+                    "utterance": "comment update"
+                },
+                {
+                    "utterance": "edit a worknote to INC0010009"
+                },
+                {
+                    "utterance": "edit comments to my tasks"
+                },
+                {
+                    "utterance": "enter a comment"
+                },
+                {
+                    "utterance": "How can I update my task"
+                },
+                {
+                    "utterance": "I need to update the task record"
+                },
+                {
+                    "utterance": "I want to add a comment"
+                },
+                {
+                    "utterance": "I want to add a comment to an incident"
+                },
+                {
+                    "utterance": "I want to add a worknote"
+                },
+                {
+                    "utterance": "I want to add a worknote to INC0010009"
+                },
+                {
+                    "utterance": "I want to add comments to my tasks"
+                },
+                {
+                    "utterance": "I want to add work notes to my tasks"
+                },
+                {
+                    "utterance": "I want to change the condition of this task"
+                },
+                {
+                    "utterance": "I want to change the owner of this task"
+                },
+                {
+                    "utterance": "I want to update one of my tasks"
+                },
+                {
+                    "utterance": "I want to update the task"
+                },
+                {
+                    "utterance": "INC1234567 comment"
+                },
+                {
+                    "utterance": "INC1234567 work note"
+                },
+                {
+                    "utterance": "insert a comment"
+                },
+                {
+                    "utterance": "modify a comment to an incident"
+                },
+                {
+                    "utterance": "modify a work note to an incident"
+                },
+                {
+                    "utterance": "modify INC1234567 task"
+                },
+                {
+                    "utterance": "modify my assigned incident"
+                },
+                {
+                    "utterance": "modify my assigned request"
+                },
+                {
+                    "utterance": "modify my worknote"
+                },
+                {
+                    "utterance": "my open assigned tasks"
+                },
+                {
+                    "utterance": "open my assigned tasks"
+                },
+                {
+                    "utterance": "show me my tasks"
+                },
+                {
+                    "utterance": "task update"
+                },
+                {
+                    "utterance": "the assigned task"
+                },
+                {
+                    "utterance": "the tasks that are assigned to me"
+                },
+                {
+                    "utterance": "update comments on the task"
+                },
+                {
+                    "utterance": "update my assigned incident"
+                },
+                {
+                    "utterance": "update my assigned request"
+                },
+                {
+                    "utterance": "update my task"
+                },
+                {
+                    "utterance": "update the task"
+                },
+                {
+                    "utterance": "update to my assigned incident"
+                },
+                {
+                    "utterance": "update to my assigned request"
+                },
+                {
+                    "utterance": "update to my task"
+                },
+                {
+                    "utterance": "update to my work"
+                },
+                {
+                    "utterance": "what tasks do I have"
+                }
+            ],
+            "entities": [
+                {
+                    "name": "updatetype",
+                    "categories": [
+                        {
+                            "category": "comment",
+                            "samples": [
+                                {
+                                    "entityAnnotation": "add {{phrase=\"comments\"}} to my tasks"
+                                },
+                                {
+                                    "entityAnnotation": "INC1234567 {{phrase=\"comment\"}}"
+                                },
+                                {
+                                    "entityAnnotation": "{{phrase=\"comment\"}} on INC0010009"
+                                },
+                                {
+                                    "entityAnnotation": "{{phrase=\"comment\"}} update"
+                                },
+                                {
+                                    "entityAnnotation": "add a {{phrase=\"comment\"}} to an incident"
+                                },
+                                {
+                                    "entityAnnotation": "modify a {{phrase=\"comment\"}} to an incident"
+                                },
+                                {
+                                    "entityAnnotation": "add a {{phrase=\"comment\"}}"
+                                },
+                                {
+                                    "entityAnnotation": "update {{phrase=\"comments\"}} on the task"
+                                },
+                                {
+                                    "entityAnnotation": "enter a {{phrase=\"comment\"}}"
+                                }
+                            ]
+                        },
+                        {
+                            "category": "work_notes",
+                            "samples": [
+                                {
+                                    "entityAnnotation": "edit a {{phrase=\"worknote\"}} to INC0010009"
+                                },
+                                {
+                                    "entityAnnotation": "add a {{phrase=\"worknote\"}}"
+                                },
+                                {
+                                    "entityAnnotation": "add a {{phrase=\"worknote\"}} to INC0010009"
+                                },
+                                {
+                                    "entityAnnotation": "add {{phrase=\"work notes\"}} to my tasks"
+                                },
+                                {
+                                    "entityAnnotation": "augment {{phrase=\"work notes\"}} to my tasks"
+                                },
+                                {
+                                    "entityAnnotation": "modify a {{phrase=\"work note\"}} to an incident"
+                                },
+                                {
+                                    "entityAnnotation": "INC1234567 {{phrase=\"work note\"}}"
+                                },
+                                {
+                                    "entityAnnotation": "edit {{phrase=\"comments\"}} to my tasks"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "UpdateChangeRequest",
+            "samples": [
+                {
+                    "utterance": "add the end date to a change request"
+                },
+                {
+                    "utterance": "can I modify a change request"
+                },
+                {
+                    "utterance": "add the start date to a change request"
+                },
+                {
+                    "utterance": "amendment to CHG1234567"
+                },
+                {
+                    "utterance": "Can I edit the change"
+                },
+                {
+                    "utterance": "Can I edit the change request"
+                },
+                {
+                    "utterance": "can I edit the change time"
+                },
+                {
+                    "utterance": "can I modify the change time"
+                },
+                {
+                    "utterance": "edit the change"
+                },
+                {
+                    "utterance": "edit the change dates"
+                },
+                {
+                    "utterance": "edit the change request"
+                },
+                {
+                    "utterance": "end date change"
+                },
+                {
+                    "utterance": "help me edit the change"
+                },
+                {
+                    "utterance": "help me edit the change request"
+                },
+                {
+                    "utterance": "How can I edit the change"
+                },
+                {
+                    "utterance": "How can I edit the change request"
+                },
+                {
+                    "utterance": "How can I update chg1234567"
+                },
+                {
+                    "utterance": "How do I edit a change request ?"
+                },
+                {
+                    "utterance": "how do I update my change request"
+                },
+                {
+                    "utterance": "how do I update the change date"
+                },
+                {
+                    "utterance": "how do I update the change time"
+                },
+                {
+                    "utterance": "I finished the work on the change request"
+                },
+                {
+                    "utterance": "I need to modify an update request"
+                },
+                {
+                    "utterance": "I want to edit the change"
+                },
+                {
+                    "utterance": "I want to edit the change request"
+                },
+                {
+                    "utterance": "I want to make an update to the change"
+                },
+                {
+                    "utterance": "I want to make an update to the change request"
+                },
+                {
+                    "utterance": "I want to set dates for a change request"
+                },
+                {
+                    "utterance": "I want to update a change request"
+                },
+                {
+                    "utterance": "I'm starting work on the change request"
+                },
+                {
+                    "utterance": "Make an update to the change"
+                },
+                {
+                    "utterance": "Make an update to the change request"
+                },
+                {
+                    "utterance": "modify CHG1234567"
+                },
+                {
+                    "utterance": "reschedule a change"
+                },
+                {
+                    "utterance": "set dates for a change request"
+                },
+                {
+                    "utterance": "set the end date on a change request"
+                },
+                {
+                    "utterance": "set the start date on a change request"
+                },
+                {
+                    "utterance": "set the time for change request"
+                },
+                {
+                    "utterance": "start date modification"
+                },
+                {
+                    "utterance": "The change has to be edited"
+                },
+                {
+                    "utterance": "The change request has to be edited"
+                },
+                {
+                    "utterance": "there is something wrong with the start time for the change request"
+                },
+                {
+                    "utterance": "Update CHG0030418 with start date"
+                },
+                {
+                    "utterance": "update the start date of CHG6343098 to right now"
+                },
+                {
+                    "utterance": "update to CHG1234567"
+                },
+                {
+                    "utterance": "where do I edit the work notes for my change request"
+                },
+                {
+                    "utterance": "Where do I update my change request"
+                },
+                {
+                    "utterance": "worknote edits"
+                }
+            ],
+            "entities": [
+                {
+                    "name": "changenumber",
+                    "samples": [
+                        {
+                            "pattern": "(CHG)\\d{6,10}"
+                        }
+                    ]
+                },
+                {
+                    "name": "changefield",
+                    "categories": [
+                        {
+                            "category": "work_note",
+                            "samples": [
+                                {
+                                    "entityAnnotation": "where do I edit the {{phrase=\"work notes\"}} for my change request"
+                                },
+                                {
+                                    "entityAnnotation": "{{phrase=\"work note\"}} edits"
+                                }
+                            ]
+                        },
+                        {
+                            "category": "start_date",
+                            "samples": [
+                                {
+                                    "entityAnnotation": "set the {{phrase=\"start date\"}} on a change"
+                                },
+                                {
+                                    "entityAnnotation": "{{phrase=\"start date\"}} modification"
+                                },
+                                {
+                                    "entityAnnotation": "add the {{phrase=\"start\"}} date to a change request"
+                                },
+                                {
+                                    "entityAnnotation": "there is something wrong with the {{phrase=\"start time\"}} for the change request"
+                                }
+                            ]
+                        },
+                        {
+                            "category": "end_date",
+                            "samples": [
+                                {
+                                    "entityAnnotation": "set the {{phrase=\"end date\"}} on a change"
+                                },
+                                {
+                                    "entityAnnotation": "add the {{phrase=\"end date\"}} to a change request"
+                                },
+                                {
+                                    "entityAnnotation": "{{phrase=\"end date\"}} change"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "VPNConnectivity",
+            "samples": [
+                {
+                    "utterance": "can't connect to the network"
+                },
+                {
+                    "utterance": "can't connect to vpn"
+                },
+                {
+                    "utterance": "can't connect to vpn on my computer"
+                },
+                {
+                    "utterance": "can't connect to vpn on my Mac"
+                },
+                {
+                    "utterance": "Can't log in to the network"
+                },
+                {
+                    "utterance": "Can't log in to VPN"
+                },
+                {
+                    "utterance": "connection for the network"
+                },
+                {
+                    "utterance": "connection for vpn"
+                },
+                {
+                    "utterance": "connection problems for network"
+                },
+                {
+                    "utterance": "connection problems for vpn"
+                },
+                {
+                    "utterance": "connectivity for the network"
+                },
+                {
+                    "utterance": "connectivity for vpn"
+                },
+                {
+                    "utterance": "Disconnected from the network on my mobile"
+                },
+                {
+                    "utterance": "Disconnected from VPN on my mobile"
+                },
+                {
+                    "utterance": "help me connect remotely"
+                },
+                {
+                    "utterance": "help me connect to the network"
+                },
+                {
+                    "utterance": "help me connect to the vpn"
+                },
+                {
+                    "utterance": "How can I connect to the network"
+                },
+                {
+                    "utterance": "How can I connect to the vpn"
+                },
+                {
+                    "utterance": "How can I connect to the vpn on my mac"
+                },
+                {
+                    "utterance": "How can I fix my network connectivity ?"
+                },
+                {
+                    "utterance": "How can I fix my VPN connectivity ?"
+                },
+                {
+                    "utterance": "How do I connect using vpn"
+                },
+                {
+                    "utterance": "how do I fix my VPN ?"
+                },
+                {
+                    "utterance": "how do I troubleshoot VPN issues"
+                },
+                {
+                    "utterance": "How do I use the vpn"
+                },
+                {
+                    "utterance": "I am experiencing network issues"
+                },
+                {
+                    "utterance": "I am experiencing vpn issues"
+                },
+                {
+                    "utterance": "I am having trouble connecting to the vpn"
+                },
+                {
+                    "utterance": "I can't access the vpn"
+                },
+                {
+                    "utterance": "I can't connect to the corporate network"
+                },
+                {
+                    "utterance": "I can't connect to the vpn"
+                },
+                {
+                    "utterance": "I cannot access the network"
+                },
+                {
+                    "utterance": "I cannot access the VPN using windows"
+                },
+                {
+                    "utterance": "I cannot access VDI"
+                },
+                {
+                    "utterance": "I cannot connect to our network"
+                },
+                {
+                    "utterance": "I have a problem with my VPN"
+                },
+                {
+                    "utterance": "I have a VPN connectivity issue"
+                },
+                {
+                    "utterance": "I have issues with my VPN ."
+                },
+                {
+                    "utterance": "I have VPN problems"
+                },
+                {
+                    "utterance": "I need help troubleshooting the VPN issues"
+                },
+                {
+                    "utterance": "I'm having VPN connection issues"
+                },
+                {
+                    "utterance": "I'm having VPN connection issues on my desktop"
+                },
+                {
+                    "utterance": "Is the vpn working"
+                },
+                {
+                    "utterance": "issues with vpn connection"
+                },
+                {
+                    "utterance": "my macbook won't let me into the vpn"
+                },
+                {
+                    "utterance": "my vpn is broken"
+                },
+                {
+                    "utterance": "My VPN is slow"
+                },
+                {
+                    "utterance": "my vpn on my pc keeps timing out"
+                },
+                {
+                    "utterance": "My VPN will not stay connected"
+                },
+                {
+                    "utterance": "my vpn won't connect"
+                },
+                {
+                    "utterance": "Something is wrong with the vpn"
+                },
+                {
+                    "utterance": "Something seems to be wrong with the vpn"
+                },
+                {
+                    "utterance": "the vpn isn't working"
+                },
+                {
+                    "utterance": "trouble with vpn"
+                },
+                {
+                    "utterance": "troubleshooting VPN issues"
+                },
+                {
+                    "utterance": "VPN"
+                },
+                {
+                    "utterance": "VPN connection"
+                },
+                {
+                    "utterance": "vpn connection issues on iphone"
+                },
+                {
+                    "utterance": "vpn problems"
+                },
+                {
+                    "utterance": "vpn problems on my android"
+                },
+                {
+                    "utterance": "what is the problem with my vpn setup"
+                },
+                {
+                    "utterance": "What is the VPN ?"
+                },
+                {
+                    "utterance": "windows won't let me onto the vpn"
+                }
+            ],
+            "entities": []
+        }
+    ],
+    "entities": [
+        {
+            "name": "ticketnumber",
+            "samples": [
+                {
+                    "pattern": "(INC|RITM)\\d{6,10}"
+                }
+            ]
+        },
+        {
+            "name": "device",
+            "categories": [
+                {
+                    "category": "ios",
+                    "samples": [
+                        {
+                            "entityAnnotation": "vpn connection issues on {{phrase=\"iphone\"}}"
+                        },
+                        {
+                            "entityAnnotation": "How do I setup email on my {{phrase=\"iPhone\"}} ?"
+                        },
+                        {
+                            "entityAnnotation": "how do I set up outlook on my {{phrase=\"iphone\"}}"
+                        },
+                        {
+                            "entityAnnotation": "how do I setup outlook on my {{phrase=\"iphone\"}}"
+                        },
+                        {
+                            "entityAnnotation": "{{phrase=\"iphone\"}} email"
+                        },
+                        {
+                            "entityAnnotation": "set up email on my {{phrase=\"iphone\"}}"
+                        },
+                        {
+                            "entityAnnotation": "set up {{phrase=\"iPhone\"}} email"
+                        },
+                        {
+                            "entityAnnotation": "How do I set up email on my {{phrase=\"iPhone\"}} ?"
+                        },
+                        {
+                            "entityAnnotation": "{{phrase=\"iphone\"}} email setup"
+                        }
+                    ]
+                },
+                {
+                    "category": "android",
+                    "samples": [
+                        {
+                            "entityAnnotation": "how do I set up email on my {{phrase=\"android\"}} phone"
+                        },
+                        {
+                            "entityAnnotation": "vpn problems on {{phrase=\"android\"}}"
+                        },
+                        {
+                            "entityAnnotation": "email setup on {{phrase=\"android\"}}"
+                        },
+                        {
+                            "entityAnnotation": "{{phrase=\"android\"}} email setup"
+                        }
+                    ]
+                },
+                {
+                    "category": "apple",
+                    "samples": [
+                        {
+                            "entityAnnotation": "can't connect to vpn on my {{phrase=\"mac\"}}"
+                        },
+                        {
+                            "entityAnnotation": "my {{phrase=\"macbook\"}} won't let me into the vpn"
+                        },
+                        {
+                            "entityAnnotation": "how do I setup email on my {{phrase=\"mac\"}}"
+                        },
+                        {
+                            "entityAnnotation": "How can I connect to the vpn on my {{phrase=\"mac\"}}"
+                        }
+                    ]
+                },
+                {
+                    "category": "windows",
+                    "samples": [
+                        {
+                            "entityAnnotation": "{{phrase=\"pc\"}} email setup"
+                        },
+                        {
+                            "entityAnnotation": "{{phrase=\"windows\"}} email setup"
+                        },
+                        {
+                            "entityAnnotation": "{{phrase=\"desktop\"}} email setup"
+                        },
+                        {
+                            "entityAnnotation": "I'm having VPN connection issues on my {{phrase=\"desktop\"}}"
+                        },
+                        {
+                            "entityAnnotation": "I need help setting up my email on my {{phrase=\"desktop\"}}"
+                        },
+                        {
+                            "entityAnnotation": "can't connect to vpn on my {{phrase=\"computer\"}}"
+                        },
+                        {
+                            "entityAnnotation": "I cannot access the VPN using {{phrase=\"windows\"}}"
+                        },
+                        {
+                            "entityAnnotation": "how do I set up email on my {{phrase=\"pc\"}}"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "urgency",
+            "categories": [
+                {
+                    "category": "1 - High",
+                    "samples": [
+                        {
+                            "entityAnnotation": "can I get {{phrase=\"immediate\"}} help from IT"
+                        },
+                        {
+                            "entityAnnotation": "can I report an {{phrase=\"urgent\"}} problem"
+                        },
+                        {
+                            "entityAnnotation": "i need to open a problem {{phrase=\"right now\"}}"
+                        },
+                        {
+                            "entityAnnotation": "I have a really {{phrase=\"urgent\"}} IT issue"
+                        },
+                        {
+                            "entityAnnotation": "new {{phrase=\"crucial\"}} incident"
+                        },
+                        {
+                            "entityAnnotation": "create a problem ticket {{phrase=\"immediately\"}}"
+                        },
+                        {
+                            "entityAnnotation": "something {{phrase=\"critical\"}} is broken"
+                        },
+                        {
+                            "entityAnnotation": "open a problem that's {{phrase=\"affecting everyone\"}}"
+                        },
+                        {
+                            "entityAnnotation": "A new PRB that is {{phrase=\"critical\"}} needs to be created"
+                        },
+                        {
+                            "entityAnnotation": "can IT help me {{phrase=\"ASAP\"}}"
+                        },
+                        {
+                            "entityAnnotation": "I need someone from IT to help me {{phrase=\"right now\"}}"
+                        },
+                        {
+                            "entityAnnotation": "new {{phrase=\"significant\"}} problem"
+                        },
+                        {
+                            "entityAnnotation": "An {{phrase=\"urgent\"}} problem needs to be reported"
+                        },
+                        {
+                            "entityAnnotation": "can I open a {{phrase=\"high priority\"}} incident"
+                        }
+                    ]
+                },
+                {
+                    "category": "2 - Medium",
+                    "samples": [
+                        {
+                            "entityAnnotation": "I need a PRB to be created {{phrase=\"soon\"}}"
+                        },
+                        {
+                            "entityAnnotation": "Can you raise a PRB for me {{phrase=\"today\"}} ?"
+                        },
+                        {
+                            "entityAnnotation": "there is an incident that needs to be created {{phrase=\"today\"}}"
+                        },
+                        {
+                            "entityAnnotation": "can I raise a problem that's {{phrase=\"affecting just me\"}}"
+                        }
+                    ]
+                },
+                {
+                    "category": "3 - Low",
+                    "samples": [
+                        {
+                            "entityAnnotation": "new {{phrase=\"regular\"}} problem ticket"
+                        },
+                        {
+                            "entityAnnotation": "open a problem by {{phrase=\"tomorrow\"}}"
+                        },
+                        {
+                            "entityAnnotation": "A new {{phrase=\"normal\"}} INC needs to be created"
+                        },
+                        {
+                            "entityAnnotation": "create an {{phrase=\"standard\"}} incident"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "searchquery",
+            "samples": [
+                {
+                    "entityAnnotation": "look for kb articles about {{phrase=\"time off\"}}"
+                },
+                {
+                    "entityAnnotation": "replacement {{phrase=\"mouse\"}}"
+                },
+                {
+                    "entityAnnotation": "order a {{phrase=\"phone\"}}"
+                },
+                {
+                    "entityAnnotation": "order a new {{phrase=\"laptop\"}}"
+                },
+                {
+                    "entityAnnotation": "How do I get a new {{phrase=\"charger\"}}"
+                },
+                {
+                    "entityAnnotation": "I need to request a new {{phrase=\"phone\"}}"
+                },
+                {
+                    "entityAnnotation": "{{phrase=\"procedures\"}}"
+                },
+                {
+                    "entityAnnotation": "I am requesting a {{phrase=\"standing desk\"}}"
+                },
+                {
+                    "entityAnnotation": "I need to request a {{phrase=\"laptop\"}}"
+                },
+                {
+                    "entityAnnotation": "I need to order a new {{phrase=\"laptop\"}}"
+                },
+                {
+                    "entityAnnotation": "Where can I get a {{phrase=\"laptop\"}}"
+                },
+                {
+                    "entityAnnotation": "{{phrase=\"information\"}}"
+                },
+                {
+                    "entityAnnotation": "do you know where to find {{phrase=\"401k information\"}}"
+                },
+                {
+                    "entityAnnotation": "open a request for a {{phrase=\"charger\"}}"
+                },
+                {
+                    "entityAnnotation": "show me {{phrase=\"information\"}}"
+                },
+                {
+                    "entityAnnotation": "I need a new {{phrase=\"phone\"}}"
+                },
+                {
+                    "entityAnnotation": "new {{phrase=\"headphones\"}}"
+                },
+                {
+                    "entityAnnotation": "can I get a replacement {{phrase=\"monitor\"}}"
+                },
+                {
+                    "entityAnnotation": "do you have information on the {{phrase=\"policy\"}}"
+                },
+                {
+                    "entityAnnotation": "I need a {{phrase=\"tablet\"}}"
+                },
+                {
+                    "entityAnnotation": "search the articles for {{phrase=\"spam information\"}}"
+                },
+                {
+                    "entityAnnotation": "new {{phrase=\"phone\"}}"
+                },
+                {
+                    "entityAnnotation": "I would like to order a {{phrase=\"laptop\"}}"
+                },
+                {
+                    "entityAnnotation": "{{phrase=\"guidelines\"}}"
+                },
+                {
+                    "entityAnnotation": "{{phrase=\"policies\"}}"
+                },
+                {
+                    "entityAnnotation": "where can I find {{phrase=\"resolution settings\"}}"
+                },
+                {
+                    "entityAnnotation": "is there any {{phrase=\"information\"}}"
+                },
+                {
+                    "entityAnnotation": "I want a {{phrase=\"phone\"}}"
+                },
+                {
+                    "entityAnnotation": "do you have any information about {{phrase=\"upgrades\"}}"
+                },
+                {
+                    "entityAnnotation": "purchase a {{phrase=\"monitor\"}}"
+                },
+                {
+                    "entityAnnotation": "I want to order a new {{phrase=\"phone\"}}"
+                },
+                {
+                    "entityAnnotation": "where can I see {{phrase=\"information\"}}"
+                },
+                {
+                    "entityAnnotation": "I need to request a replacement {{phrase=\"charger\"}}"
+                },
+                {
+                    "entityAnnotation": "I need a new {{phrase=\"charger\"}}"
+                },
+                {
+                    "entityAnnotation": "I am requesting a new {{phrase=\"computer\"}}"
+                },
+                {
+                    "entityAnnotation": "do you have any information on {{phrase=\"upgrading the operating system\"}}"
+                },
+                {
+                    "entityAnnotation": "can I buy a {{phrase=\"phone\"}}"
+                },
+                {
+                    "entityAnnotation": "new {{phrase=\"charger\"}}"
+                },
+                {
+                    "entityAnnotation": "replacement {{phrase=\"monitor\"}}"
+                },
+                {
+                    "entityAnnotation": "find a {{phrase=\"phone\"}} in the catalog"
+                },
+                {
+                    "entityAnnotation": "show me {{phrase=\"articles\"}}"
+                },
+                {
+                    "entityAnnotation": "I need a replacement {{phrase=\"laptop\"}}"
+                },
+                {
+                    "entityAnnotation": "I need a new {{phrase=\"computer\"}}"
+                },
+                {
+                    "entityAnnotation": "I am requesting a new {{phrase=\"monitor\"}}"
+                }
+            ]
+        }
+    ],
+    "vocabulary": [
+        {
+            "pattern": "\\bmobile ?(phone)\\b",
+            "relatedTerms": [
+                "phone"
+            ]
+        },
+        {
+            "pattern": "\\bcell\\b",
+            "relatedTerms": [
+                "phone"
+            ]
+        },
+        {
+            "pattern": "\\b(?i)CHG\\d+\\b",
+            "relatedTerms": [
+                "change request"
+            ]
+        },
+        {
+            "pattern": "\\b(?i)REQ\\d+\\b",
+            "relatedTerms": [
+                "request number"
+            ]
+        },
+        {
+            "pattern": "\\b(?i)info\\b",
+            "relatedTerms": [
+                "information"
+            ]
+        },
+        {
+            "pattern": "\\b(?i)KB\\b",
+            "relatedTerms": [
+                "knowledge base"
+            ]
+        },
+        {
+            "pattern": "\\b(?i)KBs\\b",
+            "relatedTerms": [
+                "knowledge articles"
+            ]
+        },
+        {
+            "pattern": "\\b(?i)drop ?box\\b",
+            "relatedTerms": [
+                "repository"
+            ]
+        },
+        {
+            "pattern": "\\brepo\\b",
+            "relatedTerms": [
+                "repository"
+            ]
+        },
+        {
+            "pattern": "megaladon",
+            "relatedTerms": [
+                "meeting room"
+            ]
+        },
+        {
+            "pattern": "\\b(?i)worknote\\b",
+            "relatedTerms": [
+                "work note"
+            ]
+        },
+        {
+            "pattern": "\\b(?i)worknotes\\b",
+            "relatedTerms": [
+                "work notes"
+            ]
+        },
+        {
+            "pattern": "\\b(?i)mailing list\\b",
+            "relatedTerms": [
+                "distribution list"
+            ]
+        },
+        {
+            "pattern": "\\b(?i)DL\\b",
+            "relatedTerms": [
+                "distribution list"
+            ]
+        },
+        {
+            "pattern": "\\b(?i)(admin|superuser|super user)\\b",
+            "relatedTerms": [
+                "administrator"
+            ]
+        },
+        {
+            "pattern": "\\b(?i)tv\\b",
+            "relatedTerms": [
+                "display"
+            ]
+        },
+        {
+            "pattern": "\\b(?i)Mac\\b",
+            "relatedTerms": [
+                "computer"
+            ]
+        },
+        {
+            "pattern": "\\b(?i)wi-?fi\\b",
+            "relatedTerms": [
+                "wireless internet"
+            ]
+        },
+        {
+            "pattern": "\\b(?i)iphones?\\b",
+            "relatedTerms": [
+                "phone"
+            ]
+        },
+        {
+            "pattern": "\\b(?i)pc\\b",
+            "relatedTerms": [
+                "computer"
+            ]
+        },
+        {
+            "pattern": "\\b(?i)pw\\b",
+            "relatedTerms": [
+                "password"
+            ]
+        },
+        {
+            "pattern": "\\b(?i)inc\\b",
+            "relatedTerms": [
+                "incident"
+            ]
+        },
+        {
+            "pattern": "\\b(?i)PRB\\b",
+            "relatedTerms": [
+                "problem"
+            ]
+        },
+        {
+            "pattern": "\\b(?i)outlook\\b",
+            "relatedTerms": [
+                "email"
+            ]
+        },
+        {
+            "pattern": "\\b(?i)VPN\\b",
+            "relatedTerms": [
+                "virtual network"
+            ]
+        },
+        {
+            "pattern": "\\b(?i)av\\b",
+            "relatedTerms": [
+                "video"
+            ]
+        },
+        {
+            "pattern": "\\b(?i)issues\\b",
+            "relatedTerms": [
+                "problems"
+            ]
+        },
+        {
+            "pattern": "\\b(?i)admin access\\b",
+            "relatedTerms": [
+                "admin privileges"
+            ]
+        },
+        {
+            "pattern": "\\b(?i)it(?= (assistance|case|help|inquiry|knowledge|policy|query|question|related|request|ticket))\\b",
+            "relatedTerms": [
+                "information technology"
+            ]
+        },
+        {
+            "pattern": "\\b(?i)(?<=(contact|to|from|with) )it\\b",
+            "relatedTerms": [
+                "information technology"
+            ]
+        },
+        {
+            "pattern": "\\b(?i)guest network\\b",
+            "relatedTerms": [
+                "wireless internet"
+            ]
+        },
+        {
+            "pattern": "\\b(?i)CR\\b",
+            "relatedTerms": [
+                "change request"
+            ]
+        }
+    ],
+    "confidenceThreshold": "0.64"
+}

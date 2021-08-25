@@ -1,0 +1,1764 @@
+{
+  "schemaVersion": "NY-1",
+  "name": "sn_hr_nlu_HR_NLU",
+  "language": "en",
+  "version": "3.1.2-HYB",
+  "intents": [
+    {
+      "name": "AddEmergencyContact",
+      "samples": [
+        {
+          "utterance": "addition of James Stewart to my emergency contact list"
+        },
+        {
+          "utterance": "can I add a new emergency contact"
+        },
+        {
+          "utterance": "can I add my wife Vicky to my emergency contacts"
+        },
+        {
+          "utterance": "can I add Victoria Stuart at 800-555-1212 as my emergency contact"
+        },
+        {
+          "utterance": "can I add Victoria Stuart at 8005551212 with email victoria.stuart@gmail.com"
+        },
+        {
+          "utterance": "can I create a new emergency contact"
+        },
+        {
+          "utterance": "can I create an emergency contact"
+        },
+        {
+          "utterance": "can I enter Victoria Stuart at 800-555-1212 as my emergency contact"
+        },
+        {
+          "utterance": "can I include my friend as my emergency contact"
+        },
+        {
+          "utterance": "can I include my sister at 800-555-1212 as my contact for emergencies"
+        },
+        {
+          "utterance": "can I set up emergency contact"
+        },
+        {
+          "utterance": "can James Stewart be added as my emergency contact"
+        },
+        {
+          "utterance": "can my husband be included as my emergency contact"
+        },
+        {
+          "utterance": "can you make Jim an emergency contact"
+        },
+        {
+          "utterance": "enter a new emergency contact"
+        },
+        {
+          "utterance": "how to include my nephew as an emergency contact"
+        },
+        {
+          "utterance": "I have a new emergency contact"
+        },
+        {
+          "utterance": "I want my friend to be an emergency contact"
+        },
+        {
+          "utterance": "my aunt will be my emergency contact"
+        },
+        {
+          "utterance": "my emergency contact is Julie"
+        },
+        {
+          "utterance": "show me how to add an emergency contact"
+        }
+      ],
+      "entities": []
+    },
+    {
+      "name": "Benefits",
+      "samples": [
+        {
+          "utterance": "401k benefits"
+        },
+        {
+          "utterance": "a benefits change"
+        },
+        {
+          "utterance": "an insurance change"
+        },
+        {
+          "utterance": "are there benefits"
+        },
+        {
+          "utterance": "available health plans"
+        },
+        {
+          "utterance": "available insurance"
+        },
+        {
+          "utterance": "benefits enrollment"
+        },
+        {
+          "utterance": "can I change my benefits"
+        },
+        {
+          "utterance": "can I change my insurance"
+        },
+        {
+          "utterance": "can I check to see if my doctor is in network"
+        },
+        {
+          "utterance": "can I enroll in benefits"
+        },
+        {
+          "utterance": "can I enroll my spouse in benefits"
+        },
+        {
+          "utterance": "can I find information about benefits"
+        },
+        {
+          "utterance": "can I get information about benefits"
+        },
+        {
+          "utterance": "can I get insurance"
+        },
+        {
+          "utterance": "can I have details regarding benefits"
+        },
+        {
+          "utterance": "can I have information about benefits"
+        },
+        {
+          "utterance": "can I know about retirement benefits"
+        },
+        {
+          "utterance": "can I know about the benefits that are available to me"
+        },
+        {
+          "utterance": "can I know more information about benefits"
+        },
+        {
+          "utterance": "can I see a list of benefits"
+        },
+        {
+          "utterance": "dental benefits"
+        },
+        {
+          "utterance": "dental Insurance"
+        },
+        {
+          "utterance": "do I get a pension"
+        },
+        {
+          "utterance": "do I qualify for benefits"
+        },
+        {
+          "utterance": "do my benefits include insurance"
+        },
+        {
+          "utterance": "do the benefits cover my family"
+        },
+        {
+          "utterance": "does the company contribute to my retirement"
+        },
+        {
+          "utterance": "does the company provide benefits"
+        },
+        {
+          "utterance": "does the company provide insurance"
+        },
+        {
+          "utterance": "does the insurance cover my family"
+        },
+        {
+          "utterance": "employee benefits"
+        },
+        {
+          "utterance": "financial benefits"
+        },
+        {
+          "utterance": "give me the list of the company's benefits"
+        },
+        {
+          "utterance": "health benefits"
+        },
+        {
+          "utterance": "health insurance"
+        },
+        {
+          "utterance": "help with benefits"
+        },
+        {
+          "utterance": "how are benefits provided to employees"
+        },
+        {
+          "utterance": "How do I choose my insurance"
+        },
+        {
+          "utterance": "How do I set up benefits"
+        },
+        {
+          "utterance": "How much does insurance cover"
+        },
+        {
+          "utterance": "I need information about retirement"
+        },
+        {
+          "utterance": "I need information on benefits"
+        },
+        {
+          "utterance": "I need medical coverage"
+        },
+        {
+          "utterance": "I want a list of the employee benefits"
+        },
+        {
+          "utterance": "insurance cards"
+        },
+        {
+          "utterance": "is there insurance"
+        },
+        {
+          "utterance": "medical benefits"
+        },
+        {
+          "utterance": "medical cards"
+        },
+        {
+          "utterance": "medical insurance"
+        },
+        {
+          "utterance": "open enrollment"
+        },
+        {
+          "utterance": "pension plan"
+        },
+        {
+          "utterance": "private insurance"
+        },
+        {
+          "utterance": "provide me the information on the company's benefits"
+        },
+        {
+          "utterance": "retirement benefits"
+        },
+        {
+          "utterance": "show me my benefits"
+        },
+        {
+          "utterance": "sign up for 401k"
+        },
+        {
+          "utterance": "sign up for benefits"
+        },
+        {
+          "utterance": "tell me about the company's benefits"
+        },
+        {
+          "utterance": "tell me about the insurance"
+        },
+        {
+          "utterance": "types of benefits"
+        },
+        {
+          "utterance": "vision benefits"
+        },
+        {
+          "utterance": "vision insurance"
+        },
+        {
+          "utterance": "wellness benefits"
+        },
+        {
+          "utterance": "What are my benefits"
+        },
+        {
+          "utterance": "What are people like me choosing for benefits"
+        },
+        {
+          "utterance": "What are the benefits options"
+        },
+        {
+          "utterance": "What benefits are available"
+        },
+        {
+          "utterance": "What benefits are offered"
+        },
+        {
+          "utterance": "What benefits will I receive"
+        },
+        {
+          "utterance": "What kind of benefits are offered"
+        },
+        {
+          "utterance": "What kind of benefits do I have"
+        },
+        {
+          "utterance": "What kind of insurance do I get"
+        },
+        {
+          "utterance": "What kind of insurance is included"
+        },
+        {
+          "utterance": "What types of benefits are offered"
+        },
+        {
+          "utterance": "What's covered on my medical plan"
+        },
+        {
+          "utterance": "What's our health plan"
+        },
+        {
+          "utterance": "What's our medical coverage"
+        },
+        {
+          "utterance": "When am I eligible for benefits"
+        },
+        {
+          "utterance": "When am I entitled to benefits"
+        },
+        {
+          "utterance": "When do I get my insurance cards"
+        },
+        {
+          "utterance": "which benefits can I get"
+        },
+        {
+          "utterance": "will I receive benefits"
+        }
+      ],
+      "entities": []
+    },
+    {
+      "name": "DeleteEmergencyContact",
+      "samples": [
+        {
+          "utterance": "can an emergency contact be deleted"
+        },
+        {
+          "utterance": "can I delete an emergency contact"
+        },
+        {
+          "utterance": "can I delete James Stewart as my emergency contact"
+        },
+        {
+          "utterance": "can I delete my husband as my emergency contact"
+        },
+        {
+          "utterance": "can I delete my wife from my emergency contact list"
+        },
+        {
+          "utterance": "can I erase my emergency contact"
+        },
+        {
+          "utterance": "can I get rid of Al as my emergency contact"
+        },
+        {
+          "utterance": "can I remove James Stewart as my emergency contact"
+        },
+        {
+          "utterance": "can I remove my emergency contact"
+        },
+        {
+          "utterance": "can you delete an emergency contact for me"
+        },
+        {
+          "utterance": "How can I remove someone as my emergency contact"
+        },
+        {
+          "utterance": "I do not want James Stewart as my emergency contact"
+        },
+        {
+          "utterance": "Jon is no longer my emergency contact ."
+        },
+        {
+          "utterance": "my emergency contact needs to be removed"
+        },
+        {
+          "utterance": "show me how to delete my daughter as my emergency contact"
+        }
+      ],
+      "entities": []
+    },
+    {
+      "name": "GeneralHRInquiry",
+      "samples": [
+        {
+          "utterance": "a hr inquiry"
+        },
+        {
+          "utterance": "a hr knowledge"
+        },
+        {
+          "utterance": "a hr policy"
+        },
+        {
+          "utterance": "a HR related query"
+        },
+        {
+          "utterance": "a hr request"
+        },
+        {
+          "utterance": "a human resources related question"
+        },
+        {
+          "utterance": "a KB article on maternity leave"
+        },
+        {
+          "utterance": "can I access KB articles on maternity"
+        },
+        {
+          "utterance": "can I ask a question"
+        },
+        {
+          "utterance": "can I change my name"
+        },
+        {
+          "utterance": "can I contact Human Resources"
+        },
+        {
+          "utterance": "can I create a general Human Resources inquiry"
+        },
+        {
+          "utterance": "can I create a general Human Resources query"
+        },
+        {
+          "utterance": "can I create a general Human Resources request"
+        },
+        {
+          "utterance": "can I create a HR case"
+        },
+        {
+          "utterance": "can I file a Human Resources case"
+        },
+        {
+          "utterance": "can I file a Human Resources request"
+        },
+        {
+          "utterance": "can I file an incident with hr"
+        },
+        {
+          "utterance": "can I know more about your maternity policy"
+        },
+        {
+          "utterance": "can I open a case with Human Resources"
+        },
+        {
+          "utterance": "can I report a behavior issue"
+        },
+        {
+          "utterance": "can I report a discipline issue"
+        },
+        {
+          "utterance": "can I report someone"
+        },
+        {
+          "utterance": "can I report someone for harassment"
+        },
+        {
+          "utterance": "can I search for benefits policy details"
+        },
+        {
+          "utterance": "can I search the hr kb"
+        },
+        {
+          "utterance": "can I speak to Human Resources"
+        },
+        {
+          "utterance": "can I talk to Human Resources"
+        },
+        {
+          "utterance": "Can you answer my hr question"
+        },
+        {
+          "utterance": "general hr query"
+        },
+        {
+          "utterance": "general HR question"
+        },
+        {
+          "utterance": "help me with this Human Resources query"
+        },
+        {
+          "utterance": "help me with this Human Resources question"
+        },
+        {
+          "utterance": "help on hr policy"
+        },
+        {
+          "utterance": "How do I make a general inquiry"
+        },
+        {
+          "utterance": "How do I make a hr inquiry"
+        },
+        {
+          "utterance": "I am unclear on something"
+        },
+        {
+          "utterance": "I have a general human resources question"
+        },
+        {
+          "utterance": "I have a general question"
+        },
+        {
+          "utterance": "I have a hr inquiry"
+        },
+        {
+          "utterance": "I have a question relating to hr"
+        },
+        {
+          "utterance": "I need help from Human Resources"
+        },
+        {
+          "utterance": "I need help with hr"
+        },
+        {
+          "utterance": "I need information on the maternity policy"
+        },
+        {
+          "utterance": "I need personnel help"
+        },
+        {
+          "utterance": "I need some help with my maternity leave"
+        },
+        {
+          "utterance": "knowledge base"
+        },
+        {
+          "utterance": "maternity"
+        },
+        {
+          "utterance": "show me kb article on policy"
+        },
+        {
+          "utterance": "show me the holiday calendar"
+        },
+        {
+          "utterance": "tell me what our HR policy is ?"
+        },
+        {
+          "utterance": "the maternal leave of absence policy"
+        },
+        {
+          "utterance": "the maternity policy"
+        },
+        {
+          "utterance": "the maternity policy kb article"
+        },
+        {
+          "utterance": "urgently need answers"
+        },
+        {
+          "utterance": "what is our leave policy"
+        },
+        {
+          "utterance": "what is the loa policy"
+        },
+        {
+          "utterance": "Where do I go if I have a Human Resources question"
+        }
+      ],
+      "entities": []
+    },
+    {
+      "name": "NewHireOrientation",
+      "samples": [
+        {
+          "utterance": "can I find out information about the orientation"
+        },
+        {
+          "utterance": "can I get information about the orientation"
+        },
+        {
+          "utterance": "commute to the orientation"
+        },
+        {
+          "utterance": "day 1"
+        },
+        {
+          "utterance": "day 1 agenda"
+        },
+        {
+          "utterance": "day one schedule"
+        },
+        {
+          "utterance": "directions to the orientation"
+        },
+        {
+          "utterance": "Do I need a uniform"
+        },
+        {
+          "utterance": "How do I get to the office"
+        },
+        {
+          "utterance": "How should I plan for my first day"
+        },
+        {
+          "utterance": "How to get to the orientation"
+        },
+        {
+          "utterance": "I am a new employee"
+        },
+        {
+          "utterance": "I am lost"
+        },
+        {
+          "utterance": "I want information about my first day"
+        },
+        {
+          "utterance": "induction"
+        },
+        {
+          "utterance": "information about day 1"
+        },
+        {
+          "utterance": "is my travel reimbursed"
+        },
+        {
+          "utterance": "is there a company dress code"
+        },
+        {
+          "utterance": "NHO"
+        },
+        {
+          "utterance": "Parking for the orientation"
+        },
+        {
+          "utterance": "show me the information about the orientation"
+        },
+        {
+          "utterance": "tell me about my first day"
+        },
+        {
+          "utterance": "tell me about the orientation"
+        },
+        {
+          "utterance": "the dress code"
+        },
+        {
+          "utterance": "the dress policy"
+        },
+        {
+          "utterance": "what activities are at the orientation"
+        },
+        {
+          "utterance": "What are my day 1 activities"
+        },
+        {
+          "utterance": "what are the company work hours"
+        },
+        {
+          "utterance": "What can I expect on my first day"
+        },
+        {
+          "utterance": "What happens on day 1"
+        },
+        {
+          "utterance": "What is the dress policy"
+        },
+        {
+          "utterance": "What room do I go to for the orientation"
+        },
+        {
+          "utterance": "What should I bring on my first day"
+        },
+        {
+          "utterance": "What should I know before I start at my work"
+        },
+        {
+          "utterance": "What time do I start at my work"
+        },
+        {
+          "utterance": "What time is the orientation"
+        },
+        {
+          "utterance": "What time should I arrive on my first day"
+        },
+        {
+          "utterance": "What time should I show up on my first day"
+        },
+        {
+          "utterance": "What will my first day look like"
+        },
+        {
+          "utterance": "What will orientation be like"
+        },
+        {
+          "utterance": "What's my first day"
+        },
+        {
+          "utterance": "What's my schedule to start working"
+        },
+        {
+          "utterance": "When do I start at my work"
+        },
+        {
+          "utterance": "When is orientation"
+        },
+        {
+          "utterance": "Where do I go for the orientation"
+        },
+        {
+          "utterance": "Where do I park"
+        },
+        {
+          "utterance": "Where do I start at my work"
+        },
+        {
+          "utterance": "Will I have meetings on day 1"
+        },
+        {
+          "utterance": "Will my first day be in training"
+        }
+      ],
+      "entities": []
+    },
+    {
+      "name": "PayDiscrepancy",
+      "samples": [
+        {
+          "utterance": "a problem with compensation"
+        },
+        {
+          "utterance": "a question regarding this month's salary"
+        },
+        {
+          "utterance": "a salary discrepancy"
+        },
+        {
+          "utterance": "an incorrect payslip"
+        },
+        {
+          "utterance": "Can I ask something about my pay ?"
+        },
+        {
+          "utterance": "can I change my bank payroll information"
+        },
+        {
+          "utterance": "can I create a payroll case"
+        },
+        {
+          "utterance": "can I create a payroll incident"
+        },
+        {
+          "utterance": "can I create a payroll ticket"
+        },
+        {
+          "utterance": "can I report a problem with my payslip"
+        },
+        {
+          "utterance": "can I report a problem with paycheck"
+        },
+        {
+          "utterance": "can I report paycheck issues"
+        },
+        {
+          "utterance": "can you investigate a pay discrepancy"
+        },
+        {
+          "utterance": "differences in my expected pay"
+        },
+        {
+          "utterance": "help me with pay"
+        },
+        {
+          "utterance": "I am inquiring about my salary"
+        },
+        {
+          "utterance": "I did not receive my last paycheck"
+        },
+        {
+          "utterance": "I didn't get paid enough"
+        },
+        {
+          "utterance": "I got paid less than I expected"
+        },
+        {
+          "utterance": "I have a paycheck question"
+        },
+        {
+          "utterance": "I have a problem with my deductions"
+        },
+        {
+          "utterance": "I have a query regarding my salary"
+        },
+        {
+          "utterance": "I have a question regarding my salary"
+        },
+        {
+          "utterance": "I have an inquiry regarding my pay"
+        },
+        {
+          "utterance": "I have an issue related to payroll"
+        },
+        {
+          "utterance": "I have paycheck issues"
+        },
+        {
+          "utterance": "I have payslip issues"
+        },
+        {
+          "utterance": "I have questions about my pay check"
+        },
+        {
+          "utterance": "I have salary issues"
+        },
+        {
+          "utterance": "I need help with my paycheck"
+        },
+        {
+          "utterance": "I need help with paycheck"
+        },
+        {
+          "utterance": "I need payroll help"
+        },
+        {
+          "utterance": "I see a pay discrepancy"
+        },
+        {
+          "utterance": "I see a pay issue"
+        },
+        {
+          "utterance": "I should be paid more"
+        },
+        {
+          "utterance": "I want my deductions to be evaluated"
+        },
+        {
+          "utterance": "I want to contact payroll about an issue"
+        },
+        {
+          "utterance": "I was paid less"
+        },
+        {
+          "utterance": "I'm confused with my most recent paycheck"
+        },
+        {
+          "utterance": "issue with my paycheck"
+        },
+        {
+          "utterance": "missing payroll amount"
+        },
+        {
+          "utterance": "missing payroll hours"
+        },
+        {
+          "utterance": "my bank deposit is too low"
+        },
+        {
+          "utterance": "my deductions don't look right"
+        },
+        {
+          "utterance": "my January paycheck amount is weird"
+        },
+        {
+          "utterance": "my latest paycheck is wrong"
+        },
+        {
+          "utterance": "my pay stub is off"
+        },
+        {
+          "utterance": "My paycheck and direct deposit amount are different"
+        },
+        {
+          "utterance": "my paycheck for 5/15/2018 is incorrect"
+        },
+        {
+          "utterance": "My paycheck is wrong"
+        },
+        {
+          "utterance": "My payslip and direct deposit amount are different"
+        },
+        {
+          "utterance": "My payslip is wrong"
+        },
+        {
+          "utterance": "my salary slip is wrong"
+        },
+        {
+          "utterance": "paycheck wrong"
+        },
+        {
+          "utterance": "payroll help"
+        },
+        {
+          "utterance": "Something is wrong with my paycheck"
+        },
+        {
+          "utterance": "There is something wrong with my pay check"
+        }
+      ],
+      "entities": []
+    },
+    {
+      "name": "RequestForLeave",
+      "samples": [
+        {
+          "utterance": "a leave of absence for illness"
+        },
+        {
+          "utterance": "a loa"
+        },
+        {
+          "utterance": "a loa request"
+        },
+        {
+          "utterance": "a maternal loa"
+        },
+        {
+          "utterance": "a maternity leave"
+        },
+        {
+          "utterance": "a parental leave"
+        },
+        {
+          "utterance": "a PTO"
+        },
+        {
+          "utterance": "can I create leave of absence case"
+        },
+        {
+          "utterance": "can I go on vacation"
+        },
+        {
+          "utterance": "can I request vacation"
+        },
+        {
+          "utterance": "can I submit a request for maternity leave"
+        },
+        {
+          "utterance": "can I take a leave from 5/4/2019"
+        },
+        {
+          "utterance": "can I take time off this week"
+        },
+        {
+          "utterance": "can I use my vacation time"
+        },
+        {
+          "utterance": "Disability Leave"
+        },
+        {
+          "utterance": "How do I apply for a medical leave"
+        },
+        {
+          "utterance": "how do I request a vacation"
+        },
+        {
+          "utterance": "How do I take a medical leave"
+        },
+        {
+          "utterance": "How to request LOA ?"
+        },
+        {
+          "utterance": "How to take maternity leave ?"
+        },
+        {
+          "utterance": "I am calling in sick today"
+        },
+        {
+          "utterance": "I am expecting a child"
+        },
+        {
+          "utterance": "I am having surgery"
+        },
+        {
+          "utterance": "I am not feeling well"
+        },
+        {
+          "utterance": "I am planning to take a leave this week"
+        },
+        {
+          "utterance": "I am planning to take an loa"
+        },
+        {
+          "utterance": "I am requesting holiday"
+        },
+        {
+          "utterance": "I am sick"
+        },
+        {
+          "utterance": "I am traveling to Europe for vacation"
+        },
+        {
+          "utterance": "I am with child"
+        },
+        {
+          "utterance": "I have a question regarding loa"
+        },
+        {
+          "utterance": "I hurt myself this morning"
+        },
+        {
+          "utterance": "I must go on vacation"
+        },
+        {
+          "utterance": "I must take a leave from 5/4/2019"
+        },
+        {
+          "utterance": "I must take a leave from 5/4/2019 to 9/4/2019"
+        },
+        {
+          "utterance": "I must take care of a sick family member"
+        },
+        {
+          "utterance": "I must take PTO"
+        },
+        {
+          "utterance": "I must take some time off"
+        },
+        {
+          "utterance": "I must take time off for December"
+        },
+        {
+          "utterance": "I must use some of my leaves"
+        },
+        {
+          "utterance": "I need a holiday"
+        },
+        {
+          "utterance": "I will be off from July "
+        },
+        {
+          "utterance": "I'm having a baby in March"
+        },
+        {
+          "utterance": "I'm pregnant"
+        },
+        {
+          "utterance": "I'm requesting some time off"
+        },
+        {
+          "utterance": "my child is sick"
+        },
+        {
+          "utterance": "My husband is feeling sick"
+        },
+        {
+          "utterance": "My parent is ailing"
+        },
+        {
+          "utterance": "my parent is unwell"
+        },
+        {
+          "utterance": "My son is not well"
+        },
+        {
+          "utterance": "My wife has an illness"
+        },
+        {
+          "utterance": "my wife is expectant"
+        },
+        {
+          "utterance": "out of office"
+        },
+        {
+          "utterance": "time off for surgery on 5/11/19"
+        }
+      ],
+      "entities": []
+    },
+    {
+      "name": "UpdateAddress",
+      "samples": [
+        {
+          "utterance": "an address update needed"
+        },
+        {
+          "utterance": "can I change my address"
+        },
+        {
+          "utterance": "can I edit my address"
+        },
+        {
+          "utterance": "How do I update my home address"
+        },
+        {
+          "utterance": "I changed my addresses"
+        },
+        {
+          "utterance": "I have a new home address"
+        },
+        {
+          "utterance": "I have bought a new house"
+        },
+        {
+          "utterance": "I have changed my homes"
+        },
+        {
+          "utterance": "I have moved to a different house"
+        },
+        {
+          "utterance": "I live in a different place now"
+        },
+        {
+          "utterance": "I moved my houses"
+        },
+        {
+          "utterance": "I moved recently"
+        },
+        {
+          "utterance": "I relocated"
+        },
+        {
+          "utterance": "I shifted my home"
+        },
+        {
+          "utterance": "I shifted my house"
+        },
+        {
+          "utterance": "my address need to be changed"
+        },
+        {
+          "utterance": "my address needs to be updated"
+        },
+        {
+          "utterance": "My home address is wrong"
+        },
+        {
+          "utterance": "my new address"
+        },
+        {
+          "utterance": "My new address is 123 Main Street"
+        },
+        {
+          "utterance": "my new home"
+        },
+        {
+          "utterance": "my new house"
+        },
+        {
+          "utterance": "show me my profile address"
+        },
+        {
+          "utterance": "update my address"
+        },
+        {
+          "utterance": "What is my address in the system"
+        },
+        {
+          "utterance": "which address is in my profile"
+        }
+      ],
+      "entities": []
+    },
+    {
+      "name": "UpdateEmail",
+      "samples": [
+        {
+          "utterance": "a change to my email"
+        },
+        {
+          "utterance": "an email update needed"
+        },
+        {
+          "utterance": "can I amend my email address"
+        },
+        {
+          "utterance": "can I change my email"
+        },
+        {
+          "utterance": "can I replace email address"
+        },
+        {
+          "utterance": "can I revise my email address"
+        },
+        {
+          "utterance": "can I update my current email ID"
+        },
+        {
+          "utterance": "can I update my email to email@gmail.com"
+        },
+        {
+          "utterance": "correct email address"
+        },
+        {
+          "utterance": "email needs to be changed"
+        },
+        {
+          "utterance": "email needs to be updated"
+        },
+        {
+          "utterance": "How can I update my email"
+        },
+        {
+          "utterance": "I got a new email address"
+        },
+        {
+          "utterance": "I have a new email"
+        },
+        {
+          "utterance": "I need to edit my email"
+        },
+        {
+          "utterance": "my current email id is wrong"
+        },
+        {
+          "utterance": "my current email is wrong"
+        },
+        {
+          "utterance": "my email address is wrong"
+        },
+        {
+          "utterance": "my email changed recently"
+        },
+        {
+          "utterance": "my new email address"
+        },
+        {
+          "utterance": "my new email address is new@email.com"
+        },
+        {
+          "utterance": "My new email id is test@gmail.com"
+        },
+        {
+          "utterance": "new@email.com is my new email"
+        },
+        {
+          "utterance": "show me my email address"
+        },
+        {
+          "utterance": "what is my current email address in the system"
+        },
+        {
+          "utterance": "which email address is in my profile"
+        }
+      ],
+      "entities": []
+    },
+    {
+      "name": "UpdateEmergencyContact",
+      "samples": [
+        {
+          "utterance": "a new emergency phone number"
+        },
+        {
+          "utterance": "amend emergency contact details"
+        },
+        {
+          "utterance": "can I change an emergency contact"
+        },
+        {
+          "utterance": "can I change my emergency contact address"
+        },
+        {
+          "utterance": "can I change my emergency contact details"
+        },
+        {
+          "utterance": "can I change my emergency contact email to email@domain.com"
+        },
+        {
+          "utterance": "can I change my emergency contact phone number to 8005551212"
+        },
+        {
+          "utterance": "can I change the phone number for my contact James Stewart"
+        },
+        {
+          "utterance": "can I edit my emergency contact"
+        },
+        {
+          "utterance": "Can I edit my emergency contact information ?"
+        },
+        {
+          "utterance": "can I make an update to my emergency contact"
+        },
+        {
+          "utterance": "can I modify an emergency contact"
+        },
+        {
+          "utterance": "can I modify my email of emergency contact"
+        },
+        {
+          "utterance": "can I modify my emergency contact"
+        },
+        {
+          "utterance": "can I update my emergency contact"
+        },
+        {
+          "utterance": "can I update my emergency contact's email"
+        },
+        {
+          "utterance": "can I update my emergency contact's home phone number to 888-555-1212"
+        },
+        {
+          "utterance": "can I update my emergency contact's office phone number"
+        },
+        {
+          "utterance": "can I update the contact information for James Stewart"
+        },
+        {
+          "utterance": "can I update the emergency contact information for James Stewart"
+        },
+        {
+          "utterance": "change the information of my emergency contact"
+        },
+        {
+          "utterance": "correct my emergency contact details"
+        },
+        {
+          "utterance": "emergency contact update"
+        },
+        {
+          "utterance": "how can I change my emergency contact information"
+        },
+        {
+          "utterance": "how to update the residence phone number of my emergency contact"
+        },
+        {
+          "utterance": "I need help updating emergency contact information"
+        },
+        {
+          "utterance": "My emergency contact changed their phone number"
+        },
+        {
+          "utterance": "My emergency contact has a new email address"
+        },
+        {
+          "utterance": "my emergency contact information is wrong"
+        },
+        {
+          "utterance": "My emergency contact moved recently"
+        },
+        {
+          "utterance": "My emergency contact needs to be updated"
+        },
+        {
+          "utterance": "show me how to update my emergency contact "
+        }
+      ],
+      "entities": [
+        {
+          "name": "whattoedit",
+          "samples": [
+            {
+              "entityAnnotation": "can I change the {{phrase=\"phone number\"}} for my contact James Stewart"
+            },
+            {
+              "entityAnnotation": "can I change my emergency contact {{phrase=\"phone number\"}} to 8005551212"
+            },
+            {
+              "entityAnnotation": "My emergency contact has a new {{phrase=\"email\"}} address"
+            },
+            {
+              "entityAnnotation": "can I change the {{phrase=\"relationship\"}} of my emergency contact"
+            },
+            {
+              "entityAnnotation": "can I change my emergency contact {{phrase=\"email\"}} to email@domain.com"
+            },
+            {
+              "entityAnnotation": "can I change the {{phrase=\"email\"}} of my emergency contact"
+            },
+            {
+              "entityAnnotation": "can I change my emergency contact {{phrase=\"address\"}}"
+            },
+            {
+              "entityAnnotation": "can I change the {{phrase=\"phone number\"}} of my emergency contact"
+            },
+            {
+              "entityAnnotation": "how to update residence {{phrase=\"phone number\"}} of my emergency contact"
+            },
+            {
+              "entityAnnotation": "My emergency contact changed {{phrase=\"phone number\"}}"
+            },
+            {
+              "entityAnnotation": "help me update my emergency contact office {{phrase=\"phone number\"}}"
+            },
+            {
+              "entityAnnotation": "Modify {{phrase=\"email\"}} of emergency contact"
+            },
+            {
+              "entityAnnotation": "please update emergency contact home {{phrase=\"phone number\"}} to 888-555-1212"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "UpdatePhoneNumber",
+      "samples": [
+        {
+          "utterance": "888-512-5521 is my new apartment phone number"
+        },
+        {
+          "utterance": "a change to my house phone"
+        },
+        {
+          "utterance": "a phone number change needed"
+        },
+        {
+          "utterance": "a phone number needs to be updated"
+        },
+        {
+          "utterance": "Can I add my new phone number"
+        },
+        {
+          "utterance": "can I amend my phone number"
+        },
+        {
+          "utterance": "can I change my home phone number to 888-121-5555"
+        },
+        {
+          "utterance": "Can I fix my phone number"
+        },
+        {
+          "utterance": "can I modify my home phone number"
+        },
+        {
+          "utterance": "can I replace my current phone number"
+        },
+        {
+          "utterance": "can I revise my current phone number"
+        },
+        {
+          "utterance": "can I update my mobile phone number to 8005551212"
+        },
+        {
+          "utterance": "How do I update my phone number"
+        },
+        {
+          "utterance": "I am updating my phone number"
+        },
+        {
+          "utterance": "I changed my phone number"
+        },
+        {
+          "utterance": "I got a new phone number"
+        },
+        {
+          "utterance": "I have a new home phone"
+        },
+        {
+          "utterance": "I have a new phone number"
+        },
+        {
+          "utterance": "I have bought a new phone"
+        },
+        {
+          "utterance": "I have changed my phone"
+        },
+        {
+          "utterance": "I use a different mobile phone now"
+        },
+        {
+          "utterance": "my cell number needs changing"
+        },
+        {
+          "utterance": "my current phone number should not be listed anymore"
+        },
+        {
+          "utterance": "my home phone is new"
+        },
+        {
+          "utterance": "My new cell is 8005551212"
+        },
+        {
+          "utterance": "my new mobile number is 8005551212"
+        },
+        {
+          "utterance": "My new phone is 8005551212"
+        },
+        {
+          "utterance": "my new phone number"
+        },
+        {
+          "utterance": "My new phone number is 888-555-1212"
+        },
+        {
+          "utterance": "my phone changed recently"
+        },
+        {
+          "utterance": "my phone number is wrong"
+        },
+        {
+          "utterance": "show me my profile phone number"
+        },
+        {
+          "utterance": "there are changes to my house phone"
+        },
+        {
+          "utterance": "update my phone number"
+        },
+        {
+          "utterance": "What is my current phone number in the system"
+        },
+        {
+          "utterance": "where can I change my phone number"
+        },
+        {
+          "utterance": "which number is in my profile"
+        }
+      ],
+      "entities": [
+        {
+          "name": "phonetype",
+          "samples": [
+            {
+              "entityAnnotation": "I have a new {{phrase=\"home\"}} phone"
+            },
+            {
+              "entityAnnotation": "my {{phrase=\"home\"}} phone is new"
+            },
+            {
+              "entityAnnotation": "there are changes to my {{phrase=\"house\"}} phone"
+            },
+            {
+              "entityAnnotation": "can I change my {{phrase=\"home\"}} phone number to 888-121-5555"
+            },
+            {
+              "entityAnnotation": "can I modify {{phrase=\"home\"}} phone number"
+            },
+            {
+              "entityAnnotation": "I use a different {{phrase=\"mobile\"}} phone now"
+            },
+            {
+              "entityAnnotation": "can I update my {{phrase=\"mobile\"}} phone number to 8005551212"
+            },
+            {
+              "entityAnnotation": "my {{phrase=\"cell\"}} number needs changing"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "name": "email",
+      "samples": [
+        {
+          "pattern": "\\b[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+\\b"
+        }
+      ]
+    },
+    {
+      "name": "relationship",
+      "samples": [
+        {
+          "entityAnnotation": "I want my {{phrase=\"friend\"}} to be an emergency contact"
+        },
+        {
+          "entityAnnotation": "can I add my {{phrase=\"wife\"}} Vicky to my emergency contacts"
+        },
+        {
+          "entityAnnotation": "can I include my {{phrase=\"friend\"}} as my emergency contact"
+        },
+        {
+          "entityAnnotation": "how to include my {{phrase=\"nephew\"}} as an emergency contact"
+        },
+        {
+          "entityAnnotation": "can I include my {{phrase=\"sister\"}} at 800-555-1212 as my contact for emergencies"
+        },
+        {
+          "entityAnnotation": "can my {{phrase=\"husband\"}} be included as my emergency contact"
+        }
+      ]
+    },
+    {
+      "name": "phonenumber",
+      "samples": [
+        {
+          "pattern": "(^\\+[0-9]{1,2})[-.]?\\(?([0-9]{3})\\)?[-.\\s]?([0-9]{3})[-.\\s]?([0-9]{4})(\\s+(([E|e]xt[:|.|]?)|x|X)( *\\d+))?\\b"
+        }
+      ]
+    },
+    {
+      "name": "name",
+      "samples": [
+        {
+          "entityAnnotation": "can I add my wife {{phrase=\"Vicky\"}} to my emergency contacts"
+        },
+        {
+          "entityAnnotation": "can I change the phone number for my contact {{phrase=\"James Stewart\"}}"
+        },
+        {
+          "entityAnnotation": "can I add {{phrase=\"Victoria Stuart\"}} at 800-555-1212 as my emergency contact"
+        },
+        {
+          "entityAnnotation": "addition of {{phrase=\"James Stewart\"}} to my emergency contact list"
+        },
+        {
+          "entityAnnotation": "can I enter {{phrase=\"Victoria Stuart\"}} at 800-555-1212 as my emergency contact"
+        },
+        {
+          "entityAnnotation": "my emergency contact is {{phrase=\"Julie\"}}"
+        },
+        {
+          "entityAnnotation": "can {{phrase=\"James Stewart\"}} be added as my emergency contact"
+        },
+        {
+          "entityAnnotation": "can I add {{phrase=\"Victoria Stuart\"}} at 8005551212 with email victoria.stuart@gmail.com"
+        },
+        {
+          "entityAnnotation": "can I remove {{phrase=\"James Stewart\"}} as my emergency contact"
+        },
+        {
+          "entityAnnotation": "can you make {{phrase=\"Jim\"}} an emergency contact"
+        },
+        {
+          "entityAnnotation": "{{phrase=\"Jon\"}} is no longer my emergency contact ."
+        },
+        {
+          "entityAnnotation": "can I update the contact information for {{phrase=\"James Stewart\"}}"
+        },
+        {
+          "entityAnnotation": "can I delete {{phrase=\"James Stewart\"}} as my emergency contact"
+        },
+        {
+          "entityAnnotation": "I do not want {{phrase=\"James Stewart\"}} as my emergency contact"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "pattern": "\\b(?i)hr\\b(?= (assistance|case|help|inquiry|knowledge|policy|query|question|related|request))",
+      "relatedTerms": [
+        "human resources"
+      ]
+    },
+    {
+      "pattern": "\\b(?i)(?<=(contact|to|from|with|general) )hr\\b",
+      "relatedTerms": [
+        "human resources"
+      ]
+    },
+    {
+      "pattern": "\\b(?i)new hire\\b",
+      "relatedTerms": [
+        "new employee"
+      ]
+    },
+    {
+      "pattern": "\\b(?i)new hires\\b",
+      "relatedTerms": [
+        "new employees"
+      ]
+    },
+    {
+      "pattern": "\\b(?i)pay slips?\\b",
+      "relatedTerms": [
+        "paycheck"
+      ]
+    },
+    {
+      "pattern": "\\bHR\\b",
+      "relatedTerms": [
+        "human resources"
+      ]
+    },
+    {
+      "pattern": "\\b(?i)mobile\\b",
+      "relatedTerms": [
+        "cell"
+      ]
+    },
+    {
+      "pattern": "\\b(?i)outlook\\b",
+      "relatedTerms": [
+        "email"
+      ]
+    },
+    {
+      "pattern": "\\b(?i)payslips?\\b",
+      "relatedTerms": [
+        "paycheck"
+      ]
+    },
+    {
+      "pattern": "\\b(?i)PTO\\b",
+      "relatedTerms": [
+        "vacation"
+      ]
+    },
+    {
+      "pattern": "\\b(?i)id\\b",
+      "relatedTerms": [
+        "identification"
+      ]
+    },
+    {
+      "pattern": "\\b(?i)paid time off\\b",
+      "relatedTerms": [
+        "vacation"
+      ]
+    },
+    {
+      "pattern": "\\b(?i)(?<!paid )time off\\b",
+      "relatedTerms": [
+        "vacation"
+      ]
+    },
+    {
+      "pattern": "\\b(?i)PPO\\b",
+      "relatedTerms": [
+        "health plan"
+      ]
+    },
+    {
+      "pattern": "\\b(?i)day one\\b",
+      "relatedTerms": [
+        "first day"
+      ]
+    },
+    {
+      "pattern": "\\b(?i)day 1\\b",
+      "relatedTerms": [
+        "first day"
+      ]
+    },
+    {
+      "pattern": "\\b(?i)NHO\\b",
+      "relatedTerms": [
+        "new employee orientation"
+      ]
+    },
+    {
+      "pattern": "\\b(?i)HMO\\b",
+      "relatedTerms": [
+        "health plan"
+      ]
+    },
+    {
+      "pattern": "\\b(?i)perks?\\b",
+      "relatedTerms": [
+        "benefits"
+      ]
+    },
+    {
+      "pattern": "\\b(?i)KB\\b",
+      "relatedTerms": [
+        "knowledge base"
+      ]
+    },
+    {
+      "pattern": "\\b(?i)401K\\b",
+      "relatedTerms": [
+        "retirement plan"
+      ]
+    },
+    {
+      "pattern": "\\b(?i)info\\b\\.?",
+      "relatedTerms": [
+        "information"
+      ]
+    },
+    {
+      "pattern": "\\b(?i)PC\\b",
+      "relatedTerms": [
+        "computer"
+      ]
+    },
+    {
+      "pattern": "\\b(?i)wanna\\b",
+      "relatedTerms": [
+        "want to"
+      ]
+    },
+    {
+      "pattern": "\\b(?i)loa\\b",
+      "relatedTerms": [
+        "leave of absence"
+      ]
+    }
+  ],
+  "confidenceThreshold": "0.76"
+}

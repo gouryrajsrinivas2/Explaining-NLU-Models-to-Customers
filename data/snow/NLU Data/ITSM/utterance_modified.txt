@@ -1,0 +1,1387 @@
+A RSA token reset is required
+A new RSA token is required .
+A new change request is needed
+A new normal incident needs to be created
+A new password is required .
+A new problem is needed
+A new problem needs to be created
+A new problem that is critical need to be create
+A normal change request needs to be created
+A password reset is required
+A problem needs to be submitted
+Add a name to the distribution list
+Adding a problem
+Am I assigned a laptop ?
+An information technology ticket needs to be reported
+An urgent problem needs to be reported
+Are any change windows available ?
+Are there administrator rights available for me ?
+Are there any pending approvals for me
+Are there instructions ?
+Are there items awaiting my approval
+Box access
+Can I add a comment
+Can I add a comment to an incident
+Can I add a work note
+Can I add a work note to incident number
+Can I add comments to my tasks
+Can I add work notes to my tasks
+Can I change the condition of this task
+Can I change the owner of this task
+Can I check my incident status
+Can I check the situation of my monitor
+Can I edit the change
+Can I edit the change request
+Can I get a laptop ?
+Can I get a monitor ?
+Can I get a new change request
+Can I get a phone ?
+Can I get access to the repository
+Can I get administrator rights ?
+Can I get another password reset link ?
+Can I get my information technology ticket 's status
+Can I get my information technology ticket status
+Can I get my ticket status
+Can I get repository access ?
+Can I get the status of my information technology ticket
+Can I modify the distribution list
+Can I see a list of assets assigned to me ?
+Can I see incident number
+Can I see my incident status
+Can I see my ticket status
+Can I submit a problem
+Can I update the task
+Can an Information Technology technician help me ?
+Can my RSA token be reset ?
+Can my password be reset ?
+Can not log in to the network
+Can not log in to virtual network
+Can not share my screen
+Can the repository be accessed ?
+Can you check my ticket status
+Can you check the status of my incident
+Can you close the ticket for me
+Can you create a change request
+Can you create a request for me ?
+Can you create a ticket for a problem .
+Can you create an incident for me ?
+Can you escalate my issue
+Can you expedite the process for this ticket ?
+Can you fix the meeting room ?
+Can you increase the priority of my issue
+Can you open a change request for me
+Can you open a ticket for me ?
+Can you raise a CHG for me ?
+Can you raise a problem for me today ?
+Can you report a problem for me ?
+Can you reset my RSA token
+Can you reset my password
+Can you submit a change request ?
+Change the priority on my issue
+Check information technology ticket
+Check my assigned assets
+Check my information technology ticket 's status
+Check my ticket status
+Check the status of my information technology ticket
+Close the ticket
+Conference room technology is not working
+Create a new problem
+Create a new problem record
+Create a new problem ticket
+Create a ticket for a problem .
+Disconnected from the network on my mobile
+Disconnected from virtual network on my mobile
+Do you know where my monitor is ?
+Does the printer have enough ink ?
+Downloading Apache
+Email login problems
+Fix my printer .
+Fix the meeting room
+Has any equipment been assigned to me
+Having problems with my email
+Help me buy a laptop .
+Help me buy a monitor .
+Help me configure my email
+Help me fix the printer .
+Help me in getting access to a shared drive
+Help me setup a new password
+Help me troubleshoot my slow computer
+Help me with the meeting room
+How can I access the information sources ?
+How can I add a new problem
+How can I change the priority of my ticket
+How can I close this ticket
+How can I configure my email ?
+How can I connect to the network
+How can I connect to the virtual network
+How can I connect to the virtual network on my computer
+How can I create a request
+How can I create an incident
+How can I download Apache
+How can I edit a distribution list
+How can I edit the change
+How can I edit the change request
+How can I fix my network connectivity ?
+How can I fix my virtual network connectivity ?
+How can I get access to the distribution list ?
+How can I get email set up
+How can I get incident number escalated
+How can I install Apache
+How can I make a request
+How can I make my computer work better
+How can I see scheduled updates ?
+How can I see the outages ?
+How can I update change request
+How can I update my task
+How do I access the drive
+How do I add people on the distribution list ?
+How do I check outages ?
+How do I close an incident
+How do I connect using virtual network
+How do I create a ticket for a problem .
+How do I edit a change request ?
+How do I fix the printer problems ?
+How do I fix the slow computer problems ?
+How do I get a new charger
+How do I get a password reset link ?
+How do I get a rsa token
+How do I get my ticket escalated
+How do I get to local administrator access ?
+How do I get to the repository
+How do I know my email username ?
+How do I make a change request
+How do I make a new password ?
+How do I mark incident number as resolved
+How do I reject items for approval
+How do I reset my RSA token ?
+How do I reset my password ?
+How do I resolve a ticket
+How do I set up email on my phone
+How do I set up email on my phone ?
+How do I set up my email
+How do I set up my email ?
+How do I troubleshoot the printer problems
+How do I use the virtual network
+How does the printer work ?
+How should the distribution list be modified
+How to get access to a repository ?
+How to get local administrator access
+How to get repository access
+How to identify available change windows
+How to report a problem
+How to report an issue in a conference room
+How to request an item from catalog
+How to reset a token ?
+I am applying for a change request
+I am asking for a RSA token reset .
+I am asking for a password reset .
+I am asking regarding available change windows
+I am asking regarding the availability of change windows .
+I am buying a laptop .
+I am buying a monitor .
+I am buying a phone .
+I am closing this ticket
+I am creating a request
+I am creating an incident
+I am experiencing network problems
+I am experiencing virtual network problems
+I am having email problems
+I am having email trouble
+I am having meeting room problems
+I am having printer problems
+I am having problems connecting to the display in the conference room
+I am having problems while meeting remotely
+I am having problems with my computer
+I am having problems with my computer running slowly
+I am having problems with my device
+I am having problems with my email
+I am having problems with my meeting room
+I am having problems with the meeting room
+I am having trouble connecting to the virtual network
+I am having trouble with my email
+I am having virtual network connection problems
+I am having virtual network connection problems on my desktop
+I am installing Apache
+I am locked out of electronic address
+I am locked out of my account
+I am looking for a guide ?
+I am looking for instructions ?
+I am looking for knowledge base ?
+I am missing email
+I am not able to print
+I am reporting a new incident
+I am requesting a change
+I am requesting a new computer
+I am requesting a new monitor
+I am requesting a standing desk
+I am requesting for a change
+I am resetting my RSA token
+I am resetting my password
+I am running low on resources
+I am starting work on the change request
+I am submitting a request for a laptop .
+I am submitting a request for a monitor .
+I am submitting a request for a phone .
+I am unable to login .
+I can not access VDI
+I can not access email
+I can not access the network
+I can not access the virtual network
+I can not access the virtual network using windows
+I can not connect to a display
+I can not connect to my email
+I can not connect to my remote meeting
+I can not connect to our network
+I can not connect to the corporate network
+I can not connect to the printer
+I can not connect to the virtual network
+I can not connect using the rsa token
+I can not find my password
+I can not find the printer
+I can not find the rsa token
+I can not hear anything in the meeting room
+I can not log in .
+I can not log in to my email
+I can not log in to the email .
+I can not log into my email
+I can not login
+I can not login .
+I can not login to email
+I can not open email
+I can not remember my account details
+I can not send an email attachment
+I can not send emails any longer
+I do not receive emails
+I finished the work on the change request
+I fixed an incident
+I forgot my login information
+I forgot my password
+I forgot my password for electronic address
+I forgot my username
+I forgot the pin for my rsa token
+I forgot the rsa token
+I have a change request to raise
+I have a new request
+I have a problem to report
+I have a problem with a meeting room
+I have a problem with my virtual network
+I have a really urgent Information Technology issue
+I have a telepresence meeting but I can not see the other room
+I have a virtual network connectivity issue
+I have an Information Technology issue
+I have an issue for Information Technology
+I have an issue with my laptop .
+I have an urgent issue for Information Technology
+I have completed work on incident number
+I have email problems
+I have login problems .
+I have problems connecting to the meeting
+I have problems printing
+I have problems with my virtual network .
+I have problems with printer
+I have problems with the meeting room
+I have problems with the printer
+I have questions regarding the knowledge base .
+I have trouble downloading Apache
+I have trouble installing Apache
+I have trouble logging in .
+I have virtual network problems
+I lost the RSA token
+I misplaced my password
+I need a critical change request to be opened
+I need a new authentification token
+I need a new charger
+I need a new computer
+I need a new item
+I need a new monitor
+I need a new phone
+I need a problem to be created soon
+I need a replacement laptop
+I need a tablet
+I need access to a directory
+I need access to a file
+I need access to a file repository
+I need access to a share drive
+I need access to box
+I need access to process approval
+I need access to repository
+I need access to the drive
+I need access to the wireless internet
+I need administrator access
+I need administrator rights
+I need an available change window
+I need an incident to be created
+I need approver rights
+I need assistance configuring my email .
+I need assistance with meeting room
+I need credentials for the wireless internet
+I need email help
+I need guest wireless internet
+I need help connecting to guest wireless internet
+I need help connecting to the conference room display for my presentation
+I need help from information technology
+I need help in escalating a ticket
+I need help regarding the printer
+I need help setting up my email
+I need help sharing my screen
+I need help to log in .
+I need help troubleshooting the virtual network problems
+I need help with computer performance problems
+I need help with my email
+I need help with the meeting room
+I need immediate resolution .
+I need information technology help
+I need login help .
+I need more memory for my computer
+I need printer help
+I need repository access
+I need someone from information technology to help me right now
+I need technical assistance
+I need the password for the guest wireless internet
+I need to access repository
+I need to add members to the distribution list .
+I need to be able to reject this approval request
+I need to be administrator
+I need to change my meeting room booking
+I need to create an information technology ticket
+I need to download Apache
+I need to escalate a ticket
+I need to escalate my information technology request
+I need to install Apache
+I need to make changes to the distribution list
+I need to modify an update request
+I need to order a new laptop
+I need to request a laptop
+I need to request a new phone
+I need to request a replacement charger
+I need to reset my password
+I need to see approval records .
+I need to see available change windows
+I need to see the information sources .
+I need to set up my rsa token
+I need to update the task record
+I need video support for my meeting
+I resolved the incident
+I resolved the issue
+I see a problem .
+I solved the incident
+I think my device is broken
+I think something is wrong with my laptop .
+I want a password reset link
+I want a phone
+I want access to the repository
+I want administrator rights
+I want help with my laptop .
+I want this ticket to be urgent .
+I want to access the information sources .
+I want to access the repository
+I want to add a comment
+I want to add a comment to an incident
+I want to add a new problem
+I want to add a user to the distribution list
+I want to add a work note
+I want to add a work note to incident number
+I want to add comments to my tasks
+I want to add work notes to my tasks
+I want to apply for a change request
+I want to approve
+I want to approve a request
+I want to ask for an increase in the priority of my issue
+I want to ask for the escalation of my issue
+I want to buy a laptop .
+I want to buy a monitor .
+I want to buy a phone .
+I want to change the condition of this task
+I want to change the name of the distribution list
+I want to change the owner of this task
+I want to check my information technology ticket
+I want to close the ticket
+I want to configure my email
+I want to connect to the guest wireless internet
+I want to create a new RSA token
+I want to create a new password
+I want to create a new problem
+I want to create a new problem record
+I want to create a new problem ticket
+I want to create a request
+I want to create a ticket for a problem .
+I want to create an incident
+I want to edit the change
+I want to edit the change request
+I want to edit the distribution list
+I want to escalate my issue
+I want to fix the meeting room .
+I want to get administrator rights
+I want to have access to the repository
+I want to increase the priority of my issue
+I want to know the planned changes .
+I want to know what change windows are available
+I want to know what changes are planned .
+I want to make an update to the change
+I want to make an update to the change request
+I want to mark this ticket as urgent .
+I want to modify the distribution list
+I want to open an incident
+I want to order a new phone
+I want to order an item
+I want to order something
+I want to reject
+I want to reject a request
+I want to remove the user from the distribution list
+I want to report an Information Technology issue .
+I want to report email problems
+I want to report problems with the meeting room .
+I want to request a modification to the distribution list
+I want to reset my RSA token
+I want to resolve an incident
+I want to see my information technology ticket 's status
+I want to see my ticket status
+I want to see the status of my information technology ticket
+I want to set dates for a change request
+I want to start a new problem
+I want to start a new problem record
+I want to start a new problem ticket
+I want to stop receiving emails from a list
+I want to submit a change request
+I want to submit a information technology request
+I want to submit a request for a laptop .
+I want to submit a request for a monitor .
+I want to submit a request for a phone .
+I want to update a change request
+I want to update one of my tasks
+I want to update the task
+I want wireless internet access
+I wanted to ask about service disruptions .
+I wanted to see if there is any outage .
+I wish to get assistance for the meeting room
+I wish to know about changes that are planned for next week .
+I wish to know about planned changes .
+I wish to know the available change windows
+I would like access to a repository
+I would like an update on ticket number incident number
+I would like to check my email status
+I would like to check on the status of my ticket
+I would like to open an emergency change
+I would like to order a laptop
+I would like to raise the priority of my ticket .
+I would like to submit a service catalogue request
+Increase the priority of my issue
+Information Technology change calendar
+Is my information technology ticket 's status available ?
+Is my ticket approved ?
+Is my ticket status available ?
+Is the server down ?
+Is the status of my information technology ticket available ?
+Is the system down ?
+Is the system up ?
+Is the virtual network working
+Is there a guide ?
+Is there a knowledge base ?
+Is there a laptop recorded under my name ?
+Is there a service disruption going on ?
+Is there a system outage ?
+Is there an issue with email
+Is there an outage ?
+Macbook broken .
+Make an update to the change
+Make an update to the change request
+Mark this request as approved
+Mark this request as pending
+Mark this request as rejected
+Mark this ticket as urgent .
+Modify the distribution list
+My Macbook is broken .
+My RSA pin is not working
+My administrator rights are not sufficient .
+My administrator rights must be increased
+My computer 's performance is bad
+My computer is broken .
+My distribution list needs to be changed
+My email is having problems
+My email is not configured
+My headphone is broken .
+My information technology ticket 's status
+My issue 's priority must be increased
+My issue must be escalated
+My issue needs to be escalated
+My laptop has an issue .
+My laptop is broken .
+My laptop needs more memory
+My meeting 's equipment Is not working
+My monitor has not arrived yet .
+My monitor is broken .
+My open tickets
+My phone is broken .
+My ticket status
+My token does not work
+My virtual network is slow
+My virtual network will not stay connected
+New RSA token
+No video from the meeting room display
+Open change
+Please raise the priority of my issue
+RSA reset request
+RSA token reset
+Report a meeting room issue
+Request a laptop
+Request a macbook
+Request a monitor
+Request a phone
+Request headphones
+Schedule updates
+See approval records
+Send me a password reset link
+Set this request to pending
+Set up mail
+Share available change windows
+Show me incident number
+Show me instructions ?
+Show me my distribution list
+Show me the guide ?
+Show me the knowledge base ?
+Solve my email problems ?
+Some email problems are detected .
+Something is wrong with the virtual network
+Something seems to be wrong with the virtual network
+Start a new problem
+Start a new problem record
+Start a new problem ticket
+Submit a change request
+Submit problem
+Technical difficulties in a meeting room
+Tell me the scheduled changes
+The change has to be edited
+The change request has to be edited
+The distribution list has to change .
+The distribution list needs to be modified
+The issue I am working on is resolved
+The meeting room has problems
+The printer can not connect to my laptop .
+The printer is not working
+The printer says it is out of ink
+The priority of incident number needs to be raised
+The priority of incident number should be higher
+The priority of my issue needs to be increased
+The projector in meeting room is not working
+The sound is not good in our conference room
+The speaker phone is not working in the meeting room
+The system is having outages
+The ticket must be closed .
+The ticket needs to be closed
+The urgency of my ticket needs to be escalated
+There is a problem with my email
+There is an issue with my laptop .
+There seems to be an outage , right ?
+This is a change request
+This is an urgent ticket .
+This ticket is complete
+This ticket is resolved
+This ticket is urgent .
+Update change request with start date
+What are my assets ?
+What are my open tickets ?
+What are our information sources ?
+What are the assets that are assigned to me ?
+What are the available change windows
+What are the configuration settings for email ?
+What are the credentials for guest wireless internet ?
+What are the new scheduled updates
+What are the next scheduled updates ?
+What are the planned changes ?
+What are the times for submitting changes ?
+What are the upcoming change windows
+What assets are assigned to me ?
+What change windows are available ?
+What changes are planned ?
+What equipment do I get ?
+What equipment do I have access to ?
+What is a good time to submit a change ?
+What is going on with CI
+What is my assigned equipment
+What is my information technology ticket 's status
+What is my ticket status
+What is the local administrator login information ?
+What is the status of my assigned assets
+What is the status of my information technology ticket
+What is the virtual network ?
+What is the wireless internet for guests
+What is waiting for my approval
+What kind of paper does the printer require ?
+What kit have I got
+What planned changes are ahead ?
+What printers are online ?
+What request can I open
+What should I do to get administrator rights ?
+What will update in this configuration item ?
+When are scheduled changes going to happen ?
+When can I submit changes ?
+When is the next scheduled update ?
+When will incident number be resolved
+When will my ticket be fixed
+When will my ticket be ready
+When will request number be fulfilled
+Where I can see my approvals
+Where can I find my assigned devices
+Where can I find the scheduled changes
+Where can I get a laptop
+Where can I get a new password link
+Where can I get a new token
+Where can I raise a crucial change request ?
+Where can I raise a problem ticket ?
+Where can I see my assigned equipment
+Where do I approve items for approval
+Where do I get administrator access
+Where do I get administrator privileges
+Where do I update a distribution list
+Where do I update my change request
+Where is incident number
+Where is my monitor
+Where is my new password link
+Where to I resolve an incident
+Who can fix my email ?
+a change to the distribution list
+a follow-up on my ticket
+a new change is requested
+a new change request is crucial
+a new normal change
+a normal change request
+a standard change request
+access to administrator rights
+access to local administrator
+access to repository
+access to shared drive
+access to the repository
+access to the wireless internet
+active disruptions
+add a change request
+add a comment
+add a comment to an incident
+add a new problem
+add a work note
+add a work note to incident number
+add comments to my tasks
+add me to the drive
+add someone to the distribution list
+add the end date to a change request
+add the start date to a change request
+add users to distribution list
+add work notes to my tasks
+adjust the distribution list
+administrator rights
+amendment to change request
+an approval request is approved
+an available change window
+an emergency change request
+an issue with my RSA token
+approval center
+approval requests assigned to me
+approvals that are outstanding
+approvals that are pending
+approve this request
+are there active outages
+are there any available change windows between now and next week
+are there any changes planned ?
+are there any information sources
+are there any known system problems
+are there any outages
+are there any outages happening
+are there any reported email problems
+are there any scheduled changes for this ci
+are there any tasks assigned to me
+are there instructions for setting up email
+assistance with email setup
+assistance with meeting room
+assistance with my email
+augment work notes to my tasks
+available change windows
+calendar for change windows
+can I Submit a ticket
+can I approve
+can I be added to the distribution list
+can I be removed from the distribution list
+can I close an incident
+can I configure my email
+can I create a emergency change
+can I edit the change time
+can I edit the members of the distribution list
+can I escalate incident number
+can I escalate my incident
+can I escalate my issue
+can I escalate ticket incident number
+can I get a new problem created
+can I get a new problem opened ?
+can I get a new rsa token
+can I get a replacement monitor
+can I get access to the files
+can I get directory access
+can I get immediate help from information technology
+can I get information
+can I get local administrator privileges
+can I have my issue looked into immediately
+can I increase my incident 's urgency
+can I increase the priority of my incident
+can I know the list of my equipment
+can I know the status of my ticket
+can I modify a change request
+can I modify the change time
+can I open a high priority incident
+can I open a new information technology ticket
+can I open an email ticket
+can I open my tasks
+can I raise a problem that is affecting just me
+can I reject
+can I remove a user from the distribution list
+can I report an urgent problem
+can I request a new change
+can I request access to the project documents
+can I request access to the repository
+can I request temporary administrator access
+can I request the equipment
+can I request the ticket status
+can I request the ticket update
+can I reset a RSA token
+can I resolve incident number
+can I see a list of upcoming changes
+can I see an available change window
+can I see scheduled changes
+can I see the catalog
+can I submit a order
+can I submit a request
+can I submit an information technology request
+can I update my work notes
+can I view my assets
+can I view my devices
+can I view my tasks
+can I view the assets assigned to me ?
+can information technology help me ASAP
+can not access shared drive
+can not connect to the network
+can not connect to virtual network
+can not connect to virtual network on my computer
+can you close incident number for me
+can you make me administrator
+can you make my computer go faster
+can you print something for me
+can you reset my token
+can you troubleshoot the printer
+change a distribution list
+change password
+change the condition of this task
+change the owner of this task
+change the urgency of my ticket
+change to repository
+change window availability
+check service outages
+comment on incident number
+comment update
+computer broken .
+computer email
+computer email setup
+computer slowness problems
+conference room help
+conference room problems
+configure my email
+connect me to the guest wireless internet
+connection for the network
+connection for virtual network
+connection problems for network
+connection problems for virtual network
+connectivity for the network
+connectivity for virtual network
+create a emergency change
+create a new problem
+create a normal change request
+create a problem ticket immediately
+create a standard change
+create an standard incident
+create information technology ticket
+create new password
+create new ticket
+credentials for wireless internet
+current approvals
+current outages
+delete users from the distribution list
+directory access
+disapprove the last request
+display the scheduled updates
+display the upcoming change windows
+distribution list changes
+distribution list edits
+distribution list updates
+do I have a computer ?
+do you have any information
+do you have any information about upgrades
+do you have any information on upgrading the operating system
+do you have information on the policy
+do you know where to find information
+edit a distribution list
+edit a work note to incident number
+edit comments to my tasks
+edit the change
+edit the change dates
+edit the change request
+edit to distribution list
+electronic address is not working
+email configuration
+email has stopped working
+email is not synching
+email problems
+email settings
+email setup
+email setup needed
+email setup on android
+email trouble
+end date change
+enter a comment
+equipment requisition
+escalate my issue
+escalation of incident number
+file access
+file information technology ticket
+file ticket
+find a phone in the catalog
+find a update window
+find articles
+find information
+find my ticket
+finished working on the incident
+fix my printer
+folder access
+follow up on my ticket
+free change windows
+give me access to the repository
+give me administrator rights ?
+give me an update on the ticket status
+give me the status of incident number
+give me the update on incident number
+grant local administrator rights on my computer
+grant me access to the repository
+grant me administrator on my laptop
+grant me folder access
+grant me the administrator access
+guest wireless internet
+guest wireless internet access
+guest wireless internet help
+guidelines
+has my ticket been approved
+has request number been processed
+headphone broken .
+help for logging in ?
+help me connect remotely
+help me connect to the network
+help me connect to the virtual network
+help me create a change request
+help me edit the change
+help me edit the change request
+help me find an available update window
+help me find incident number
+help me fix the meeting room ?
+help me log in ?
+help me open an information technology ticket
+help me set up my email
+help me setup email on my phone
+help me setup my email
+help me submit a request
+help me with modifying the distribution list
+help me with printing
+help me with the authentication token reset
+help me with the available change windows
+help me with the change request
+help me with the email configuration
+help me with the escalation
+help me with the printer
+help me with the printer ?
+help me with the setup for email
+help resetting password
+help submitting request
+how can I add an email to the distribution list ?
+how can I be local administrator
+how can I check on a file ?
+how can I get local administrator
+how can I store something online
+how can I view emails on my phone
+how do I access local administrator privileges
+how do I access the guest wireless internet
+how do I access the printer
+how do I become a local administrator
+how do I check my technology assets
+how do I connect to get wireless internet
+how do I connect to the printer
+how do I contact information technology
+how do I fix my email issue ?
+how do I fix my virtual network ?
+how do I get guest wireless internet access
+how do I get on guest wireless internet
+how do I improve my computer 's speed
+how do I improve the speed of my tablet
+how do I login to the guest wireless internet
+how do I look things up in the knowledge base ?
+how do I open a ticket
+how do I reset my password
+how do I set up email on my android phone
+how do I set up email on my computer
+how do I set up email on my phone
+how do I set up the rsa token
+how do I troubleshoot a slow computer
+how do I troubleshoot my email
+how do I troubleshoot virtual network problems
+how do I update my change request
+how do I update the change date
+how do I update the change time
+how is incident number
+how is incident number coming along
+how is incident number doing ?
+how is my incident going ?
+how is my ticket
+how many change windows are open
+how to check tickets
+how to escalate my issue
+how to log in to guest wireless internet
+how to see all outages
+incident number comment
+incident number escalation
+incident number follow-up
+incident number has been completed
+incident number has gotten worse
+incident number has high priority
+incident number is an emergency
+incident number is urgent
+incident number needs to be closed
+incident number should be escalated
+incident number should be marked as high
+incident number status
+incident number work note
+incident update
+information
+information technology ticket escalation
+ink problem with printer
+insert a comment
+is email working
+is my incident resolved yet
+is my issue fixed yet
+is my ticket fixed yet
+is request number scheduled for delivery
+is the email service down right now
+is the service not working for everyone
+is the service up right now
+is the system down
+is the system working right now
+is there a problem with the email service
+is there a service degradation
+is there an article on
+is there an update to incident number
+is there an update to my ticket
+is there an update to request number
+is there any information
+is there free wireless internet in the office
+issue escalation
+issue with system
+items awaiting my approval
+items for me to approve
+knowledge
+knowledge article
+knowledge articles
+knowledge base search
+knowledgebase
+known system problems
+laptop broken .
+list my approvals
+list of my assets
+local administrator access
+local administrator privileges
+login for guest wireless internet
+look for articles
+look for information
+look for knowledge base articles about time off
+looking for available change windows
+looking for scheduled changes
+maintain the distribution list
+make me local administrator
+make me the administrator ?
+make updates to the distribution list
+manage the distribution list
+mark an incident as resolved
+mark request as not approved
+mark the incident as closed
+mark this ticket as closed .
+mark this ticket as complete .
+mark this ticket as completed .
+mark this ticket as resolved .
+meeting room problems
+modify a comment to an incident
+modify a work note to an incident
+modify change request
+modify incident number task
+modify my assigned incident
+modify my assigned request
+modify my work note
+monitor broken .
+my Information Technology assets
+my applications keep quitting
+my approval assignments
+my approvals
+my assigned assets
+my computer is not working well
+my computer is running really slow
+my computer is slow
+my computer is sluggish
+my computer keeps lagging
+my computer takes forever to load
+my desktop is sluggish
+my devices
+my email is broken
+my email is not working
+my email will not send
+my emails keep timing out
+my equipment
+my equipment assignments
+my laptop is not working well
+my laptop is performing slowly
+my laptop is really slow
+my laptop takes forever to load
+my macbook is slow
+my macbook will not let me into the virtual network
+my mailbox is not syncing
+my open assigned tasks
+my password is not working
+my print job is stuck
+my printer is having problems
+my rsa token is invalid
+my tablet keeps lagging
+my technology is not working
+my virtual network is broken
+my virtual network on my computer keeps timing out
+my virtual network will not connect
+new account credentials
+new account password
+new authentication code
+new change request
+new charger
+new crucial incident
+new headphones
+new information technology ticket
+new item
+new password for my account
+new phone
+new pin for rsa token
+new problem
+new problem record
+new problem ticket
+new regular problem ticket
+new significant problem
+new standard change
+next scheduled update
+no ink for the printer
+no paper in the printer
+not able to book a meeting room
+not getting emails
+notify me of service disruptions
+open a change request
+open a change request for an emergency
+open a problem
+open a problem by tomorrow
+open a problem right now
+open a problem that is affecting everyone
+open a problem ticket
+open a regular change request
+open a request for a charger
+open a ticket for me
+open an incident
+open an ordinary change request
+open approval request
+open approval requests
+open change request that is urgent
+open change windows
+open my assigned tasks
+order a item
+order a new laptop
+order a phone
+order a printer
+outage status
+password change
+password is not working
+password reset
+password reset for electronic address
+password reset for my account
+password reset link
+pending approvals
+phone broken .
+phone email
+phone email setup
+planned changes for ci
+please help me with an issue
+please list all my equipment
+policies
+power on printer
+printer
+printer error message
+printer ink is out
+printer paper problems
+printer problems
+printer ran out of ink
+printer toner is low
+printer trouble
+printer will not work
+problem with email
+problem with service
+problem with the meeting room
+problems with email
+problems with printer
+problems with the conference room
+problems with virtual network connection
+procedures
+process my approvals
+provide me guest wireless internet credentials ?
+pull up knowledge information
+purchase a monitor
+raise a change request
+raise a problem
+raise a ticket
+raise a ticket for me
+raise an incident
+reject this request
+remove me from the distribution list
+replace password
+replacement monitor
+replacement mouse
+report an Information Technology issue
+report an urgent problem
+repository access
+repository security
+request ticket status
+request ticket update
+reschedule a change
+reserve a meeting room
+reset for my password
+reset my credentials for my account
+reset my password
+reset password for electronic address
+rsa token
+scheduled changes
+scheduled upgrade
+search knowledge
+search knowledge base
+search the articles for information
+search the articles for spam information
+search the knowledge base
+searching for available change windows
+searching for scheduled changes
+send outage status
+service catalogue
+service degradation
+service problem
+set dates for a change request
+set priority for incident number to urgent
+set the end date on a change request
+set the start date on a change request
+set the time for change request
+set up a new password
+set up email
+set up email on my phone
+set up phone email
+settings for email
+setup for email
+share my screen in a conference room
+shared drive access
+show all equipment assigned to me
+show all the devices assigned to me
+show changes that are scheduled
+show me articles
+show me available window
+show me change windows
+show me changes that are planned
+show me current outages
+show me information
+show me items awaiting my approval
+show me items that have been assigned to me
+show me my assigned assets
+show me my assigned equipment
+show me my devices
+show me my open approval requests
+show me my outstanding approvals
+show me my request status
+show me my tasks
+show me my ticket status
+show me my tickets
+show me records to approve
+show me the availability of change windows
+show me the scheduled changes
+show me the status of incident number
+show me ticket status
+show my current approvals
+show my devices
+show open approval requests assigned to me
+solstice issue
+something critical is broken
+something is wrong with my laptop
+something wrong with my meeting room
+start a change request
+start a ticket
+start date modification
+status of email service
+status of incident number
+status on approvals
+status on my ticket
+status on the incident
+task update
+tell me about my assigned equipment
+tell me the available change windows
+tell me the planned changes ?
+tell me the ticket status
+tell me what assets are assigned to me ?
+tell me what changes are planned ?
+tell me whether there is an outage ?
+the Information Technology change schedule
+the approval records
+the assigned task
+the display is not working in the meeting room
+the email service is not working
+the equipment that is assigned to me
+the guest internet
+the printer is broken
+the printer is not responding
+the printer is not working
+the printer is out of ink
+the printer is out of paper
+the printer tray is jammed
+the remote meeting does not work
+the remote meeting problems
+the resolution looks wrong when I present
+the screen looks really small on the display
+the screen share
+the status of my information technology ticket
+the tasks that are assigned to me
+the ticket update
+the video conference is not working
+the virtual network is not working
+the volume is too low in the meeting room
+there are problems with the room I reserved
+there are some emergency Information Technology problems
+there are some problems with my technology
+there is a change request that needs to be created
+there is a new problem
+there is a problem with the audio in the meeting room
+there is a problem with the meeting room audio
+there is an immediate need for a change request
+there is an incident that needs to be created today
+there is an issue with my meeting room
+there is another group in the room I reserved
+there is email trouble
+there is no more ink left
+there is noise during the conference call
+there is something wrong with my email
+there is something wrong with my meeting room
+there is something wrong with the start time for the change request
+this email client is slow
+ticket escalation
+ticket needs escalating
+ticket update
+trouble with email attachments
+trouble with printing
+trouble with virtual network
+troubleshoot the meeting room
+troubleshooting virtual network problems
+update a distribution list
+update comments on the task
+update my assigned incident
+update my assigned request
+update my password
+update my task
+update on incident number
+update on my ticket
+update on the request
+update the start date of change request to right now
+update the task
+update to change request
+update to distribution list
+update to my assigned incident
+update to my assigned request
+update to my task
+update to my work
+updates to scheduled changes
+urgent ticket .
+view service outage status
+virtual network
+virtual network connection
+virtual network connection problems on phone
+virtual network problems
+virtual network problems on my android
+what approvals do I have
+what are knowledge base
+what are my approvals
+what are my outstanding approvals
+what are my pending approvals
+what are the current outages
+what are the planned changes
+what assets are under my name ?
+what assets do I have
+what assets do I have assigned
+what change windows are available
+what changes are happening
+what changes are scheduled
+what changes are upcoming
+what company equipment do I have
+what company property do I have
+what devices are assigned to me ?
+what do I need to approve
+what do I own
+what equipment do I currently own
+what equipment do I have
+what equipment is assigned to me
+what happened to my incident number
+what happened to my ticket
+what hardware do I have
+what hardware is assigned to me
+what is in the next change window
+what is slowing down my computer
+what is the guest wireless internet
+what is the login for the wireless internet
+what is the name of the guest wireless internet ?
+what is the next available change window
+what is the next scheduled update
+what is the problem with my virtual network setup
+what is the status for incident number
+what is the status of my incident
+what is the status of my order
+what is the status of my request
+what is the status of my tickets
+what is the wireless internet information for guests
+what is the wireless internet password
+what is up with my ticket
+what is wrong with my email ?
+what is wrong with my token ?
+what is wrong with the printer ?
+what items are assigned to me
+what open requests are assigned to me ?
+what printer can I use
+what repositories are available
+what should I do with a slow computer
+what tasks do I have
+what technology do I have
+what times to schedule a change are available
+when can I schedule this change
+when is the next available change window
+where can I find articles
+where can I find information
+where can I find knowledge
+where can I find resolution settings
+where can I find the available change windows
+where can I get printer ink
+where can I see information
+where do I configure email
+where do I edit the work notes for my change request
+where do I escalate my ticket
+where is my delivery
+where is my local printer ?
+where is repository access ?
+where is the pending approval
+where is the printer
+who can help with my slow computer ?
+who is a member of distribution list
+why is my computer so slow ?
+windows will not let me onto the virtual network
+wireless internet
+wireless internet access
+wireless internet credentials
+wireless internet password
+work note edits

@@ -1,0 +1,1116 @@
+{
+  "schemaVersion": "NY-1",
+  "name": "sn_csm_nlu_Customer_Service_NLU_Model",
+  "language": "en",
+  "version": "3.1.2-HYB",
+  "intents": [
+    {
+      "name": "CheckCaseStatus",
+      "samples": [
+        {
+          "utterance": "an update on CS1234567"
+        },
+        {
+          "utterance": "an update to this case number"
+        },
+        {
+          "utterance": "an update with a case"
+        },
+        {
+          "utterance": "any news on my case"
+        },
+        {
+          "utterance": "Aren't you done processing my case already"
+        },
+        {
+          "utterance": "assistance with CS1234567"
+        },
+        {
+          "utterance": "can I check a case"
+        },
+        {
+          "utterance": "can I check my case status"
+        },
+        {
+          "utterance": "can I check on a case"
+        },
+        {
+          "utterance": "can I check on CS1234567"
+        },
+        {
+          "utterance": "can I check the status of CS1234567"
+        },
+        {
+          "utterance": "can I follow up on CS1234567"
+        },
+        {
+          "utterance": "can I get an update on my case"
+        },
+        {
+          "utterance": "Can I get details about CS1234567"
+        },
+        {
+          "utterance": "can I get the status of CS1234567"
+        },
+        {
+          "utterance": "Can I have a case update"
+        },
+        {
+          "utterance": "can I know the status of my case"
+        },
+        {
+          "utterance": "can I report an issue with my case"
+        },
+        {
+          "utterance": "Can I see my case status"
+        },
+        {
+          "utterance": "can I see status of case"
+        },
+        {
+          "utterance": "can I track my case"
+        },
+        {
+          "utterance": "can you please check on my case"
+        },
+        {
+          "utterance": "can you share the details for CS1234567"
+        },
+        {
+          "utterance": "case progress"
+        },
+        {
+          "utterance": "case update"
+        },
+        {
+          "utterance": "CS1234567 status"
+        },
+        {
+          "utterance": "give me an update on CS1234567"
+        },
+        {
+          "utterance": "give me the details for case"
+        },
+        {
+          "utterance": "has someone looked at my case yet"
+        },
+        {
+          "utterance": "have you started on case"
+        },
+        {
+          "utterance": "have you started on my case yet"
+        },
+        {
+          "utterance": "Haven't there been any updates to my case"
+        },
+        {
+          "utterance": "help me with a case"
+        },
+        {
+          "utterance": "help me with CS1234567"
+        },
+        {
+          "utterance": "help with CS1234567"
+        },
+        {
+          "utterance": "How can I get help with a case"
+        },
+        {
+          "utterance": "how do I see the progress on my case"
+        },
+        {
+          "utterance": "how is my case"
+        },
+        {
+          "utterance": "how is my case going"
+        },
+        {
+          "utterance": "how long until my case is finished"
+        },
+        {
+          "utterance": "how long until my case will be resolved "
+        },
+        {
+          "utterance": "how's the case progressing"
+        },
+        {
+          "utterance": "I don't know where to check the status of my case "
+        },
+        {
+          "utterance": "I forgot the case number"
+        },
+        {
+          "utterance": "I have a problem with my case"
+        },
+        {
+          "utterance": "I need assistance with a case"
+        },
+        {
+          "utterance": "I need help with a case"
+        },
+        {
+          "utterance": "I submitted a case"
+        },
+        {
+          "utterance": "I want an update on CS1234567"
+        },
+        {
+          "utterance": "I want case help"
+        },
+        {
+          "utterance": "I want help with case"
+        },
+        {
+          "utterance": "I want the status of my case"
+        },
+        {
+          "utterance": "is anyone working on my case"
+        },
+        {
+          "utterance": "is anyone working on my problem"
+        },
+        {
+          "utterance": "is my case closed yet"
+        },
+        {
+          "utterance": "is my case finished"
+        },
+        {
+          "utterance": "Is my case still being processed"
+        },
+        {
+          "utterance": "is my issue resolved"
+        },
+        {
+          "utterance": "is there a change to my case number"
+        },
+        {
+          "utterance": "is there an update to my case"
+        },
+        {
+          "utterance": "is there an update with my case"
+        },
+        {
+          "utterance": "is there progress on my case"
+        },
+        {
+          "utterance": "my case"
+        },
+        {
+          "utterance": "progress on case"
+        },
+        {
+          "utterance": "provide me the case status"
+        },
+        {
+          "utterance": "questions about CS1234567"
+        },
+        {
+          "utterance": "send me details about CS1234567"
+        },
+        {
+          "utterance": "Show me the status of CS1234567"
+        },
+        {
+          "utterance": "show my case status"
+        },
+        {
+          "utterance": "something is messed up my case"
+        },
+        {
+          "utterance": "something is wrong with a case"
+        },
+        {
+          "utterance": "The case I submitted is progressing"
+        },
+        {
+          "utterance": "the status of my case"
+        },
+        {
+          "utterance": "there is an issue with a case"
+        },
+        {
+          "utterance": "update me on my case"
+        },
+        {
+          "utterance": "updated cases"
+        },
+        {
+          "utterance": "what are my cases"
+        },
+        {
+          "utterance": "what happened to my case"
+        },
+        {
+          "utterance": "what happened to my CS1234567"
+        },
+        {
+          "utterance": "What is going on with my case"
+        },
+        {
+          "utterance": "what is my status for CS1234567"
+        },
+        {
+          "utterance": "what is the progress on my case"
+        },
+        {
+          "utterance": "what is the status of my case"
+        },
+        {
+          "utterance": "what's happening with my case"
+        },
+        {
+          "utterance": "what's my case number"
+        },
+        {
+          "utterance": "what's my case status"
+        },
+        {
+          "utterance": "when will my case be done"
+        },
+        {
+          "utterance": "When will my case be resolved"
+        },
+        {
+          "utterance": "where can I check on my case"
+        },
+        {
+          "utterance": "where do I get help with a case"
+        },
+        {
+          "utterance": "who is working on my case"
+        },
+        {
+          "utterance": "Why hasn't CS1234567 been resolved"
+        },
+        {
+          "utterance": "Why hasn't my problem been fixed"
+        }
+      ],
+      "entities": [
+        {
+          "name": "case",
+          "samples": [
+            {
+              "pattern": "\\b(?i)CS\\d+\\b"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GetHelp",
+      "samples": [
+        {
+          "utterance": "Are there help articles?"
+        },
+        {
+          "utterance": "Are there help forums?"
+        },
+        {
+          "utterance": "can I do a knowledge search"
+        },
+        {
+          "utterance": "can I get general help"
+        },
+        {
+          "utterance": "can I receive general help"
+        },
+        {
+          "utterance": "can I report an issue"
+        },
+        {
+          "utterance": "can I see the knowledge base"
+        },
+        {
+          "utterance": "Can someone help me"
+        },
+        {
+          "utterance": "FAQ"
+        },
+        {
+          "utterance": "guidance needed"
+        },
+        {
+          "utterance": "help me"
+        },
+        {
+          "utterance": "help needed"
+        },
+        {
+          "utterance": "help with issue"
+        },
+        {
+          "utterance": "help with problems"
+        },
+        {
+          "utterance": "How can I get general help"
+        },
+        {
+          "utterance": "I am having a hard time making this work"
+        },
+        {
+          "utterance": "I am having problems"
+        },
+        {
+          "utterance": "I am looking for help"
+        },
+        {
+          "utterance": "I am lost"
+        },
+        {
+          "utterance": "I have a general question"
+        },
+        {
+          "utterance": "I need assistance"
+        },
+        {
+          "utterance": "I need general help"
+        },
+        {
+          "utterance": "I need help with some general information"
+        },
+        {
+          "utterance": "I want general help"
+        },
+        {
+          "utterance": "I'm confused with this"
+        },
+        {
+          "utterance": "Is there a reference guide?"
+        },
+        {
+          "utterance": "Is there an instructions document?"
+        },
+        {
+          "utterance": "is there help available"
+        },
+        {
+          "utterance": "KB help"
+        },
+        {
+          "utterance": "knowledge search"
+        },
+        {
+          "utterance": "problem"
+        },
+        {
+          "utterance": "provide me details about your business ?"
+        },
+        {
+          "utterance": "Show me knowledge articles"
+        },
+        {
+          "utterance": "This is confusing"
+        },
+        {
+          "utterance": "who to contact for assistance"
+        },
+        {
+          "utterance": "who to contact for help"
+        }
+      ],
+      "entities": []
+    },
+    {
+      "name": "GetHelpWithOrder",
+      "samples": [
+        {
+          "utterance": "a submitted order needs help"
+        },
+        {
+          "utterance": "an update on my order"
+        },
+        {
+          "utterance": "assistance with an order"
+        },
+        {
+          "utterance": "can I check my order"
+        },
+        {
+          "utterance": "can I check on an order"
+        },
+        {
+          "utterance": "can I check on the status of my order"
+        },
+        {
+          "utterance": "can I check status of ORD1234567"
+        },
+        {
+          "utterance": "can I check the order status"
+        },
+        {
+          "utterance": "can I check the status of my order"
+        },
+        {
+          "utterance": "can I create a order"
+        },
+        {
+          "utterance": "can I find out details about ORD1234567"
+        },
+        {
+          "utterance": "can I get help with my order"
+        },
+        {
+          "utterance": "can I know the status of my order"
+        },
+        {
+          "utterance": "can I order"
+        },
+        {
+          "utterance": "can I order a computer"
+        },
+        {
+          "utterance": "can I place an order"
+        },
+        {
+          "utterance": "can I receive some help with my order"
+        },
+        {
+          "utterance": "can I report a case for an order"
+        },
+        {
+          "utterance": "can I report an issue with my order"
+        },
+        {
+          "utterance": "can I report an order case"
+        },
+        {
+          "utterance": "can I submit an order"
+        },
+        {
+          "utterance": "can I track my order"
+        },
+        {
+          "utterance": "can I view my order"
+        },
+        {
+          "utterance": "can you check on my order"
+        },
+        {
+          "utterance": "can you fix my order"
+        },
+        {
+          "utterance": "can you help my order"
+        },
+        {
+          "utterance": "can you refund my order"
+        },
+        {
+          "utterance": "can you share the details for ORD1234567"
+        },
+        {
+          "utterance": "cancel my ORD1234567"
+        },
+        {
+          "utterance": "give me the details of my order"
+        },
+        {
+          "utterance": "has my order been processed"
+        },
+        {
+          "utterance": "help me with an order issue"
+        },
+        {
+          "utterance": "help me with my order"
+        },
+        {
+          "utterance": "help with an order issue"
+        },
+        {
+          "utterance": "help with order"
+        },
+        {
+          "utterance": "How can I get help with my order"
+        },
+        {
+          "utterance": "how do I check on my order"
+        },
+        {
+          "utterance": "How do I report an order issue"
+        },
+        {
+          "utterance": "how is my order going"
+        },
+        {
+          "utterance": "I am looking for an order"
+        },
+        {
+          "utterance": "I got the wrong order"
+        },
+        {
+          "utterance": "I have a problem with my order"
+        },
+        {
+          "utterance": "I have a question about a request"
+        },
+        {
+          "utterance": "I have an order issue"
+        },
+        {
+          "utterance": "I have issues with order"
+        },
+        {
+          "utterance": "I have questions on my order"
+        },
+        {
+          "utterance": "I haven't received my order yet"
+        },
+        {
+          "utterance": "I need a refund on my order"
+        },
+        {
+          "utterance": "I need assistance with an order"
+        },
+        {
+          "utterance": "I need assistance with an order problem"
+        },
+        {
+          "utterance": "I need details of ORD2134567"
+        },
+        {
+          "utterance": "I need help on an order issue"
+        },
+        {
+          "utterance": "I need help with an order"
+        },
+        {
+          "utterance": "I need help with my order"
+        },
+        {
+          "utterance": "I need information about an order"
+        },
+        {
+          "utterance": "I need support with order"
+        },
+        {
+          "utterance": "I placed an order"
+        },
+        {
+          "utterance": "I received the wrong order"
+        },
+        {
+          "utterance": "I submitted an order"
+        },
+        {
+          "utterance": "I want a new product"
+        },
+        {
+          "utterance": "I want an update on ORD1234567"
+        },
+        {
+          "utterance": "I want help with order"
+        },
+        {
+          "utterance": "I want order help"
+        },
+        {
+          "utterance": "I want the status of my order"
+        },
+        {
+          "utterance": "I'm having problems with my order"
+        },
+        {
+          "utterance": "is my order ready yet"
+        },
+        {
+          "utterance": "Is there an update to my order"
+        },
+        {
+          "utterance": "Is there an update with my order"
+        },
+        {
+          "utterance": "is there an update with ORD1234567"
+        },
+        {
+          "utterance": "is there progress on my order"
+        },
+        {
+          "utterance": "My order"
+        },
+        {
+          "utterance": "My order confirmation didn't come"
+        },
+        {
+          "utterance": "my order has problems"
+        },
+        {
+          "utterance": "My order is messed up"
+        },
+        {
+          "utterance": "my order is wrong"
+        },
+        {
+          "utterance": "new order"
+        },
+        {
+          "utterance": "open an order"
+        },
+        {
+          "utterance": "ORD1234567 status"
+        },
+        {
+          "utterance": "order assistance"
+        },
+        {
+          "utterance": "order help"
+        },
+        {
+          "utterance": "order issue"
+        },
+        {
+          "utterance": "order problems"
+        },
+        {
+          "utterance": "problems with an order"
+        },
+        {
+          "utterance": "questions about an order"
+        },
+        {
+          "utterance": "send me details about ORD1234567"
+        },
+        {
+          "utterance": "Something is wrong with an order "
+        },
+        {
+          "utterance": "something messed up my order"
+        },
+        {
+          "utterance": "status of ORD1234567"
+        },
+        {
+          "utterance": "status on my order"
+        },
+        {
+          "utterance": "There is a mess up with my order"
+        },
+        {
+          "utterance": "there is a problem with my order"
+        },
+        {
+          "utterance": "there is an issue with an order"
+        },
+        {
+          "utterance": "This order is wrong"
+        },
+        {
+          "utterance": "what is my order status"
+        },
+        {
+          "utterance": "what is the status of my order"
+        },
+        {
+          "utterance": "what is the time it usually takes for orders to be fulfilled"
+        },
+        {
+          "utterance": "what is wrong with my order"
+        },
+        {
+          "utterance": "when am I going to receive my order"
+        },
+        {
+          "utterance": "when will I get my order"
+        },
+        {
+          "utterance": "where do I find out about my order"
+        },
+        {
+          "utterance": "Where is my order"
+        },
+        {
+          "utterance": "where is my shipment"
+        },
+        {
+          "utterance": "which door did you drop off my order at"
+        }
+      ],
+      "entities": [
+        {
+          "name": "ordernumber",
+          "samples": [
+            {
+              "pattern": "\\b(?i)ORD\\d+\\b"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GetHelpWithProduct",
+      "samples": [
+        {
+          "utterance": "a product is having problems"
+        },
+        {
+          "utterance": "a question regarding a phone"
+        },
+        {
+          "utterance": "assistance with a product"
+        },
+        {
+          "utterance": "can I check on a product"
+        },
+        {
+          "utterance": "can I create a product case"
+        },
+        {
+          "utterance": "Can I get help on a product"
+        },
+        {
+          "utterance": "Can I get help with a product"
+        },
+        {
+          "utterance": "can I open a product case"
+        },
+        {
+          "utterance": "can I recover lost files"
+        },
+        {
+          "utterance": "can I report a case for a product"
+        },
+        {
+          "utterance": "can I report a product case"
+        },
+        {
+          "utterance": "can I report an issue with a product"
+        },
+        {
+          "utterance": "can I revoke deleted emails"
+        },
+        {
+          "utterance": "Can someone help with my router"
+        },
+        {
+          "utterance": "can you fix my product"
+        },
+        {
+          "utterance": "can you fix my product performance."
+        },
+        {
+          "utterance": "can you fix this product"
+        },
+        {
+          "utterance": "can you troubleshoot my product"
+        },
+        {
+          "utterance": "defective product"
+        },
+        {
+          "utterance": "email help"
+        },
+        {
+          "utterance": "help fixing a product"
+        },
+        {
+          "utterance": "help me to fix my product"
+        },
+        {
+          "utterance": "help me with a product"
+        },
+        {
+          "utterance": "help me with a product issue"
+        },
+        {
+          "utterance": "help to fix a product"
+        },
+        {
+          "utterance": "help to fix product performance"
+        },
+        {
+          "utterance": "help with a product"
+        },
+        {
+          "utterance": "help with a product issue"
+        },
+        {
+          "utterance": "help with some product issues"
+        },
+        {
+          "utterance": "How can I get help with product"
+        },
+        {
+          "utterance": "How do I report a product issue"
+        },
+        {
+          "utterance": "how do I use my product"
+        },
+        {
+          "utterance": "I am having problems with a product"
+        },
+        {
+          "utterance": "I am looking for a product"
+        },
+        {
+          "utterance": "I am not sure how to fix my printer"
+        },
+        {
+          "utterance": "I have a problem with a product"
+        },
+        {
+          "utterance": "I have a problem with my product."
+        },
+        {
+          "utterance": "I have a product issue"
+        },
+        {
+          "utterance": "I have a product with issues"
+        },
+        {
+          "utterance": "I have an issue with my computer"
+        },
+        {
+          "utterance": "I have issues with a product"
+        },
+        {
+          "utterance": "I have questions on a product"
+        },
+        {
+          "utterance": "I need assistance with a product"
+        },
+        {
+          "utterance": "I need help using a product"
+        },
+        {
+          "utterance": "I need help using my phone"
+        },
+        {
+          "utterance": "I need help with a product"
+        },
+        {
+          "utterance": "I need information about product"
+        },
+        {
+          "utterance": "I need support with a product"
+        },
+        {
+          "utterance": "I want help fixing a product"
+        },
+        {
+          "utterance": "I want help with a product"
+        },
+        {
+          "utterance": "I want help with a product issue"
+        },
+        {
+          "utterance": "I want help with product"
+        },
+        {
+          "utterance": "I want product help"
+        },
+        {
+          "utterance": "I want to create a product case"
+        },
+        {
+          "utterance": "I'm having a problem with my computer"
+        },
+        {
+          "utterance": "I'm having problems with my product"
+        },
+        {
+          "utterance": "information about a printer"
+        },
+        {
+          "utterance": "issues with a new product"
+        },
+        {
+          "utterance": "laptop help"
+        },
+        {
+          "utterance": "lost files"
+        },
+        {
+          "utterance": "my computer is not working"
+        },
+        {
+          "utterance": "my computer is slow"
+        },
+        {
+          "utterance": "My laptop is broken"
+        },
+        {
+          "utterance": "My macbook is broken"
+        },
+        {
+          "utterance": "My product does not work."
+        },
+        {
+          "utterance": "my product has problems"
+        },
+        {
+          "utterance": "my product is faulty"
+        },
+        {
+          "utterance": "my product is having some issues"
+        },
+        {
+          "utterance": "my product is not working"
+        },
+        {
+          "utterance": "network help"
+        },
+        {
+          "utterance": "Problem with my product."
+        },
+        {
+          "utterance": "product assistance"
+        },
+        {
+          "utterance": "product help"
+        },
+        {
+          "utterance": "product information"
+        },
+        {
+          "utterance": "product issues"
+        },
+        {
+          "utterance": "product stinks"
+        },
+        {
+          "utterance": "questions about a router"
+        },
+        {
+          "utterance": "send someone to fix my product"
+        },
+        {
+          "utterance": "Something is broken"
+        },
+        {
+          "utterance": "Something is wrong with a product"
+        },
+        {
+          "utterance": "The product doesn't work properly."
+        },
+        {
+          "utterance": "the product I ordered isn't working"
+        },
+        {
+          "utterance": "the product that you sent doesn't work"
+        },
+        {
+          "utterance": "the router is having problems"
+        },
+        {
+          "utterance": "there is an issue with a product"
+        },
+        {
+          "utterance": "There is something wrong with this product"
+        },
+        {
+          "utterance": "this computer isn't working"
+        },
+        {
+          "utterance": "this mouse that I ordered does not work"
+        },
+        {
+          "utterance": "this product is defective"
+        },
+        {
+          "utterance": "this product you provided me doesn't work"
+        },
+        {
+          "utterance": "We can't figure out how to fix the printer"
+        },
+        {
+          "utterance": "where can I find out about products"
+        },
+        {
+          "utterance": "where do I get help with my product"
+        }
+      ],
+      "entities": []
+    }
+  ],
+  "entities": [
+    {
+      "name": "productmodel",
+      "samples": [
+        {
+          "entityAnnotation": "this {{phrase=\"computer\"}} isn't working"
+        },
+        {
+          "entityAnnotation": "information about a {{phrase=\"printer\"}}"
+        },
+        {
+          "entityAnnotation": "My {{phrase=\"laptop\"}} is broken"
+        },
+        {
+          "entityAnnotation": "My {{phrase=\"macbook\"}} is broken"
+        },
+        {
+          "entityAnnotation": "Can someone help with my {{phrase=\"router\"}} ?"
+        },
+        {
+          "entityAnnotation": "a question regarding a {{phrase=\"phone\"}}"
+        },
+        {
+          "entityAnnotation": "I am not sure how to fix my {{phrase=\"printer\"}}"
+        },
+        {
+          "entityAnnotation": "this {{phrase=\"mouse\"}} that I ordered does not work"
+        },
+        {
+          "entityAnnotation": "We can't figure out how to fix the {{phrase=\"printer\"}}"
+        },
+        {
+          "entityAnnotation": "questions about a {{phrase=\"router\"}}"
+        },
+        {
+          "entityAnnotation": "I need help using my {{phrase=\"phone\"}} "
+        },
+        {
+          "entityAnnotation": "the {{phrase=\"router\"}} is having problems"
+        },
+        {
+          "entityAnnotation": "{{phrase=\"Something\"}} is broken"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "pattern": "\\b(?i)CS\\d+\\b",
+      "relatedTerms": [
+        "case"
+      ]
+    },
+    {
+      "pattern": "\\b(?i)ORD\\d+\\b",
+      "relatedTerms": [
+        "order"
+      ]
+    },
+    {
+      "pattern": "\\b(?i)wi-?fi\\b",
+      "relatedTerms": [
+        "wireless internet"
+      ]
+    },
+    {
+      "pattern": "\\b(?i)laptop\\b",
+      "relatedTerms": [
+        "computer"
+      ]
+    },
+    {
+      "pattern": "\\b(?i)mac\\b",
+      "relatedTerms": [
+        "computer"
+      ]
+    },
+    {
+      "pattern": "\\b(?i)FAQs?\\b",
+      "relatedTerms": [
+        "frequently asked questions"
+      ]
+    },
+    {
+      "pattern": "\\b(?i)macbook\\b",
+      "relatedTerms": [
+        "computer"
+      ]
+    }
+  ],
+  "confidenceThreshold": "0.67"
+}
